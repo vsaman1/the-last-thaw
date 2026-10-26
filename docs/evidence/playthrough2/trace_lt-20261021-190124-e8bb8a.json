@@ -1,0 +1,1591 @@
+{
+  "runId": "lt-20261021-190124-e8bb8a",
+  "mode": "epilogue",
+  "chapterId": "ch9-last-thaw",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T19:01:24.979Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 2800,
+    "destroyedByCategory": {
+      "water": 1,
+      "extraction": 2,
+      "home": 1,
+      "community": 1
+    },
+    "landmarks": [
+      {
+        "id": "upper-dam",
+        "status": "destroyed",
+        "closest": 0
+      },
+      {
+        "id": "village-lift",
+        "status": "intact",
+        "closest": 49.6
+      },
+      {
+        "id": "first-chalet",
+        "status": "destroyed",
+        "closest": 0.6
+      },
+      {
+        "id": "lind-chalet",
+        "status": "intact",
+        "closest": 35.4
+      },
+      {
+        "id": "fjord-chapel",
+        "status": "destroyed",
+        "closest": 2.5
+      },
+      {
+        "id": "village-barn",
+        "status": "intact",
+        "closest": 200.5
+      },
+      {
+        "id": "fjord-chalet",
+        "status": "intact",
+        "closest": 44.7
+      },
+      {
+        "id": "rig-seven",
+        "status": "intact",
+        "closest": 58.3
+      },
+      {
+        "id": "landfall-pipeline",
+        "status": "destroyed",
+        "closest": 0.3
+      },
+      {
+        "id": "summit-apartments",
+        "status": "intact",
+        "closest": 38.4
+      },
+      {
+        "id": "thaw-stone",
+        "status": "intact",
+        "closest": 65.5
+      }
+    ],
+    "notableEvents": 23
+  },
+  "historyChapters": [
+    "ch1-beginning",
+    "ch2-measurements",
+    "ch3-warning",
+    "ch4-people",
+    "ch5-denial",
+    "ch6-price",
+    "ch7-escape",
+    "ch8-remains"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 2998,
+      "summary": "round 1: 2939 in (0 cached), 121 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2939,
+          "input_tokens_details": {
+            "cache_write_tokens": 2936,
+            "cached_tokens": 0
+          },
+          "output_tokens": 121,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3060
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2999,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":127.4,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":75,\"growth\":4.9,\"iceLeftPct\":341,\"waterfallsCrossed\":5,\"collisions\":13,\"treesFelled\":0,\"buildingsDestroyed\":3,\"destroyedTotal\":5,\"storyPoints\":2800,\"destroyedByCategory\":{\"water\":1,\"extraction\":2,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"first-chalet\",…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3000,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch9-dam-went\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"memory\",\"title\":\"The Upper Vell dam\",\"author\":\"mara-vey\",\"body\":\"The Upper Vell dam held for ten summers. That is not nothing; it is the right thing, done late and once. When it went, the lake came down the stream toward the village by the route Anna had drawn on the handover map in red pen, and the village had already gone the other way, down the green route, the one they had practised.\"},{\"id\":\"ch9-tomas-letter\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"letter\",\"title\":\"Letter from Tomas\",\"date\":\"October 203…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3004,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch1-beginning\",\"title\":\"The Beginning\",\"outcome\":\"complete\",\"storyPoints\":0,\"destroyedTotal\":0,\"destroyedByCategory\":{},\"landmarks\":[{\"id\":\"bolted-stone\",\"status\":\"intact\"},{\"id\":\"gate-stones\",\"status\":\"intact\"},{\"id\":\"falls-rowan\",\"status\":\"intact\"},{\"id\":\"survey-hut\",\"status\":\"intact\"}],\"reflectionExcerpt\":{\"untrusted\":true,\"text\":\"You crossed the fall and reached the sea. Nothing built broke. The survey hut at Vell Foot is still…\"}},{\"chapterId\":\"ch2-measurements\",\"title\":\"The Measurements\",\"outcome\":\"complete\",\"storyPoints\":265,\"destroyedTotal…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3004,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch9-last-thaw\",\"index\":9,\"title\":\"The Last Thaw\",\"act\":3,\"actTitle\":\"The Reckoning\",\"introLines\":[\"The Upper Vell. This is where the ice began, and where little of it is left.\",\"Below: a dam built in eleven months, a village above the fjord, and then the sea.\"]},\"level\":{\"name\":\"Summit Labyrinth\",\"subtitle\":\"No marked way down a crevassed summit. Grow on the glacier, burst the dam, fly to the fjord.\",\"structures\":[{\"kind\":\"chalet\",\"count\":6},{\"kind\":\"skiLiftPylon\",\"count\":4},{\"kind\":\"car\",\"count\":2},{\"kind\":\"apartmentBlock\",\"count\":2},{\"kind\":\"pumpjack\",\"c…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3004,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "premise"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"premise\",\"entries\":[{\"title\":\"The Last Thaw\",\"premise\":\"A fictional mountain coast, the Vell massif and the valleys below its glacier, told through the archive one woman kept of it. For sixty years the ice was measured, warned about, argued over and partly defended. In August 2039 its last great mass of ice let go and the thaw came down nine valleys to the sea. The player is that thaw: not a villain, but consequences already set in motion. The archive, kept by a voice that is only named late, records the people, measurements and decisions behind everything the w…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3005,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "revelations"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"revelations\",\"entries\":[{\"id\":\"rv1-keeper\",\"chapterId\":\"ch1-beginning\",\"text\":\"Someone kept this archive: pencil notes in the margins, no name.\"},{\"id\":\"rv2-measurements\",\"chapterId\":\"ch2-measurements\",\"text\":\"The warnings are old and measured: Tomas Lind recorded the retreat for fifty-two years. The copies are initialled M.\"},{\"id\":\"rv3-plans\",\"chapterId\":\"ch3-warning\",\"text\":\"Plans existed and were practised; one page of them was left unfunded. The archivist grew up below these roads.\"},{\"id\":\"rv4-riverside\",\"chapterId\":\"ch4-people\",\"text\":\"The archivist is fr…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3005,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "decisions"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"decisions\",\"entries\":[{\"id\":\"d1994-plant-expansion\",\"year\":1994,\"who\":\"Calder Energy\",\"decision\":\"Expanded the Power Valley plant on coal and gas, with national backing.\",\"consequence\":\"Jobs, cheap power and a school roof for the valley, and a larger share of its emissions, which were still a small part of the world's.\",\"responsibility\":\"industry\"},{\"id\":\"d-distant-emissions\",\"year\":1995,\"who\":\"The world's largest emitters\",\"decision\":\"Kept burning at scale for decades after the warnings were understood, in economies far larger and richer than the valley's.\",\"co…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 7581,
+      "summary": "round 2: 8807 in (2936 cached), 415 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 8807,
+          "input_tokens_details": {
+            "cache_write_tokens": 5868,
+            "cached_tokens": 2936
+          },
+          "output_tokens": 415,
+          "output_tokens_details": {
+            "reasoning_tokens": 287
+          },
+          "total_tokens": 9222
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 7582,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-levy-result",
+            "ch4-harrow-letter",
+            "ch5-board-minutes",
+            "ch7-line-31",
+            "ch8-achadh-letter",
+            "ch9-annex-f-funded"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-levy-result\",\"chapterId\":\"ch4-people\",\"kind\":\"record\",\"title\":\"Riverside flood levy, result\",\"date\":\"2017\",\"author\":\"Riverside Town Council\",\"body\":\"Question: should the town raise a yearly charge on every household to build a flood wall for the lower town and raise the dam spillway? Yes: 1,402. No: 1,618. Spoilt: 9. On the back of one spoilt paper, in blue biro: I would if I could. The wall was built in 2036 with national money. It was built to the 2009 design.\"},{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"Letter fro…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 7582,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch8-remains"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch8-remains\",\"title\":\"What Remains\",\"outcome\":\"complete\",\"storyPoints\":1060,\"destroyedTotal\":3,\"destroyedByCategory\":{\"home\":1,\"farm\":1,\"extraction\":1},\"landmarks\":[{\"id\":\"bothy\",\"name\":\"The shepherd's bothy above the Leap\",\"status\":\"destroyed\"},{\"id\":\"achadh\",\"name\":\"Achadh farmhouse, the green door\",\"status\":\"intact\"},{\"id\":\"achadh-barn\",\"name\":\"The Achadh barn\",\"status\":\"intact\"},{\"id\":\"clachan-kirk\",\"name\":\"The Clachan kirk\",\"status\":\"intact\"},{\"id\":\"balnacoil\",\"name\":\"Balnacoil farmhouse\",\"status\":\"intact\"},{\"id\":\"mill-house\",\"name\":\"The mill…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 7582,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch4-people"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch4-people\",\"title\":\"The People\",\"outcome\":\"complete\",\"storyPoints\":2900,\"destroyedTotal\":9,\"destroyedByCategory\":{\"home\":8,\"water\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's on the knoll\",\"status\":\"intact\"},{\"id\":\"gas-holder\",\"name\":\"The east gas holder\",\"status\":\"intact\"},{\"id\":\"level-crossing-train\",\"name\":\"The train at the level crossing\",\"status\":\"intact\"},{\"id\":\"viaduct\",\"name\":\"The Gorge…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 7582,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 20
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":23,\"events\":[{\"t\":25.8,\"type\":\"absorbed\",\"value\":9.8},{\"t\":31.3,\"type\":\"absorbed\",\"value\":12.8},{\"t\":38.1,\"type\":\"absorbed\",\"value\":13.3},{\"t\":51.5,\"type\":\"absorbed\",\"value\":21.9},{\"t\":57.7,\"type\":\"absorbed\",\"value\":20.5},{\"t\":70.3,\"type\":\"absorbed\",\"value\":22.2},{\"t\":78.2,\"type\":\"chipped\",\"value\":0.4},{\"t\":78.2,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900},{\"t\":84.4,\"type\":\"waterfall\",\"value\":0},{\"t\":91.9,\"type\":\"waterfall\",\"value\":2},{\"t\":97.2,\"type\":\"waterfall\",\"value\":3},{\"t\":102.1,\"ty…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 26076,
+      "summary": "round 3: 11237 in (8804 cached), 2064 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 11237,
+          "input_tokens_details": {
+            "cache_write_tokens": 2430,
+            "cached_tokens": 8804
+          },
+          "output_tokens": 2064,
+          "output_tokens_details": {
+            "reasoning_tokens": 2029
+          },
+          "total_tokens": 13301
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 26076,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch9-tomas-letter"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on No. 14 was a circle with a line through it: empty. I drew it myself, at ten past six, and then stood there holding the chalk because there was nothing left on my list. Inside: the calendar, a piano nobody had tuned since 2020, eleven boxes of this archive I could not carry. The water does not read chalk. I have kept the chalk.\"},{\"id\":\"ch9-tomas-letter\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"letter\",\"title\":\"Letter from Tomas\",\"date\":\"October 2039\",\"auth…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 36841,
+      "summary": "round 4: 13575 in (11162 cached), 1535 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 13575,
+          "input_tokens_details": {
+            "cache_write_tokens": 2338,
+            "cached_tokens": 11162
+          },
+          "output_tokens": 1535,
+          "output_tokens_details": {
+            "reasoning_tokens": 1034
+          },
+          "total_tokens": 15110
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 36841,
+      "summary": "draft 1: \"What Goes in the Box\"",
+      "data": {
+        "title": "What Goes in the Box",
+        "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nGil Harrow gave his reasons for the spillway being deferred in 2009 and again in 2016: the inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he thought there was time. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next.",
+        "fragmentIds": [
+          "ch4-vey-house-gone",
+          "ch4-harrow-letter",
+          "ch8-achadh-letter",
+          "ch9-tomas-letter",
+          "ch9-annex-f-funded"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "history",
+            "chapterId": "ch4-people",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-house-gone"
+          },
+          {
+            "type": "history",
+            "chapterId": "ch8-remains",
+            "landmarkId": "achadh",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch8-achadh-letter"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "upper-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "fjord-chapel",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "lind-chalet",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-tomas-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-harrow-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-annex-f-funded"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 42767,
+      "summary": "round 1: 3010 in (2476 cached), 283 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3010,
+          "input_tokens_details": {
+            "cache_write_tokens": 531,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 283,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3293
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42773,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"history\",\"chapterId\":\"ch4-people\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"history\",\"chapterId\":\"ch8-remains\",\"landmarkId\":\"achadh\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch8-achadh-letter\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-ch…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42788,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":11,\"issues\":[],\"invariants\":[\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Lind measured the Vell every Se…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42789,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":127.4,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":75,\"growth\":4.9,\"iceLeftPct\":341,\"waterfallsCrossed\":5,\"collisions\":13,\"treesFelled\":0,\"buildingsDestroyed\":3,\"destroyedTotal\":5,\"storyPoints\":2800,\"destroyedByCategory\":{\"water\":1,\"extraction\":2,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"first-chalet\",…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42789,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":23,\"events\":[{\"t\":25.8,\"type\":\"absorbed\",\"value\":9.8},{\"t\":31.3,\"type\":\"absorbed\",\"value\":12.8},{\"t\":38.1,\"type\":\"absorbed\",\"value\":13.3},{\"t\":51.5,\"type\":\"absorbed\",\"value\":21.9},{\"t\":57.7,\"type\":\"absorbed\",\"value\":20.5},{\"t\":70.3,\"type\":\"absorbed\",\"value\":22.2},{\"t\":78.2,\"type\":\"chipped\",\"value\":0.4},{\"t\":78.2,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900},{\"t\":84.4,\"type\":\"waterfall\",\"value\":0},{\"t\":91.9,\"type\":\"waterfall\",\"value\":2},{\"t\":97.2,\"type\":\"waterfall\",\"value\":3},{\"t\":102.1,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42789,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\"},{\"text\":\"Tomas Lind m…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 42789,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 45858,
+      "summary": "round 2: 5304 in (3007 cached), 187 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5304,
+          "input_tokens_details": {
+            "cache_write_tokens": 2294,
+            "cached_tokens": 3007
+          },
+          "output_tokens": 187,
+          "output_tokens_details": {
+            "reasoning_tokens": 46
+          },
+          "total_tokens": 5491
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45859,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-harrow-letter",
+            "ch8-achadh-letter",
+            "ch9-tomas-letter",
+            "ch9-annex-f-funded"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on No. 14 was a circle with a line through it: empty. I drew it myself, at ten past six, and then stood there holding the chalk because there was nothing left on my list. Inside: the calendar, a piano nobody had tuned since 2020, eleven boxes of this archive I could not carry. The water does not read chalk. I have kept the chalk.\"},{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"Letter from Gil Harrow\",\"date\":\"March 2038\",\"aut…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45860,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch4-people"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch4-people\",\"title\":\"The People\",\"outcome\":\"complete\",\"storyPoints\":2900,\"destroyedTotal\":9,\"destroyedByCategory\":{\"home\":8,\"water\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's on the knoll\",\"status\":\"intact\"},{\"id\":\"gas-holder\",\"name\":\"The east gas holder\",\"status\":\"intact\"},{\"id\":\"level-crossing-train\",\"name\":\"The train at the level crossing\",\"status\":\"intact\"},{\"id\":\"viaduct\",\"name\":\"The Gorge…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45860,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch8-remains"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch8-remains\",\"title\":\"What Remains\",\"outcome\":\"complete\",\"storyPoints\":1060,\"destroyedTotal\":3,\"destroyedByCategory\":{\"home\":1,\"farm\":1,\"extraction\":1},\"landmarks\":[{\"id\":\"bothy\",\"name\":\"The shepherd's bothy above the Leap\",\"status\":\"destroyed\"},{\"id\":\"achadh\",\"name\":\"Achadh farmhouse, the green door\",\"status\":\"intact\"},{\"id\":\"achadh-barn\",\"name\":\"The Achadh barn\",\"status\":\"intact\"},{\"id\":\"clachan-kirk\",\"name\":\"The Clachan kirk\",\"status\":\"intact\"},{\"id\":\"balnacoil\",\"name\":\"Balnacoil farmhouse\",\"status\":\"intact\"},{\"id\":\"mill-house\",\"name\":\"The mill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45861,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"mara-vey\",\"name\":\"Mara Vey\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Grew up at No. 14 Church Lane, Riverside; daughter o…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45861,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "decisions"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"decisions\",\"entries\":[{\"id\":\"d1994-plant-expansion\",\"year\":1994,\"who\":\"Calder Energy\",\"decision\":\"Expanded the Power Valley plant on coal and gas, with national backing.\",\"consequence\":\"Jobs, cheap power and a school roof for the valley, and a larger share of its emissions, which were still a small part of the world's.\",\"responsibility\":\"industry\"},{\"id\":\"d-distant-emissions\",\"year\":1995,\"who\":\"The world's largest emitters\",\"decision\":\"Kept burning at scale for decades after the warnings were understood, in economies far larger and richer than the valley's.\",\"co…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 62884,
+      "summary": "round 3: 9431 in (5301 cached), 1800 out",
+      "data": {
+        "status": "incomplete",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 9431,
+          "input_tokens_details": {
+            "cache_write_tokens": 4127,
+            "cached_tokens": 5301
+          },
+          "output_tokens": 1800,
+          "output_tokens_details": {
+            "reasoning_tokens": 1800
+          },
+          "total_tokens": 11231
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "error",
+      "at": 62885,
+      "summary": "round 3: invalid reply",
+      "data": {
+        "problems": [
+          "the reply was cut off (max_output_tokens)"
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 73644,
+      "summary": "round 4: 9461 in (9428 cached), 1006 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 9461,
+          "input_tokens_details": {
+            "cache_write_tokens": 30,
+            "cached_tokens": 9428
+          },
+          "output_tokens": 1006,
+          "output_tokens_details": {
+            "reasoning_tokens": 928
+          },
+          "total_tokens": 10467
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 73657,
+      "summary": "review 1: revise (1 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "The sentence beginning “Gil Harrow gave his reasons” treats the inspectors’ assessment as a reason for both deferrals; the story establishes that this was not true for 2009. Attribute that explanation to his letter and distinguish the 2016 assessment from the 2009 deferral."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 73657,
+      "summary": "validation 1: passed (27 checks)",
+      "data": {
+        "passed": true,
+        "checked": 27,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 76181,
+      "summary": "round 1: 3554 in (2936 cached), 124 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3554,
+          "input_tokens_details": {
+            "cache_write_tokens": 615,
+            "cached_tokens": 2936
+          },
+          "output_tokens": 124,
+          "output_tokens_details": {
+            "reasoning_tokens": 97
+          },
+          "total_tokens": 3678
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 76181,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-harrow-letter"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"Letter from Gil Harrow\",\"date\":\"March 2038\",\"author\":\"gil-harrow\",\"body\":\"Dear Miss V., you asked me at the meeting whether I would say on the record why the spillway was deferred in 2009 and 2016. I said I would think about it. I have. It was deferred because the national inspectors called the dam satisfactory, because the harbour needed dredging, because the school roof leaked, and because I believed we had time. Three of those were true. Yours, as ever, Gil Harrow\"}],\"earlier\":[],\"m…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 89302,
+      "summary": "round 2: 3844 in (3551 cached), 1948 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3844,
+          "input_tokens_details": {
+            "cache_write_tokens": 290,
+            "cached_tokens": 3551
+          },
+          "output_tokens": 1948,
+          "output_tokens_details": {
+            "reasoning_tokens": 1429
+          },
+          "total_tokens": 5792
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 89303,
+      "summary": "draft 2: \"What Goes in the Box\"",
+      "data": {
+        "title": "What Goes in the Box",
+        "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nIn his letter, Gil Harrow named the harbour’s need for dredging, the school roof leak and his belief there was time among the reasons for the spillway deferrals in 2009 and 2016. The inspectors’ satisfactory assessment belonged to the 2016 deferral, not the one in 2009. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next.",
+        "fragmentIds": [
+          "ch4-vey-house-gone",
+          "ch4-harrow-letter",
+          "ch8-achadh-letter",
+          "ch9-tomas-letter",
+          "ch9-annex-f-funded"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "history",
+            "chapterId": "ch4-people",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-house-gone"
+          },
+          {
+            "type": "history",
+            "chapterId": "ch8-remains",
+            "landmarkId": "achadh",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch8-achadh-letter"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "upper-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "fjord-chapel",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "lind-chalet",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-tomas-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-harrow-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-annex-f-funded"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 92740,
+      "summary": "round 1: 3108 in (2476 cached), 341 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3108,
+          "input_tokens_details": {
+            "cache_write_tokens": 629,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 341,
+          "output_tokens_details": {
+            "reasoning_tokens": 39
+          },
+          "total_tokens": 3449
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 92745,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"history\",\"chapterId\":\"ch4-people\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"history\",\"chapterId\":\"ch8-remains\",\"landmarkId\":\"achadh\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch8-achadh-letter\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-ch…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 92759,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":11,\"issues\":[],\"invariants\":[\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Lind measured the Vell every Se…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 92759,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":127.4,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":75,\"growth\":4.9,\"iceLeftPct\":341,\"waterfallsCrossed\":5,\"collisions\":13,\"treesFelled\":0,\"buildingsDestroyed\":3,\"destroyedTotal\":5,\"storyPoints\":2800,\"destroyedByCategory\":{\"water\":1,\"extraction\":2,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"first-chalet\",…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 92760,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-harrow-letter",
+            "ch8-achadh-letter",
+            "ch9-tomas-letter",
+            "ch9-annex-f-funded"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on No. 14 was a circle with a line through it: empty. I drew it myself, at ten past six, and then stood there holding the chalk because there was nothing left on my list. Inside: the calendar, a piano nobody had tuned since 2020, eleven boxes of this archive I could not carry. The water does not read chalk. I have kept the chalk.\"},{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"Letter from Gil Harrow\",\"date\":\"March 2038\",\"aut…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 92760,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\"},{\"text\":\"Tomas Lind m…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 102278,
+      "summary": "round 2: 5339 in (3105 cached), 966 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5339,
+          "input_tokens_details": {
+            "cache_write_tokens": 2231,
+            "cached_tokens": 3105
+          },
+          "output_tokens": 966,
+          "output_tokens_details": {
+            "reasoning_tokens": 869
+          },
+          "total_tokens": 6305
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 102279,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch4-people"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch4-people\",\"title\":\"The People\",\"outcome\":\"complete\",\"storyPoints\":2900,\"destroyedTotal\":9,\"destroyedByCategory\":{\"home\":8,\"water\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's on the knoll\",\"status\":\"intact\"},{\"id\":\"gas-holder\",\"name\":\"The east gas holder\",\"status\":\"intact\"},{\"id\":\"level-crossing-train\",\"name\":\"The train at the level crossing\",\"status\":\"intact\"},{\"id\":\"viaduct\",\"name\":\"The Gorge…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 102279,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "decisions"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"decisions\",\"entries\":[{\"id\":\"d1994-plant-expansion\",\"year\":1994,\"who\":\"Calder Energy\",\"decision\":\"Expanded the Power Valley plant on coal and gas, with national backing.\",\"consequence\":\"Jobs, cheap power and a school roof for the valley, and a larger share of its emissions, which were still a small part of the world's.\",\"responsibility\":\"industry\"},{\"id\":\"d-distant-emissions\",\"year\":1995,\"who\":\"The world's largest emitters\",\"decision\":\"Kept burning at scale for decades after the warnings were understood, in economies far larger and richer than the valley's.\",\"co…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 102279,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "timeline"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"timeline\",\"entries\":[{\"id\":\"t1890-ice-stone\",\"year\":1890,\"summary\":\"Surveyors set a stone at the glacier edge above Kessel. By 2039 it stands in the village street, a long walk below the ice.\"},{\"id\":\"t1936-pass-road\",\"year\":1936,\"summary\":\"The Alpine Pass road opens, crossing the Devil's Cut on one bridge.\"},{\"id\":\"t1952-riverside-dam\",\"year\":1952,\"summary\":\"The Riverside dam is built above the lower town for the mill race and the town water.\"},{\"id\":\"t1979-stake-line\",\"year\":1979,\"summary\":\"Tomas Lind bolts a benchmark into a boulder at Vell Foot and drills th…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 102279,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "upper-dam",
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":78.2,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 109614,
+      "summary": "round 3: 8148 in (5336 cached), 713 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 8148,
+          "input_tokens_details": {
+            "cache_write_tokens": 2809,
+            "cached_tokens": 5336
+          },
+          "output_tokens": 713,
+          "output_tokens_details": {
+            "reasoning_tokens": 691
+          },
+          "total_tokens": 8861
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 109614,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"mara-vey\",\"name\":\"Mara Vey\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Grew up at No. 14 Church Lane, Riverside; daughter o…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 118092,
+      "summary": "round 4: 10507 in (8145 cached), 1087 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 10507,
+          "input_tokens_details": {
+            "cache_write_tokens": 2359,
+            "cached_tokens": 8145
+          },
+          "output_tokens": 1087,
+          "output_tokens_details": {
+            "reasoning_tokens": 1069
+          },
+          "total_tokens": 11594
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 118108,
+      "summary": "review 2: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 118108,
+      "summary": "validation 2: passed (27 checks)",
+      "data": {
+        "passed": true,
+        "checked": 27,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 118108,
+      "summary": "corrected after 2 review(s)",
+      "data": {
+        "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nIn his letter, Gil Harrow named the harbour’s need for dredging, the school roof leak and his belief there was time among the reasons for the spillway deferrals in 2009 and 2016. The inspectors’ satisfactory assessment belonged to the 2016 deferral, not the one in 2009. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_story_history",
+      "args": {},
+      "ok": true,
+      "ms": 4
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "premise"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "revelations"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "decisions"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-levy-result",
+          "ch4-harrow-letter",
+          "ch5-board-minutes",
+          "ch7-line-31",
+          "ch8-achadh-letter",
+          "ch9-annex-f-funded"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch8-remains"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch4-people"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 20
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch9-tomas-letter"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"history\",\"chapterId\":\"ch4-people\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"history\",\"chapterId\":\"ch8-remains\",\"landmarkId\":\"achadh\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch8-achadh-letter\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-ch…",
+      "ok": true,
+      "ms": 6
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 15
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-harrow-letter",
+          "ch8-achadh-letter",
+          "ch9-tomas-letter",
+          "ch9-annex-f-funded"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch4-people"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch8-remains"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "decisions"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-harrow-letter"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"history\",\"chapterId\":\"ch4-people\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"history\",\"chapterId\":\"ch8-remains\",\"landmarkId\":\"achadh\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch8-achadh-letter\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-ch…",
+      "ok": true,
+      "ms": 5
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 14
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-harrow-letter",
+          "ch8-achadh-letter",
+          "ch9-tomas-letter",
+          "ch9-annex-f-funded"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch4-people"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "decisions"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "timeline"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "upper-dam",
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 0
+    }
+  ],
+  "drafts": [
+    {
+      "title": "What Goes in the Box",
+      "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nGil Harrow gave his reasons for the spillway being deferred in 2009 and again in 2016: the inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he thought there was time. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next.",
+      "fragmentIds": [
+        "ch4-vey-house-gone",
+        "ch4-harrow-letter",
+        "ch8-achadh-letter",
+        "ch9-tomas-letter",
+        "ch9-annex-f-funded"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "history",
+          "chapterId": "ch4-people",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-house-gone"
+        },
+        {
+          "type": "history",
+          "chapterId": "ch8-remains",
+          "landmarkId": "achadh",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch8-achadh-letter"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "upper-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "fjord-chapel",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "lind-chalet",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-tomas-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-harrow-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-annex-f-funded"
+        }
+      ]
+    },
+    {
+      "title": "What Goes in the Box",
+      "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nIn his letter, Gil Harrow named the harbour’s need for dredging, the school roof leak and his belief there was time among the reasons for the spillway deferrals in 2009 and 2016. The inspectors’ satisfactory assessment belonged to the 2016 deferral, not the one in 2009. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next.",
+      "fragmentIds": [
+        "ch4-vey-house-gone",
+        "ch4-harrow-letter",
+        "ch8-achadh-letter",
+        "ch9-tomas-letter",
+        "ch9-annex-f-funded"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "history",
+          "chapterId": "ch4-people",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-house-gone"
+        },
+        {
+          "type": "history",
+          "chapterId": "ch8-remains",
+          "landmarkId": "achadh",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch8-achadh-letter"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "upper-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "fjord-chapel",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "lind-chalet",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-tomas-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-harrow-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-annex-f-funded"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "The sentence beginning “Gil Harrow gave his reasons” treats the inspectors’ assessment as a reason for both deferrals; the story establishes that this was not true for 2009. Attribute that explanation to his letter and distinguish the 2016 assessment from the 2009 deferral."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-21T19:02:01.820Z",
+      "runId": "lt-20261021-190124-e8bb8a",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 36558,
+      "cachedInputTokens": 22902,
+      "outputTokens": 4135,
+      "reasoningTokens": 3350,
+      "requests": 4,
+      "toolCalls": 12,
+      "durationMs": 36841,
+      "costUsd": 0.00400142,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:02:38.623Z",
+      "runId": "lt-20261021-190124-e8bb8a",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 27206,
+      "cachedInputTokens": 20212,
+      "outputTokens": 3276,
+      "reasoningTokens": 2774,
+      "requests": 4,
+      "toolCalls": 11,
+      "durationMs": 36802,
+      "costUsd": 0.00271407,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:02:54.282Z",
+      "runId": "lt-20261021-190124-e8bb8a",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 7398,
+      "cachedInputTokens": 6487,
+      "outputTokens": 2072,
+      "reasoningTokens": 1526,
+      "requests": 2,
+      "toolCalls": 1,
+      "durationMs": 15646,
+      "costUsd": 0.0012146,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:03:23.071Z",
+      "runId": "lt-20261021-190124-e8bb8a",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 27102,
+      "cachedInputTokens": 19062,
+      "outputTokens": 3107,
+      "reasoningTokens": 2668,
+      "requests": 4,
+      "toolCalls": 10,
+      "durationMs": 28789,
+      "costUsd": 0.00274882,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 2,
+      "issues": [
+        "The sentence beginning “Gil Harrow gave his reasons” treats the inspectors’ assessment as a reason for both deferrals; the story establishes that this was not true for 2009. Attribute that explanation to his letter and distinguish the 2016 assessment from the 2009 deferral."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 27
+    },
+    "text": "I have put the boxes in order again. I am Mara Vey. I grew up below these valleys; the papers still have their old folds.\n\nAt Riverside, the water took empty No. 14 Church Lane, with its calendar, untuned piano and eleven boxes of this archive. I kept the piece of chalk. At Achadh, the green door still sticks. Mum says the pencil marks on the larder frame are all there. You left that farmhouse intact.\n\nAt the end, you broke the Upper Vell dam and the fjord chapel, but Tomas Lind’s chalet remained. His letter asks for a new stake line, higher up, where the ice still is. I have set it beside the old measurements.\n\nIn his letter, Gil Harrow named the harbour’s need for dredging, the school roof leak and his belief there was time among the reasons for the spillway deferrals in 2009 and 2016. The inspectors’ satisfactory assessment belonged to the 2016 deferral, not the one in 2009. Those reasons sat together in his letter; the costs did not fall together.\n\nAnnex F, the second crossing at the Tobel, is approved, funded and scheduled at last. I keep the notice where I can find it. You cannot undo the river behind you. You can still decide where it goes next."
+  }
+}

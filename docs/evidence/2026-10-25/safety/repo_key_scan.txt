@@ -1,0 +1,4 @@
+Repo key scan, 2026-10-25T07:45:24Z, worktree listing-research @ ba6fa8d (read-only commands only)
+files in worktree (excluding node_modules and .git) containing the course key value: 0
+tracked files: 702; .env files tracked: only .env.example
+commits on any branch whose diff adds or removes the key value (git log --all -S): 0

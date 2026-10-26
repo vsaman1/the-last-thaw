@@ -1,0 +1,1254 @@
+{
+  "runId": "lt-20261021-171504-fd4493",
+  "mode": "reflection",
+  "chapterId": "ch6-price",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T17:15:04.205Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 4450,
+    "destroyedByCategory": {
+      "energy": 3,
+      "extraction": 3,
+      "industry": 2
+    },
+    "landmarks": [
+      {
+        "id": "calder-cottages",
+        "status": "intact",
+        "closest": 47.2
+      },
+      {
+        "id": "coop-turbine",
+        "status": "destroyed",
+        "closest": 2.5
+      },
+      {
+        "id": "coal-train",
+        "status": "damaged",
+        "closest": 5
+      },
+      {
+        "id": "north-tower",
+        "status": "destroyed",
+        "closest": 14
+      },
+      {
+        "id": "turbine-hall",
+        "status": "intact",
+        "closest": 85.2
+      },
+      {
+        "id": "tank-farm",
+        "status": "intact",
+        "closest": 199
+      },
+      {
+        "id": "calder-dam",
+        "status": "intact",
+        "closest": 73.9
+      },
+      {
+        "id": "highway-bridge",
+        "status": "intact",
+        "closest": 31.4
+      },
+      {
+        "id": "bench-wells",
+        "status": "intact",
+        "closest": 111.3
+      },
+      {
+        "id": "works-pipeline",
+        "status": "destroyed",
+        "closest": 0.9
+      },
+      {
+        "id": "calder-house",
+        "status": "intact",
+        "closest": 60
+      },
+      {
+        "id": "calder-rig-four",
+        "status": "intact",
+        "closest": 39.9
+      }
+    ],
+    "notableEvents": 17
+  },
+  "historyChapters": [
+    "ch1-beginning",
+    "ch2-measurements",
+    "ch3-warning",
+    "ch4-people",
+    "ch5-denial"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 3435,
+      "summary": "round 1: 2824 in (2791 cached), 139 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2824,
+          "input_tokens_details": {
+            "cache_write_tokens": 30,
+            "cached_tokens": 2791
+          },
+          "output_tokens": 139,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2963
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3438,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.4,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3438,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-tank-inspection\",\"chapterId\":\"ch6-price\",\"kind\":\"report\",\"title\":\"Tank farm, inspection\",\"date\":\"2038\",\"author\":\"Calder Energy\",\"body\":\"Bund intact, raised one metre in 2028. Tanks 1 to 6 sound. Inspector's comment: adequate for the floods we have had. [Beneath, in Ines Moreno's hand: That is what adequate means. It is a word about the past. Copy to the Board, again.]\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\",\"kind\":\"record\",\"title\":\"Calder Energy, risk register, line 44\",\"date\":\"2031\",\"author\":\"Calder Energy\",\"body\":\"Risk: flood at Power …"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3438,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch6-price\",\"index\":6,\"title\":\"The Price\",\"act\":2,\"actTitle\":\"The Cost\",\"introLines\":[\"Power Valley made the electricity for the whole coast, and the jobs, and the smoke.\",\"On the day it mattered most, it also made the trains run.\"]},\"level\":{\"name\":\"Power Valley\",\"subtitle\":\"A 220-tonne iceberg loose in an industrial mountain valley: find your way through the plant.\",\"structures\":[{\"kind\":\"truck\",\"count\":18},{\"kind\":\"car\",\"count\":17},{\"kind\":\"railWagon\",\"count\":13},{\"kind\":\"pylon\",\"count\":9},{\"kind\":\"windTurbine\",\"count\":9},{\"kind\":\"factoryHall\",\"count\":7}…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3439,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3440,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "premise"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"premise\",\"entries\":[{\"title\":\"The Last Thaw\",\"premise\":\"A fictional mountain coast, the Vell massif and the valleys below its glacier, told through the archive one woman kept of it. For sixty years the ice was measured, warned about, argued over and partly defended. In August 2039 its last great mass of ice let go and the thaw came down nine valleys to the sea. The player is that thaw: not a villain, but consequences already set in motion. The archive, kept by a voice that is only named late, records the people, measurements and decisions behind everything the w…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3440,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3441,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "locations"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"locations\",\"entries\":[{\"id\":\"vell-foot\",\"name\":\"Vell Foot\",\"chapterId\":\"ch1-beginning\",\"description\":\"The cirque below the glacier's old snout and the short valley to the sea: a falls, a rowan, a bolted boulder and Lind's survey hut on the shore.\",\"landmarkIds\":[\"bolted-stone\",\"gate-stones\",\"falls-rowan\",\"survey-hut\"]},{\"id\":\"red-canyon\",\"name\":\"The Red Canyon\",\"chapterId\":\"ch2-measurements\",\"description\":\"Where the Vell's meltwater cut down through red rock to the sea: Lind's gauging footbridge, his field cabin, the trading post, the water tower and the mooring…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3442,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "decisions"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"decisions\",\"entries\":[{\"id\":\"d1994-plant-expansion\",\"year\":1994,\"who\":\"Calder Energy\",\"decision\":\"Expanded the Power Valley plant on coal and gas, with national backing.\",\"consequence\":\"Jobs, cheap power and a school roof for the valley, and a larger share of its emissions, which were still a small part of the world's.\",\"responsibility\":\"industry\"},{\"id\":\"d-distant-emissions\",\"year\":1995,\"who\":\"The world's largest emitters\",\"decision\":\"Kept burning at scale for decades after the warnings were understood, in economies far larger and richer than the valley's.\",\"co…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 6360,
+      "summary": "round 2: 8582 in (2821 cached), 104 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 8582,
+          "input_tokens_details": {
+            "cache_write_tokens": 5758,
+            "cached_tokens": 2821
+          },
+          "output_tokens": 104,
+          "output_tokens_details": {
+            "reasoning_tokens": 83
+          },
+          "total_tokens": 8686
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 6364,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":17,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":21.9,\"type\":\"landed\",\"value\":7.6},{\"t\":30.2,\"type\":\"waterfall\",\"value\":0},{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800},{\"t\":41,\"type\":\"chipped\",\"value\":0},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"ty…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 20072,
+      "summary": "round 3: 9081 in (8579 cached), 1270 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 9081,
+          "input_tokens_details": {
+            "cache_write_tokens": 499,
+            "cached_tokens": 8579
+          },
+          "output_tokens": 1270,
+          "output_tokens_details": {
+            "reasoning_tokens": 968
+          },
+          "total_tokens": 10351
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 20073,
+      "summary": "draft 1: \"The Roster\"",
+      "data": {
+        "title": "The Roster",
+        "text": "Your route began at the co-op turbine on the hill. A share in it cost about the price of a bicycle. It broke. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together.",
+        "fragmentIds": [
+          "ch6-coop-courier",
+          "ch6-emergency-roster",
+          "ch6-tank-inspection"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "north-tower",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "tank-farm",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-emergency-roster"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-tank-inspection"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 23376,
+      "summary": "round 1: 2805 in (2476 cached), 260 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2805,
+          "input_tokens_details": {
+            "cache_write_tokens": 326,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 260,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3065
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23386,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"coop-turbine\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"works-pipeline\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"north-tower\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"tank-farm\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch6-coop-courier\"},{\"type\":\"fragment\",\"fragment…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":18,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23403,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":7,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23403,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.4,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23403,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-emergency-roster",
+            "ch6-tank-inspection"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-emergency-roster\",\"chapterId\":\"ch6-pri…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23403,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 23404,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 31381,
+      "summary": "round 2: 6080 in (2802 cached), 417 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6080,
+          "input_tokens_details": {
+            "cache_write_tokens": 3275,
+            "cached_tokens": 2802
+          },
+          "output_tokens": 417,
+          "output_tokens_details": {
+            "reasoning_tokens": 396
+          },
+          "total_tokens": 6497
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 31381,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":17,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":21.9,\"type\":\"landed\",\"value\":7.6},{\"t\":30.2,\"type\":\"waterfall\",\"value\":0},{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800},{\"t\":41,\"type\":\"chipped\",\"value\":0},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 41576,
+      "summary": "round 3: 6892 in (6077 cached), 867 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6892,
+          "input_tokens_details": {
+            "cache_write_tokens": 812,
+            "cached_tokens": 6077
+          },
+          "output_tokens": 867,
+          "output_tokens_details": {
+            "reasoning_tokens": 805
+          },
+          "total_tokens": 7759
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 41593,
+      "summary": "review 1: revise (1 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "“Your route began at the co-op turbine on the hill” is not established by the run events; they show that it broke first. Replace this with the supported claim that the co-op turbine broke first."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 41593,
+      "summary": "validation 1: passed (25 checks)",
+      "data": {
+        "passed": true,
+        "checked": 25,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 45168,
+      "summary": "round 1: 3224 in (2821 cached), 173 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3224,
+          "input_tokens_details": {
+            "cache_write_tokens": 400,
+            "cached_tokens": 2821
+          },
+          "output_tokens": 173,
+          "output_tokens_details": {
+            "reasoning_tokens": 83
+          },
+          "total_tokens": 3397
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 45168,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.4,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 45169,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-emergency-roster",
+            "ch6-tank-inspection"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-emergency-roster\",\"chapterId\":\"ch6-pri…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 45169,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "category": "energy",
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":3,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"value\":700}]}}"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 56044,
+      "summary": "round 2: 4349 in (3221 cached), 1101 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4349,
+          "input_tokens_details": {
+            "cache_write_tokens": 1125,
+            "cached_tokens": 3221
+          },
+          "output_tokens": 1101,
+          "output_tokens_details": {
+            "reasoning_tokens": 804
+          },
+          "total_tokens": 5450
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 56044,
+      "summary": "draft 2: \"The Roster\"",
+      "data": {
+        "title": "The Roster",
+        "text": "The co-op turbine on the hill broke first; a share in it cost about the price of a bicycle. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together.",
+        "fragmentIds": [
+          "ch6-coop-courier",
+          "ch6-emergency-roster",
+          "ch6-tank-inspection"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "north-tower",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "tank-farm",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-emergency-roster"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-tank-inspection"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 59685,
+      "summary": "round 1: 2864 in (2476 cached), 294 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2864,
+          "input_tokens_details": {
+            "cache_write_tokens": 385,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 294,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3158
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59687,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"coop-turbine\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"works-pipeline\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"north-tower\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"tank-farm\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch6-coop-courier\"},{\"type\":\"fragment\",\"fragment…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":18,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59698,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":7,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59698,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.4,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59698,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":17,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":21.9,\"type\":\"landed\",\"value\":7.6},{\"t\":30.2,\"type\":\"waterfall\",\"value\":0},{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800},{\"t\":41,\"type\":\"chipped\",\"value\":0},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59700,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch5-denial"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch5-denial\",\"title\":\"The Denial\",\"outcome\":\"complete\",\"storyPoints\":2220,\"destroyedTotal\":5,\"destroyedByCategory\":{\"extraction\":1,\"home\":2,\"farm\":1,\"water\":1},\"landmarks\":[{\"id\":\"kessel-dam\",\"name\":\"The Kessel dam\",\"status\":\"destroyed\"},{\"id\":\"dairy-chalet\",\"name\":\"The dairy chalet on the main street\",\"status\":\"destroyed\"},{\"id\":\"kessel-barn\",\"name\":\"The Kessel hay barn\",\"status\":\"destroyed\"},{\"id\":\"kessel-guesthouse\",\"name\":\"The guesthouse across the street\",\"status\":\"intact\"},{\"id\":\"gorge-chalet\",\"name\":\"The last chalet before the gorge\",\"status…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59701,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-emergency-roster",
+            "ch6-tank-inspection"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-emergency-roster\",\"chapterId\":\"ch6-pri…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59701,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 59702,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 65235,
+      "summary": "round 2: 6955 in (2861 cached), 448 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6955,
+          "input_tokens_details": {
+            "cache_write_tokens": 4091,
+            "cached_tokens": 2861
+          },
+          "output_tokens": 448,
+          "output_tokens_details": {
+            "reasoning_tokens": 430
+          },
+          "total_tokens": 7403
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 65244,
+      "summary": "review 2: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 65244,
+      "summary": "validation 2: passed (25 checks)",
+      "data": {
+        "passed": true,
+        "checked": 25,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 65244,
+      "summary": "corrected after 2 review(s)",
+      "data": {
+        "text": "The co-op turbine on the hill broke first; a share in it cost about the price of a bicycle. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "premise"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "locations"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "decisions"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 4
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"coop-turbine\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"works-pipeline\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"north-tower\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"tank-farm\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch6-coop-courier\"},{\"type\":\"fragment\",\"fragment…",
+      "ok": true,
+      "ms": 10
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 17
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-emergency-roster",
+          "ch6-tank-inspection"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-emergency-roster",
+          "ch6-tank-inspection"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "category": "energy",
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"coop-turbine\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"works-pipeline\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"north-tower\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"tank-farm\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch6-coop-courier\"},{\"type\":\"fragment\",\"fragment…",
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 11
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch5-denial"
+      },
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-emergency-roster",
+          "ch6-tank-inspection"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 1
+    }
+  ],
+  "drafts": [
+    {
+      "title": "The Roster",
+      "text": "Your route began at the co-op turbine on the hill. A share in it cost about the price of a bicycle. It broke. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together.",
+      "fragmentIds": [
+        "ch6-coop-courier",
+        "ch6-emergency-roster",
+        "ch6-tank-inspection"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "coop-turbine",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "works-pipeline",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "north-tower",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "tank-farm",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-coop-courier"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-emergency-roster"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-tank-inspection"
+        }
+      ]
+    },
+    {
+      "title": "The Roster",
+      "text": "The co-op turbine on the hill broke first; a share in it cost about the price of a bicycle. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together.",
+      "fragmentIds": [
+        "ch6-coop-courier",
+        "ch6-emergency-roster",
+        "ch6-tank-inspection"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "coop-turbine",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "works-pipeline",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "north-tower",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "tank-farm",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-coop-courier"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-emergency-roster"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-tank-inspection"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "“Your route began at the co-op turbine on the hill” is not established by the run events; they show that it broke first. Replace this with the supported claim that the co-op turbine broke first."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-21T17:15:24.278Z",
+      "runId": "lt-20261021-171504-fd4493",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 20487,
+      "cachedInputTokens": 14191,
+      "outputTokens": 1513,
+      "reasoningTokens": 1051,
+      "requests": 3,
+      "toolCalls": 9,
+      "durationMs": 20072,
+      "costUsd": 0.00168518,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:15:45.781Z",
+      "runId": "lt-20261021-171504-fd4493",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 15777,
+      "cachedInputTokens": 11355,
+      "outputTokens": 1544,
+      "reasoningTokens": 1201,
+      "requests": 3,
+      "toolCalls": 7,
+      "durationMs": 21503,
+      "costUsd": 0.00143808,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:16:00.249Z",
+      "runId": "lt-20261021-171504-fd4493",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 7573,
+      "cachedInputTokens": 6042,
+      "outputTokens": 1274,
+      "reasoningTokens": 887,
+      "requests": 2,
+      "toolCalls": 3,
+      "durationMs": 14451,
+      "costUsd": 0.00088865,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:16:09.440Z",
+      "runId": "lt-20261021-171504-fd4493",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 9819,
+      "cachedInputTokens": 5337,
+      "outputTokens": 742,
+      "reasoningTokens": 430,
+      "requests": 2,
+      "toolCalls": 8,
+      "durationMs": 9191,
+      "costUsd": 0.00098447,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 2,
+      "issues": [
+        "“Your route began at the co-op turbine on the hill” is not established by the run events; they show that it broke first. Replace this with the supported claim that the co-op turbine broke first."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 25
+    },
+    "text": "The co-op turbine on the hill broke first; a share in it cost about the price of a bicycle. The works gas main and the north cooling tower followed. Ines Moreno’s emergency roster says to keep the valley line energised until the last train clears Carran. Beside it, in my pencil, is the check: all eleven signed out at Carran that night. Across the river, the tank farm stayed intact. Its inspection called the raised bund adequate for floods already had. Ines wrote underneath: adequate is a word about the past. I have kept both lines together."
+  }
+}

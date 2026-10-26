@@ -1,0 +1,1162 @@
+{
+  "runId": "lt-20261021-171714-a15cce",
+  "mode": "reflection",
+  "chapterId": "ch9-last-thaw",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T17:17:14.327Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 3400,
+    "destroyedByCategory": {
+      "water": 1,
+      "extraction": 3,
+      "home": 1,
+      "community": 1
+    },
+    "landmarks": [
+      {
+        "id": "upper-dam",
+        "status": "destroyed",
+        "closest": 0.2
+      },
+      {
+        "id": "village-lift",
+        "status": "intact",
+        "closest": 49.6
+      },
+      {
+        "id": "first-chalet",
+        "status": "destroyed",
+        "closest": 0.6
+      },
+      {
+        "id": "lind-chalet",
+        "status": "intact",
+        "closest": 35.4
+      },
+      {
+        "id": "fjord-chapel",
+        "status": "destroyed",
+        "closest": 2.5
+      },
+      {
+        "id": "village-barn",
+        "status": "intact",
+        "closest": 200.4
+      },
+      {
+        "id": "fjord-chalet",
+        "status": "intact",
+        "closest": 44.6
+      },
+      {
+        "id": "rig-seven",
+        "status": "intact",
+        "closest": 58.3
+      },
+      {
+        "id": "landfall-pipeline",
+        "status": "destroyed",
+        "closest": 0.3
+      },
+      {
+        "id": "summit-apartments",
+        "status": "intact",
+        "closest": 38.4
+      },
+      {
+        "id": "thaw-stone",
+        "status": "intact",
+        "closest": 65.5
+      }
+    ],
+    "notableEvents": 25
+  },
+  "historyChapters": [
+    "ch1-beginning",
+    "ch2-measurements",
+    "ch3-warning",
+    "ch4-people",
+    "ch5-denial",
+    "ch6-price",
+    "ch7-escape",
+    "ch8-remains"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 2818,
+      "summary": "round 1: 2828 in (2791 cached), 90 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2828,
+          "input_tokens_details": {
+            "cache_write_tokens": 34,
+            "cached_tokens": 2791
+          },
+          "output_tokens": 90,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2918
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2818,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":128.5,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":71.4,\"growth\":4.9,\"iceLeftPct\":325,\"waterfallsCrossed\":5,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":4,\"destroyedTotal\":6,\"storyPoints\":3400,\"destroyedByCategory\":{\"water\":1,\"extraction\":3,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"tank\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"fir…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2821,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch9-dam-went\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"memory\",\"title\":\"The Upper Vell dam\",\"author\":\"mara-vey\",\"body\":\"The Upper Vell dam held for ten summers. That is not nothing; it is the right thing, done late and once. When it went, the lake came down the stream toward the village by the route Anna had drawn on the handover map in red pen, and the village had already gone the other way, down the green route, the one they had practised.\"},{\"id\":\"ch9-tomas-letter\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"letter\",\"title\":\"Letter from Tomas\",\"date\":\"October 203…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2821,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch9-last-thaw\",\"index\":9,\"title\":\"The Last Thaw\",\"act\":3,\"actTitle\":\"The Reckoning\",\"introLines\":[\"The Upper Vell. This is where the ice began, and where little of it is left.\",\"Below: a dam built in eleven months, a village above the fjord, and then the sea.\"]},\"level\":{\"name\":\"Summit Labyrinth\",\"subtitle\":\"No marked way down a crevassed summit. Grow on the glacier, burst the dam, fly to the fjord.\",\"structures\":[{\"kind\":\"chalet\",\"count\":6},{\"kind\":\"skiLiftPylon\",\"count\":4},{\"kind\":\"car\",\"count\":2},{\"kind\":\"apartmentBlock\",\"count\":2},{\"kind\":\"pumpjack\",\"c…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2822,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\"},{\"text\":\"Tomas Lind m…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2822,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 6224,
+      "summary": "round 2: 6201 in (2825 cached), 116 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6201,
+          "input_tokens_details": {
+            "cache_write_tokens": 3373,
+            "cached_tokens": 2825
+          },
+          "output_tokens": 116,
+          "output_tokens_details": {
+            "reasoning_tokens": 95
+          },
+          "total_tokens": 6317
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 6225,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 20
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":25,\"events\":[{\"t\":26.3,\"type\":\"absorbed\",\"value\":9.8},{\"t\":31.8,\"type\":\"absorbed\",\"value\":12.8},{\"t\":38.7,\"type\":\"absorbed\",\"value\":13.3},{\"t\":52.1,\"type\":\"absorbed\",\"value\":21.9},{\"t\":58.3,\"type\":\"absorbed\",\"value\":20.5},{\"t\":70.9,\"type\":\"absorbed\",\"value\":22.2},{\"t\":78.8,\"type\":\"chipped\",\"value\":0.4},{\"t\":78.8,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900},{\"t\":84.8,\"type\":\"waterfall\",\"value\":0},{\"t\":92.3,\"type\":\"waterfall\",\"value\":2},{\"t\":97.5,\"type\":\"waterfall\",\"value\":3},{\"t\":102.4,\"ty…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 19076,
+      "summary": "round 3: 6755 in (6198 cached), 1399 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6755,
+          "input_tokens_details": {
+            "cache_write_tokens": 554,
+            "cached_tokens": 6198
+          },
+          "output_tokens": 1399,
+          "output_tokens_details": {
+            "reasoning_tokens": 1120
+          },
+          "total_tokens": 8154
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 19077,
+      "summary": "draft 1: \"The Red Route\"",
+      "data": {
+        "title": "The Red Route",
+        "text": "You broke the Upper Vell dam. When it went, the lake came down the stream along the red route Anna had drawn on the handover map. The village had practised the green one. Farther down, the fjord chapel broke. Its notice board sent anyone looking for someone to the lists at the church hall in Carran; everyone on them was accounted for. Tomas's chalet is still standing, kettles and all. In his letter he asked for a new stake line, higher up, where ice remained. I have set his letter beside Anna's map. Tomas signed, “Love, T.”",
+        "fragmentIds": [
+          "ch9-dam-went",
+          "ch9-chapel-board",
+          "ch9-tomas-letter"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "upper-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "fjord-chapel",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "lind-chalet",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-dam-went"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-chapel-board"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-tomas-letter"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 21991,
+      "summary": "round 1: 2786 in (2476 cached), 230 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2786,
+          "input_tokens_details": {
+            "cache_write_tokens": 307,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 230,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3016
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21997,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-chapel\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"lind-chalet\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-dam-went\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-chapel-board\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-tomas-letter\"}…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":17,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22007,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":7,\"issues\":[],\"invariants\":[\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Lind measured the Vell every Sep…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22007,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":128.5,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":71.4,\"growth\":4.9,\"iceLeftPct\":325,\"waterfallsCrossed\":5,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":4,\"destroyedTotal\":6,\"storyPoints\":3400,\"destroyedByCategory\":{\"water\":1,\"extraction\":3,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"tank\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"fir…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22007,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":25,\"events\":[{\"t\":26.3,\"type\":\"absorbed\",\"value\":9.8},{\"t\":31.8,\"type\":\"absorbed\",\"value\":12.8},{\"t\":38.7,\"type\":\"absorbed\",\"value\":13.3},{\"t\":52.1,\"type\":\"absorbed\",\"value\":21.9},{\"t\":58.3,\"type\":\"absorbed\",\"value\":20.5},{\"t\":70.9,\"type\":\"absorbed\",\"value\":22.2},{\"t\":78.8,\"type\":\"chipped\",\"value\":0.4},{\"t\":78.8,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900},{\"t\":84.8,\"type\":\"waterfall\",\"value\":0},{\"t\":92.3,\"type\":\"waterfall\",\"value\":2},{\"t\":97.5,\"type\":\"waterfall\",\"value\":3},{\"t\":102.4,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22008,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch9-dam-went\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"memory\",\"title\":\"The Upper Vell dam\",\"author\":\"mara-vey\",\"body\":\"The Upper Vell dam held for ten summers. That is not nothing; it is the right thing, done late and once. When it went, the lake came down the stream toward the village by the route Anna had drawn on the handover map in red pen, and the village had already gone the other way, down the green route, the one they had practised.\"},{\"id\":\"ch9-tomas-letter\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"letter\",\"title\":\"Letter from Tomas\",\"date\":\"October 203…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22008,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\"},{\"text\":\"Tomas Lind m…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 22008,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 35971,
+      "summary": "round 2: 6808 in (2783 cached), 1300 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6808,
+          "input_tokens_details": {
+            "cache_write_tokens": 4022,
+            "cached_tokens": 2783
+          },
+          "output_tokens": 1300,
+          "output_tokens_details": {
+            "reasoning_tokens": 1157
+          },
+          "total_tokens": 8108
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "error",
+      "at": 35971,
+      "summary": "round 2: invalid reply",
+      "data": {
+        "problems": [
+          "review.issues[1]: at most 300 characters"
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 38905,
+      "summary": "round 3: 6980 in (6805 cached), 173 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6980,
+          "input_tokens_details": {
+            "cache_write_tokens": 172,
+            "cached_tokens": 6805
+          },
+          "output_tokens": 173,
+          "output_tokens_details": {
+            "reasoning_tokens": 71
+          },
+          "total_tokens": 7153
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 38923,
+      "summary": "review 1: revise (2 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "“You broke the Upper Vell dam” blames the player. The record says the dam held for ten summers, then went, and the lake came down the red route while the village had taken the practiced green route.",
+          "The passage listing the chapel, notice board, lists and chalet reads as a report. The records support focusing on the contrast between the routes and Tomas’s letter about a higher stake line."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 38923,
+      "summary": "validation 1: passed (24 checks)",
+      "data": {
+        "passed": true,
+        "checked": 24,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "error",
+      "at": 83940,
+      "summary": "round 1: request timed out after 45000 ms; sending it once more"
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 88063,
+      "summary": "round 1: 3246 in (3243 cached), 265 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3246,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 3243
+          },
+          "output_tokens": 265,
+          "output_tokens_details": {
+            "reasoning_tokens": 197
+          },
+          "total_tokens": 3511
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 88064,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":128.5,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":71.4,\"growth\":4.9,\"iceLeftPct\":325,\"waterfallsCrossed\":5,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":4,\"destroyedTotal\":6,\"storyPoints\":3400,\"destroyedByCategory\":{\"water\":1,\"extraction\":3,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"tank\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"fir…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 88064,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch9-dam-went",
+            "ch9-chapel-board",
+            "ch9-tomas-letter"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch9-dam-went\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"memory\",\"title\":\"The Upper Vell dam\",\"author\":\"mara-vey\",\"body\":\"The Upper Vell dam held for ten summers. That is not nothing; it is the right thing, done late and once. When it went, the lake came down the stream toward the village by the route Anna had drawn on the handover map in red pen, and the village had already gone the other way, down the green route, the one they had practised.\"},{\"id\":\"ch9-chapel-board\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"notice\",\"title\":\"Fjord chapel, notice board\",\"date\":\"Au…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 98044,
+      "summary": "round 2: 4299 in (3243 cached), 1136 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4299,
+          "input_tokens_details": {
+            "cache_write_tokens": 1053,
+            "cached_tokens": 3243
+          },
+          "output_tokens": 1136,
+          "output_tokens_details": {
+            "reasoning_tokens": 902
+          },
+          "total_tokens": 5435
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 98044,
+      "summary": "draft 2: \"The Handover Map\"",
+      "data": {
+        "title": "The Handover Map",
+        "text": "The Upper Vell dam held for ten summers. Then it went, and the lake came down the stream by the red route Anna had drawn on the handover map. The village had practised the green route and gone that way. You came through a valley where both lines had already been drawn. Tomas Lind’s chalet is still standing, kettles and all. In his letter, he asks for a new stake line, higher up, where the ice still is. He says the numbers are how you know where you are. I have put his letter beside the map.",
+        "fragmentIds": [
+          "ch9-dam-went",
+          "ch9-tomas-letter"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "upper-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "lind-chalet",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-dam-went"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-tomas-letter"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 100812,
+      "summary": "round 1: 2845 in (2476 cached), 214 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2845,
+          "input_tokens_details": {
+            "cache_write_tokens": 366,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 214,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3059
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100817,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "outcome",
+              "value": "complete"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "upper-dam",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "lind-chalet",
+              "status": "intact"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch9-dam-went"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch9-tomas-letter"
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100830,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Lind measured the Vell every Sep…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100830,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":128.5,\"distanceM\":1873,\"topSpeedMs\":34,\"startMassT\":22,\"peakMassT\":108.6,\"endMassT\":71.4,\"growth\":4.9,\"iceLeftPct\":325,\"waterfallsCrossed\":5,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":4,\"destroyedTotal\":6,\"storyPoints\":3400,\"destroyedByCategory\":{\"water\":1,\"extraction\":3,\"home\":1,\"community\":1},\"destroyedByKind\":{\"dam\":1,\"pumpjack\":1,\"chalet\":1,\"church\":1,\"tank\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"upper-dam\",\"name\":\"The Upper Vell dam\",\"status\":\"destroyed\"},{\"id\":\"village-lift\",\"name\":\"The village lift\",\"status\":\"intact\"},{\"id\":\"fir…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100830,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":25,\"events\":[{\"t\":26.3,\"type\":\"absorbed\",\"value\":9.8},{\"t\":31.8,\"type\":\"absorbed\",\"value\":12.8},{\"t\":38.7,\"type\":\"absorbed\",\"value\":13.3},{\"t\":52.1,\"type\":\"absorbed\",\"value\":21.9},{\"t\":58.3,\"type\":\"absorbed\",\"value\":20.5},{\"t\":70.9,\"type\":\"absorbed\",\"value\":22.2},{\"t\":78.8,\"type\":\"chipped\",\"value\":0.4},{\"t\":78.8,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"upper-dam\",\"landmark\":\"The Upper Vell dam\",\"value\":900},{\"t\":84.8,\"type\":\"waterfall\",\"value\":0},{\"t\":92.3,\"type\":\"waterfall\",\"value\":2},{\"t\":97.5,\"type\":\"waterfall\",\"value\":3},{\"t\":102.4,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100831,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch9-dam-went",
+            "ch9-tomas-letter"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch9-dam-went\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"memory\",\"title\":\"The Upper Vell dam\",\"author\":\"mara-vey\",\"body\":\"The Upper Vell dam held for ten summers. That is not nothing; it is the right thing, done late and once. When it went, the lake came down the stream toward the village by the route Anna had drawn on the handover map in red pen, and the village had already gone the other way, down the green route, the one they had practised.\"},{\"id\":\"ch9-tomas-letter\",\"chapterId\":\"ch9-last-thaw\",\"kind\":\"letter\",\"title\":\"Letter from Tomas\",\"date\":\"October 203…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100831,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is Mara Vey (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"Mara is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\"},{\"text\":\"Tomas Lind m…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 100831,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 106405,
+      "summary": "round 2: 5394 in (2842 cached), 272 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5394,
+          "input_tokens_details": {
+            "cache_write_tokens": 2549,
+            "cached_tokens": 2842
+          },
+          "output_tokens": 272,
+          "output_tokens_details": {
+            "reasoning_tokens": 254
+          },
+          "total_tokens": 5666
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 106424,
+      "summary": "review 2: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 106424,
+      "summary": "validation 2: passed (22 checks)",
+      "data": {
+        "passed": true,
+        "checked": 22,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 106424,
+      "summary": "corrected after 2 review(s)",
+      "data": {
+        "text": "The Upper Vell dam held for ten summers. Then it went, and the lake came down the stream by the red route Anna had drawn on the handover map. The village had practised the green route and gone that way. You came through a valley where both lines had already been drawn. Tomas Lind’s chalet is still standing, kettles and all. In his letter, he asks for a new stake line, higher up, where the ice still is. He says the numbers are how you know where you are. I have put his letter beside the map."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 3
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 20
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"outcome\",\"value\":\"complete\"},{\"type\":\"landmark\",\"landmarkId\":\"upper-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"fjord-chapel\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"lind-chalet\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-dam-went\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-chapel-board\"},{\"type\":\"fragment\",\"fragmentId\":\"ch9-tomas-letter\"}…",
+      "ok": true,
+      "ms": 6
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 10
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch9-dam-went",
+          "ch9-chapel-board",
+          "ch9-tomas-letter"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "upper-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "lind-chalet",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-dam-went"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch9-tomas-letter"
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 5
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 13
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch9-dam-went",
+          "ch9-tomas-letter"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    }
+  ],
+  "drafts": [
+    {
+      "title": "The Red Route",
+      "text": "You broke the Upper Vell dam. When it went, the lake came down the stream along the red route Anna had drawn on the handover map. The village had practised the green one. Farther down, the fjord chapel broke. Its notice board sent anyone looking for someone to the lists at the church hall in Carran; everyone on them was accounted for. Tomas's chalet is still standing, kettles and all. In his letter he asked for a new stake line, higher up, where ice remained. I have set his letter beside Anna's map. Tomas signed, “Love, T.”",
+      "fragmentIds": [
+        "ch9-dam-went",
+        "ch9-chapel-board",
+        "ch9-tomas-letter"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "upper-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "fjord-chapel",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "lind-chalet",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-dam-went"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-chapel-board"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-tomas-letter"
+        }
+      ]
+    },
+    {
+      "title": "The Handover Map",
+      "text": "The Upper Vell dam held for ten summers. Then it went, and the lake came down the stream by the red route Anna had drawn on the handover map. The village had practised the green route and gone that way. You came through a valley where both lines had already been drawn. Tomas Lind’s chalet is still standing, kettles and all. In his letter, he asks for a new stake line, higher up, where the ice still is. He says the numbers are how you know where you are. I have put his letter beside the map.",
+      "fragmentIds": [
+        "ch9-dam-went",
+        "ch9-tomas-letter"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "upper-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "lind-chalet",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-dam-went"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch9-tomas-letter"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "“You broke the Upper Vell dam” blames the player. The record says the dam held for ten summers, then went, and the lake came down the red route while the village had taken the practiced green route.",
+        "The passage listing the chapel, notice board, lists and chalet reads as a report. The records support focusing on the contrast between the routes and Tomas’s letter about a higher stake line."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-21T17:17:33.403Z",
+      "runId": "lt-20261021-171714-a15cce",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 15784,
+      "cachedInputTokens": 11814,
+      "outputTokens": 1605,
+      "reasoningTokens": 1215,
+      "requests": 3,
+      "toolCalls": 6,
+      "durationMs": 19075,
+      "costUsd": 0.00141667,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:17:53.232Z",
+      "runId": "lt-20261021-171714-a15cce",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 16574,
+      "cachedInputTokens": 12064,
+      "outputTokens": 1703,
+      "reasoningTokens": 1228,
+      "requests": 3,
+      "toolCalls": 7,
+      "durationMs": 19828,
+      "costUsd": 0.00153567,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:18:52.371Z",
+      "runId": "lt-20261021-171714-a15cce",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 7545,
+      "cachedInputTokens": 6486,
+      "outputTokens": 1401,
+      "reasoningTokens": 1099,
+      "requests": 3,
+      "toolCalls": 2,
+      "durationMs": 59120,
+      "costUsd": 0.00089759,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T17:19:00.732Z",
+      "runId": "lt-20261021-171714-a15cce",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 8239,
+      "cachedInputTokens": 5318,
+      "outputTokens": 486,
+      "reasoningTokens": 254,
+      "requests": 2,
+      "toolCalls": 7,
+      "durationMs": 8361,
+      "costUsd": 0.00066116,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 2,
+      "issues": [
+        "“You broke the Upper Vell dam” blames the player. The record says the dam held for ten summers, then went, and the lake came down the red route while the village had taken the practiced green route.",
+        "The passage listing the chapel, notice board, lists and chalet reads as a report. The records support focusing on the contrast between the routes and Tomas’s letter about a higher stake line."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 22
+    },
+    "text": "The Upper Vell dam held for ten summers. Then it went, and the lake came down the stream by the red route Anna had drawn on the handover map. The village had practised the green route and gone that way. You came through a valley where both lines had already been drawn. Tomas Lind’s chalet is still standing, kettles and all. In his letter, he asks for a new stake line, higher up, where the ice still is. He says the numbers are how you know where you are. I have put his letter beside the map."
+  }
+}

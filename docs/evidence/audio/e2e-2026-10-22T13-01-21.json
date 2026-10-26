@@ -1,0 +1,119 @@
+[
+ {
+  "id": "S1",
+  "kind": "engine",
+  "title": "Autoplay: nothing before a gesture, unlock on the first click",
+  "pass": 6,
+  "fail": 0,
+  "na": 2,
+  "wallSec": 20
+ },
+ {
+  "id": "S2",
+  "kind": "engine",
+  "title": "Arcade basics: K.545 under the effects, the fade on leaving",
+  "pass": 6,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 20
+ },
+ {
+  "id": "S3",
+  "kind": "bridge",
+  "title": "Event coverage on every level, and magnitude in the wild (S4)",
+  "pass": 19,
+  "fail": 1,
+  "na": 0,
+  "wallSec": 337
+ },
+ {
+  "id": "S5",
+  "kind": "bridge",
+  "title": "Rapid collisions: fastForward bursts stay bounded",
+  "pass": 6,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 52
+ },
+ {
+  "id": "S6",
+  "kind": "engine",
+  "title": "Volume controls by keyboard, the M key, persistence",
+  "pass": 24,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 22
+ },
+ {
+  "id": "S7",
+  "kind": "engine",
+  "title": "Pause, rapid toggles and blur",
+  "pass": 7,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 22
+ },
+ {
+  "id": "S8",
+  "kind": "bridge",
+  "title": "Leave, retry, level change: every attempt's sound ends",
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "wallSec": 41
+ },
+ {
+  "id": "S9",
+  "kind": "engine",
+  "title": "Hidden tab",
+  "pass": 5,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 18
+ },
+ {
+  "id": "S10",
+  "kind": "bridge",
+  "title": "Church bells: every church rings, the hour, levels without a church",
+  "pass": 20,
+  "fail": 0,
+  "na": 0,
+  "wallSec": 356
+ },
+ {
+  "id": "S11",
+  "kind": "bridge",
+  "title": "Story moments: revelation, river view, ch8 card, ch9 chapel and sea, epilogue, narrative off",
+  "pass": 23,
+  "fail": 0,
+  "na": 0,
+  "wallSec": 130
+ },
+ {
+  "id": "CALVE",
+  "kind": "bridge",
+  "title": "The intro's calving (P1): full on the first attempt, the short beat on Retry",
+  "pass": 6,
+  "fail": 0,
+  "na": 0,
+  "wallSec": 27
+ },
+ {
+  "id": "S12",
+  "kind": "engine",
+  "title": "Performance",
+  "pass": 0,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 37
+ },
+ {
+  "id": "R",
+  "kind": "engine",
+  "title": "Offline renders (lab)",
+  "pass": 0,
+  "fail": 0,
+  "na": 1,
+  "wallSec": 4
+ }
+]

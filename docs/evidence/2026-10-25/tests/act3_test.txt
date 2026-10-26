@@ -1,0 +1,30 @@
+
+ RUN  v5.0.5 <repo>
+
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > places exactly the requested kinds, in request order, and adds no terrain but gravel roads in chapters 8 and 9 18ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > builds chapter 9's abandoned village from ruined houses, chalets and barns, crowding the terrace and the way down to it 867ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > stands chapter 7's processing plant across the head of the mesa, no gap an iceberg passes 120ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > binds every requested landmark to its overlay placement, with the requested name and label 15ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > validates each story level: placements, features, line, routes and world logic 10903ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > keeps buildings, monuments, wells and tanks off the paved strips, and pipelines across no road 51ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: bindings and the story levels > keeps the body count within 320 of the base level 5290ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > every chapter is finishable on every tested line, with the overlay in place 2ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > the reckoning: every tested line breaks many built things (at least 5 / 7 / 8 per chapter) 7ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 9: riding 10-20 m off the line through the village still meets at least four ruined houses 1ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 7: every run that reaches the sea breaks the processing plant and at least four other built things 3ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 7: steering at the start or crawling wide never leaves the iceberg resting against the standing plant 1ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 8: every lane from −12 to +16 m gets down the glen, none without breaking the power station and four more built things 2ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 8: steering at the start never leaves the iceberg stuck against the standing power station 1ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 8: a hard swerve round either end of the station breaks its end buildings 4ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > you can still decide: named landmarks fall on one line and stand on another 1ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > and some named structures stand on every natural route 2ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > chapter 8 speaks of Clachan losses on the runs that broke the Clachan, and of the dark glen on the others 12ms
+ ✓ src/story/chapters/overlays.act3.test.ts > act III overlays: played headless on the story levels > Rig Seven's shutdown log is found only when the rig is broken 1ms
+
+ Test Files  1 passed (1)
+      Tests  19 passed (19)
+   Start at  04:08:53
+   Duration  830.41s (tests 99%)
+
+exit 0
+0

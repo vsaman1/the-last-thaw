@@ -1,0 +1,563 @@
+{
+ "arcade": {
+  "flow": {
+   "level": "riverside-town"
+  },
+  "playing": 10870,
+  "snap0": {
+   "t": 16.25000000000036,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 37.68333333333248,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.160000000000004,
+   "wallSec": 20.1605,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -23.14,
+     "ungated": -23.14,
+     "mMax": -19.41,
+     "rmsDb": -25.82,
+     "peakDb": -9.27,
+     "sec": 20.14
+    },
+    "ambience": {
+     "lufsI": -27.24,
+     "ungated": -27.24,
+     "mMax": -23.37,
+     "rmsDb": -29.03,
+     "peakDb": -14.32,
+     "sec": 20.14
+    },
+    "effects": {
+     "lufsI": -24.84,
+     "ungated": -25.33,
+     "mMax": -21.1,
+     "rmsDb": -28.71,
+     "peakDb": -12.53,
+     "sec": 20.14
+    }
+   },
+   "mediaSamples": 78,
+   "music": [
+    {
+     "src": "mozart-k545-allegro.mp3",
+     "samples": 78,
+     "from": 24.4,
+     "to": 44.3,
+     "meanVolume": 0.4025,
+     "segLufsAtVol1": -20.52,
+     "segLufsHeard": -28.42,
+     "segMMaxHeard": -21.46
+    }
+   ],
+   "musicRouter": {
+    "cue": "wonder",
+    "playing": "wonder",
+    "holds": [],
+    "ducks": {},
+    "duckDb": 0,
+    "trimDb": -2,
+    "volume": 0.4765969408345689,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch1": {
+  "flow": {
+   "chapter": "ch1-beginning"
+  },
+  "playing": 2790,
+  "snap0": {
+   "t": 16.0833333333337,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 32.48333333333277,
+   "phase": "complete"
+  },
+  "cap": {
+   "ctxSec": 20.05333333333333,
+   "wallSec": 20.06040000000596,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -22.81,
+     "ungated": -23.14,
+     "mMax": -19.71,
+     "rmsDb": -25.82,
+     "peakDb": -9.55,
+     "sec": 19.97
+    },
+    "ambience": {
+     "lufsI": -25.15,
+     "ungated": -25.55,
+     "mMax": -21.11,
+     "rmsDb": -27,
+     "peakDb": -10.54,
+     "sec": 19.97
+    },
+    "effects": {
+     "lufsI": -26.19,
+     "ungated": -26.82,
+     "mMax": -22.93,
+     "rmsDb": -31.98,
+     "peakDb": -15.8,
+     "sec": 19.97
+    }
+   },
+   "mediaSamples": 76,
+   "music": [
+    {
+     "src": "mozart-k545-allegro.mp3",
+     "samples": 76,
+     "from": 18.5,
+     "to": 37.8,
+     "meanVolume": 0.5267,
+     "segLufsAtVol1": -21.12,
+     "segLufsHeard": -26.69,
+     "segMMaxHeard": -19.81
+    }
+   ],
+   "musicRouter": {
+    "cue": "wonder",
+    "playing": null,
+    "holds": [
+     "reveal"
+    ],
+    "ducks": {
+     "reading": -6
+    },
+    "duckDb": -6,
+    "trimDb": 0,
+    "volume": 0.30071234017636334,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch3": {
+  "flow": {
+   "chapter": "ch3-warning"
+  },
+  "playing": 4336,
+  "snap0": {
+   "t": 16.266666666667025,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 37.733333333332475,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.216,
+   "wallSec": 20.21640000000596,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -22.69,
+     "ungated": -22.69,
+     "mMax": -19.19,
+     "rmsDb": -25.42,
+     "peakDb": -8.97,
+     "sec": 20.14
+    },
+    "ambience": {
+     "lufsI": -25.07,
+     "ungated": -25.07,
+     "mMax": -20.86,
+     "rmsDb": -26.85,
+     "peakDb": -8.99,
+     "sec": 20.14
+    },
+    "effects": {
+     "lufsI": -25.44,
+     "ungated": -26.42,
+     "mMax": -22.13,
+     "rmsDb": -30.87,
+     "peakDb": -14.84,
+     "sec": 20.14
+    }
+   },
+   "mediaSamples": 79,
+   "music": [
+    {
+     "src": "chopin-waltz-a-minor-b150.mp3",
+     "samples": 79,
+     "from": 20.4,
+     "to": 40.4,
+     "meanVolume": 0.4103,
+     "segLufsAtVol1": -19.49,
+     "segLufsHeard": -27.23,
+     "segMMaxHeard": -21.88
+    }
+   ],
+   "musicRouter": {
+    "cue": "unease",
+    "playing": "unease",
+    "holds": [],
+    "ducks": {},
+    "duckDb": 0,
+    "trimDb": -1,
+    "volume": 0.5347505628802474,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch4": {
+  "flow": {
+   "chapter": "ch4-people"
+  },
+  "playing": 4725,
+  "snap0": {
+   "t": 16.1333333333337,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 38.4999999999991,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.040000000000003,
+   "wallSec": 20.04319999998808,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -23.54,
+     "ungated": -23.54,
+     "mMax": -19.61,
+     "rmsDb": -26.17,
+     "peakDb": -9.99,
+     "sec": 19.97
+    },
+    "ambience": {
+     "lufsI": -27.86,
+     "ungated": -27.86,
+     "mMax": -23.46,
+     "rmsDb": -29.64,
+     "peakDb": -13.77,
+     "sec": 19.97
+    },
+    "effects": {
+     "lufsI": -25.1,
+     "ungated": -25.59,
+     "mMax": -21.16,
+     "rmsDb": -28.87,
+     "peakDb": -11.6,
+     "sec": 19.97
+    }
+   },
+   "mediaSamples": 78,
+   "music": [
+    {
+     "src": "chopin-nocturne-e-minor-op72-1.mp3",
+     "samples": 78,
+     "from": 19.5,
+     "to": 39.3,
+     "meanVolume": 0.326,
+     "segLufsAtVol1": -27.36,
+     "segLufsHeard": -37.1,
+     "segMMaxHeard": -31.06
+    }
+   ],
+   "musicRouter": {
+    "cue": "cost",
+    "playing": "cost",
+    "holds": [],
+    "ducks": {
+     "scar": -2.496695914632051,
+     "landmark": -8.529749999977643
+    },
+    "duckDb": -11.026445914609694,
+    "trimDb": -2,
+    "volume": 0.1324959453785827,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch6": {
+  "flow": {
+   "chapter": "ch6-price"
+  },
+  "playing": 4357,
+  "snap0": {
+   "t": 16.183333333333696,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 38.41666666666577,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.061333333333334,
+   "wallSec": 20.065199999988078,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -22.37,
+     "ungated": -22.37,
+     "mMax": -18.39,
+     "rmsDb": -24.71,
+     "peakDb": -9.14,
+     "sec": 20.05
+    },
+    "ambience": {
+     "lufsI": -26.23,
+     "ungated": -26.23,
+     "mMax": -20.42,
+     "rmsDb": -28.01,
+     "peakDb": -11.22,
+     "sec": 20.05
+    },
+    "effects": {
+     "lufsI": -24.36,
+     "ungated": -24.68,
+     "mMax": -20.46,
+     "rmsDb": -27.43,
+     "peakDb": -10.63,
+     "sec": 20.05
+    }
+   },
+   "mediaSamples": 78,
+   "music": [
+    {
+     "src": "chopin-nocturne-e-minor-op72-1.mp3",
+     "samples": 78,
+     "from": 20.2,
+     "to": 40,
+     "meanVolume": 0.2693,
+     "segLufsAtVol1": -27.52,
+     "segLufsHeard": -38.91,
+     "segMMaxHeard": -32.72
+    }
+   ],
+   "musicRouter": {
+    "cue": "cost",
+    "playing": "cost",
+    "holds": [],
+    "ducks": {
+     "scar": -0.5
+    },
+    "duckDb": -0.5,
+    "trimDb": -3,
+    "volume": 0.4010063505411688,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch7": {
+  "flow": {
+   "chapter": "ch7-escape"
+  },
+  "playing": 4183,
+  "snap0": {
+   "t": 16.01666666666704,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 39.09999999999906,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.208000000000002,
+   "wallSec": 20.216199999988078,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -23.68,
+     "ungated": -23.68,
+     "mMax": -20.17,
+     "rmsDb": -26.36,
+     "peakDb": -11.34,
+     "sec": 20.14
+    },
+    "ambience": {
+     "lufsI": -25.71,
+     "ungated": -25.71,
+     "mMax": -21.8,
+     "rmsDb": -27.51,
+     "peakDb": -12.26,
+     "sec": 20.14
+    },
+    "effects": {
+     "lufsI": -26.06,
+     "ungated": -27.95,
+     "mMax": -23.5,
+     "rmsDb": -32.73,
+     "peakDb": -15.11,
+     "sec": 20.14
+    }
+   },
+   "mediaSamples": 79,
+   "music": [
+    {
+     "src": "beethoven-moonlight-adagio.mp3",
+     "samples": 79,
+     "from": 9.2,
+     "to": 29.1,
+     "meanVolume": 0.3687,
+     "segLufsAtVol1": -22.65,
+     "segLufsHeard": -31.32,
+     "segMMaxHeard": -27.51
+    }
+   ],
+   "musicRouter": {
+    "cue": "reckoning",
+    "playing": "reckoning",
+    "holds": [],
+    "ducks": {},
+    "duckDb": 0,
+    "trimDb": -4,
+    "volume": 0.3785744066881159,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch8": {
+  "flow": {
+   "chapter": "ch8-remains"
+  },
+  "playing": 4817,
+  "snap0": {
+   "t": 16.150000000000365,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 37.71666666666581,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.218666666666664,
+   "wallSec": 20.21609999999404,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -23.02,
+     "ungated": -23.02,
+     "mMax": -18.64,
+     "rmsDb": -25.73,
+     "peakDb": -9.33,
+     "sec": 20.14
+    },
+    "ambience": {
+     "lufsI": -25.85,
+     "ungated": -25.85,
+     "mMax": -19.93,
+     "rmsDb": -27.54,
+     "peakDb": -10.9,
+     "sec": 20.14
+    },
+    "effects": {
+     "lufsI": -25.96,
+     "ungated": -26.21,
+     "mMax": -22.59,
+     "rmsDb": -30.29,
+     "peakDb": -14.75,
+     "sec": 20.14
+    }
+   },
+   "mediaSamples": 79,
+   "music": [
+    {
+     "src": "schumann-the-poet-speaks.mp3",
+     "samples": 79,
+     "from": 9.2,
+     "to": 29.2,
+     "meanVolume": 0.3309,
+     "segLufsAtVol1": -24.37,
+     "segLufsHeard": -33.98,
+     "segMMaxHeard": -25.57
+    }
+   ],
+   "musicRouter": {
+    "cue": "remains",
+    "playing": "remains",
+    "holds": [],
+    "ducks": {},
+    "duckDb": 0,
+    "trimDb": -5,
+    "volume": 0.33740479511420945,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ },
+ "ch9": {
+  "flow": {
+   "chapter": "ch9-last-thaw"
+  },
+  "playing": 4439,
+  "snap0": {
+   "t": 16.183333333333696,
+   "phase": "playing"
+  },
+  "snap1": {
+   "t": 37.83333333333247,
+   "phase": "playing"
+  },
+  "cap": {
+   "ctxSec": 20.138666666666666,
+   "wallSec": 20.13769999998808,
+   "sampleRate": 48000,
+   "buses": {
+    "master": {
+     "lufsI": -26.36,
+     "ungated": -26.36,
+     "mMax": -23.29,
+     "rmsDb": -29.31,
+     "peakDb": -13.83,
+     "sec": 20.05
+    },
+    "ambience": {
+     "lufsI": -29.02,
+     "ungated": -29.02,
+     "mMax": -25.32,
+     "rmsDb": -30.82,
+     "peakDb": -15.39,
+     "sec": 20.05
+    },
+    "effects": {
+     "lufsI": -29.78,
+     "ungated": -29.78,
+     "mMax": -27.5,
+     "rmsDb": -34.67,
+     "peakDb": -19.74,
+     "sec": 20.05
+    }
+   },
+   "mediaSamples": 79,
+   "music": [
+    {
+     "src": "schumann-traumerei.mp3",
+     "samples": 79,
+     "from": 9.4,
+     "to": 29.3,
+     "meanVolume": 0.3335,
+     "segLufsAtVol1": -22.64,
+     "segLufsHeard": -32.17,
+     "segMMaxHeard": -26.09
+    }
+   ],
+   "musicRouter": {
+    "cue": "thaw",
+    "playing": "thaw",
+    "holds": [],
+    "ducks": {},
+    "duckDb": 0,
+    "trimDb": -5,
+    "volume": 0.33740479511420945,
+    "muted": false,
+    "hidden": false
+   }
+  }
+ }
+}

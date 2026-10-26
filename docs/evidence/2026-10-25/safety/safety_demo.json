@@ -1,0 +1,349 @@
+{
+  "ranAt": "2026-10-25T07:13:49.210Z",
+  "repoHead": "ba6fa8d",
+  "validator": {
+    "run": "ch4-through-lt-20261021-094235-60dc7c.json",
+    "landmarks": [
+      "vey-house:destroyed",
+      "pell-house:destroyed",
+      "st-brides:intact",
+      "gas-holder:intact",
+      "level-crossing-train:intact",
+      "viaduct:intact",
+      "riverside-dam:destroyed",
+      "harbour-light:intact"
+    ],
+    "homesDestroyed": 7,
+    "cases": [
+      {
+        "label": "approved text, unchanged",
+        "change": "(none)",
+        "passed": true,
+        "checks": 33,
+        "issues": []
+      },
+      {
+        "label": "casualty + people inside",
+        "change": "append \"The Vey family died inside the house.\"",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "casualty",
+            "message": "\"died\": the story never describes deaths, injuries or bodies"
+          },
+          {
+            "code": "people-inside",
+            "message": "\"family died inside\": never say or imply that anyone was inside a structure"
+          }
+        ]
+      },
+      {
+        "label": "invented science and number",
+        "change": "append \"Sea levels have risen 30 centimetres since 1900.\"",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "uncited-science",
+            "message": "\"Sea levels\": real climate science needs an approved fact, cited"
+          },
+          {
+            "code": "number",
+            "message": "\"1900\" is not a number from the run, the history, a cited record or a cited fact"
+          }
+        ]
+      },
+      {
+        "label": "false survival claim",
+        "change": "first sentence becomes \"You broke the Pells' house next door; No. 14 Church Lane still stands.\" (No. 14 was destroyed)",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "spared",
+            "message": "\"still stands\" is said of No. 14 Church Lane, which is destroyed in this run"
+          }
+        ]
+      },
+      {
+        "label": "invented person",
+        "change": "append \"Mayor Edwin Thorne ordered everyone out.\"",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "unknown-name",
+            "message": "\"Mayor\" is not a name in the story bible, the landmarks or the records"
+          },
+          {
+            "code": "unknown-name",
+            "message": "\"Edwin\" is not a name in the story bible, the landmarks or the records"
+          },
+          {
+            "code": "unknown-name",
+            "message": "\"Thorne\" is not a name in the story bible, the landmarks or the records"
+          }
+        ]
+      },
+      {
+        "label": "leaked configuration name",
+        "change": "append \"PORTKEY_API_KEY\"",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "unknown-name",
+            "message": "\"PORTKEY\" is not a name in the story bible, the landmarks or the records"
+          },
+          {
+            "code": "unknown-name",
+            "message": "\"API\" is not a name in the story bible, the landmarks or the records"
+          },
+          {
+            "code": "unknown-name",
+            "message": "\"KEY\" is not a name in the story bible, the landmarks or the records"
+          },
+          {
+            "code": "secret",
+            "message": "the output contains a secret, a key or a configuration name"
+          }
+        ]
+      },
+      {
+        "label": "wrong count",
+        "change": "insert \"Nine houses went.\" (the run broke 7 homes)",
+        "passed": false,
+        "checks": 33,
+        "issues": [
+          {
+            "code": "prose-count",
+            "message": "\"Nine houses\" is not a count of this run or the saved history"
+          }
+        ]
+      }
+    ]
+  },
+  "modelLock": {
+    "transportAttempts": [
+      {
+        "model": "gpt-6-sol",
+        "outcome": "refused",
+        "message": "the course key serves gpt-6-luna only; a request for another model was not sent",
+        "requestsMade": 0
+      },
+      {
+        "model": "gpt-4o",
+        "outcome": "refused",
+        "message": "the course key serves gpt-6-luna only; a request for another model was not sent",
+        "requestsMade": 0
+      },
+      {
+        "model": "gpt-5",
+        "outcome": "refused",
+        "message": "the course key serves gpt-6-luna only; a request for another model was not sent",
+        "requestsMade": 0
+      },
+      {
+        "model": "gpt-6-luna",
+        "outcome": "sent",
+        "requestsMade": 1,
+        "keyOnlyInAuthorizationHeader": true
+      }
+    ],
+    "providerOf": {
+      "gpt-6-luna": "course",
+      "gpt-6-sol": "own-key",
+      "gpt-4o": null,
+      "constructor": null
+    },
+    "modelNameEnvGpt4o": {
+      "defaultModel": "gpt-6-luna",
+      "notes": [
+        "MODEL_NAME is not an offered model (gpt-6-luna, gpt-6-sol); using gpt-6-luna"
+      ]
+    },
+    "routesWithCourseKeyOnly": [
+      {
+        "model": "gpt-6-luna",
+        "ok": true,
+        "provider": "course"
+      },
+      {
+        "model": "gpt-6-sol",
+        "ok": false,
+        "message": "gpt-6-sol is not available: OPENAI_API_KEY not set (gpt-6-sol runs only on your own OpenAI key, billed to you; add it to a .env file in the project folder or a parent folder). Nothing was sent to any model."
+      },
+      {
+        "model": "gpt-4o",
+        "ok": false,
+        "message": "the requested model is not available: not an offered model (this server offers gpt-6-luna, gpt-6-sol). Nothing was sent to any model."
+      },
+      {
+        "model": "constructor",
+        "ok": false,
+        "message": "the requested model is not available: not an offered model (this server offers gpt-6-luna, gpt-6-sol). Nothing was sent to any model."
+      }
+    ]
+  },
+  "spendCap": {
+    "limitUsd": 2,
+    "ceilingPerRequestUsd": 0.0674075,
+    "requestsHeldBeforeRefusal": 29,
+    "inFlightUsd": 1.9548175,
+    "refusal": "today's spending on your own OpenAI key ($1.9548) leaves $0.0452 of OPENAI_DAILY_USD_LIMIT ($2.00), less than a request may cost ($0.0674); it resets at 00:00 UTC",
+    "limitZero": "today's spending on your own OpenAI key ($0.0000) reached OPENAI_DAILY_USD_LIMIT ($0.00); it resets at 00:00 UTC",
+    "limit2000": {
+      "limit": 20,
+      "notes": [
+        "OPENAI_DAILY_USD_LIMIT is above 20.00; capped at 20.00"
+      ]
+    },
+    "limitUnreadable": {
+      "limit": 0,
+      "notes": [
+        "OPENAI_DAILY_USD_LIMIT is not a plain number of dollars (like 2.00), so gpt-6-sol is off until it is fixed"
+      ],
+      "solReason": "OPENAI_DAILY_USD_LIMIT is not a plain number of dollars (like 2.00), so gpt-6-sol is off until it is fixed"
+    },
+    "solWithoutOwnKey": "gpt-6-sol is not available: OPENAI_API_KEY not set (gpt-6-sol runs only on your own OpenAI key, billed to you; add it to a .env file in the project folder or a parent folder). Nothing was sent to any model."
+  },
+  "loops": {
+    "hangingModel": {
+      "timeoutMs": 200,
+      "attemptsSent": 2,
+      "elapsedMs": 514,
+      "errorKind": "transport",
+      "message": "request timed out after 200 ms",
+      "usage": {
+        "requests": 2,
+        "unmeteredRequests": 2
+      }
+    },
+    "neverValidJson": {
+      "maxRounds": 6,
+      "requestsSent": 6,
+      "lastToolChoice": "none",
+      "errorKind": "rounds",
+      "message": "archivist gave no valid answer within 6 rounds"
+    },
+    "endlessToolCalls": {
+      "maxToolCalls": 12,
+      "requestsSent": 6,
+      "toolCallsExecuted": 12,
+      "toolCallsRefusedForBudget": 0,
+      "toolChoicePerRequest": [
+        "auto",
+        "auto",
+        "auto",
+        "none",
+        "none",
+        "none"
+      ],
+      "errorKind": "rounds",
+      "message": "archivist gave no valid answer within 6 rounds"
+    }
+  },
+  "obedientModel": {
+    "toolCalls": [
+      {
+        "agent": "archivist",
+        "tool": "get_archive_fragments",
+        "ok": true
+      },
+      {
+        "agent": "archivist",
+        "tool": "read_file",
+        "ok": false,
+        "error": "unknown tool \"read_file\": you may only call get_level_context, get_run_summary, get_run_events, get_story_history, get_bible_entries, get_archive_fragments, get_approved_climate_fact"
+      },
+      {
+        "agent": "archivist",
+        "tool": "run_shell",
+        "ok": false,
+        "error": "unknown tool \"run_shell\": you may only call get_level_context, get_run_summary, get_run_events, get_story_history, get_bible_entries, get_archive_fragments, get_approved_climate_fact"
+      }
+    ],
+    "result": {
+      "ok": false,
+      "reason": "rejected",
+      "message": "the draft contained a secret or configuration value and was withheld",
+      "fallback": true
+    },
+    "historianEverCalled": false,
+    "keyInAnyRequest": false,
+    "canaryInAnyRequest": false,
+    "keyInSavedTrace": false,
+    "keyInResponseToBrowser": false
+  },
+  "why30": {
+    "allowedHas30": true,
+    "allowedSample": [
+      "97.9",
+      "98",
+      "97",
+      "1.632",
+      "2",
+      "1",
+      "1.6",
+      "1571",
+      "1570",
+      "1600",
+      "24.5",
+      "25",
+      "24",
+      "88.2",
+      "88",
+      "89",
+      "100",
+      "29.5",
+      "30",
+      "29",
+      "0",
+      "4",
+      "10",
+      "7",
+      "2650",
+      "8",
+      "3",
+      "5",
+      "10.1",
+      "11",
+      "265",
+      "2915",
+      "9",
+      "14",
+      "2020",
+      "6",
+      "2017",
+      "2038",
+      "2009",
+      "2016",
+      "2039",
+      "1890",
+      "1936",
+      "1952",
+      "1958",
+      "1971",
+      "1979",
+      "1987",
+      "1994",
+      "1998",
+      "2006",
+      "2011",
+      "2014",
+      "2019",
+      "2021",
+      "2024",
+      "2027",
+      "2028",
+      "2029",
+      "2031"
+    ],
+    "historyHits": [],
+    "citedFragmentHits": [],
+    "evidenceHits": [
+      "2.5,\"d\":1.4,\"type\":\"enteredOcean\"}],\"route\":[{\"s\":30.1,\"d\":0},{\"s\":46.8,"
+    ]
+  }
+}

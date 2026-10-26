@@ -1,0 +1,15 @@
+Rate-limit probe, 2026-10-25T07:32:30.699Z: 14 POSTs with an invalid body in one burst
+  POST  1: HTTP 400
+  POST  2: HTTP 400
+  POST  3: HTTP 400
+  POST  4: HTTP 400
+  POST  5: HTTP 400
+  POST  6: HTTP 400
+  POST  7: HTTP 400
+  POST  8: HTTP 400
+  POST  9: HTTP 400
+  POST 10: HTTP 400
+  POST 11: HTTP 400
+  POST 12: HTTP 400
+  POST 13: HTTP 429 (Retry-After 60 s)
+  POST 14: HTTP 429 (Retry-After 60 s)

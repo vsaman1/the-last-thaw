@@ -1,0 +1,23 @@
+drive: {"why":"complete","frames":648,"wallSec":10.93740000000596,"phase":"complete","time":32.48333333333277}
+panel +1 s: {"motif":{"startsAt":23.536,"endsAt":37.4451},"router":{"cue":"wonder","playing":null,"holds":["reveal"],"ducks":{"reading":-2.706000000000003},"duckDb":-2.706,"volume":0.4423,"muted":false,"hidden":false},"ctxTime":20.6587}
+replay +1 s {"phase":"intro","attempt":2,"live":[4],"motifBusPeak":-999,"master":-18,"motif":null,"ctxTime":21.6613,"holds":[],"playing":"wonder","musicDuckDb":-1.9214,"buses":{"master":1,"music":0.6,"ambience":0.5936,"effects":0.5114,"gate":1}}
+replay +2 s {"phase":"intro","attempt":2,"live":[4],"motifBusPeak":-999,"master":-22.7,"motif":null,"ctxTime":22.592,"holds":[],"playing":"wonder","musicDuckDb":-1.0472,"buses":{"master":1,"music":0.6,"ambience":0.6784,"effects":0.6248,"gate":1}}
+replay +3 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-25.8,"motif":null,"ctxTime":23.512,"holds":[],"playing":"wonder","musicDuckDb":-0.1847,"buses":{"master":1,"music":0.6,"ambience":0.7749,"effects":0.7627,"gate":1}}
+replay +4 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-23.1,"motif":null,"ctxTime":24.5653,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +5 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-21.6,"motif":null,"ctxTime":25.6107,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +6 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-21.5,"motif":null,"ctxTime":26.6613,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +7 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-18.8,"motif":null,"ctxTime":27.712,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +8 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-17.2,"motif":null,"ctxTime":28.7413,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +9 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-17.4,"motif":null,"ctxTime":29.7867,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +10 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-16.3,"motif":null,"ctxTime":30.8213,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +11 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-16.3,"motif":null,"ctxTime":31.8667,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +12 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-16.9,"motif":null,"ctxTime":32.9093,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +13 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-15.9,"motif":null,"ctxTime":33.9413,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +14 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-16.4,"motif":null,"ctxTime":34.9707,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +15 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-15.7,"motif":null,"ctxTime":36.04,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+replay +16 s {"phase":"playing","attempt":2,"live":[4],"motifBusPeak":-999,"master":-14.2,"motif":null,"ctxTime":37.0907,"holds":[],"playing":"wonder","musicDuckDb":0,"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1}}
+--- console (4 lines, last 30) ---
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

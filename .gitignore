@@ -1,0 +1,43 @@
+# dependencies and build output
+node_modules
+dist/
+coverage/
+
+# logs (the browser-session driver logs are evidence, named in AGENT_RUNS.md, not noise)
+*.log
+!docs/evidence/**/*.log
+# agent service logs and traces (selected traces are copied to docs/evidence/)
+logs/
+
+# secrets: never commit a real .env (only the empty template)
+.env*
+!.env.example
+
+# local caches
+.vite/
+.vitest/
+.cache/
+*.tsbuildinfo
+.eslintcache
+
+# recordings: the demo video goes to Canvas, not into the repository
+*.mp4
+*.mov
+*.webm
+*.mkv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local tooling
+.claude/settings.local.json
+# Agent worktrees (Claude Code)
+.claude/worktrees/
+
+# local recovery notes (contain machine paths)
+RESUME_NOTES.md
+
+# demo video renders (large binaries; uploaded to Canvas, never committed)
+deliverables/*.mp4

@@ -1,0 +1,1589 @@
+{
+  "runId": "lt-20261021-185816-dd515b",
+  "mode": "reflection",
+  "chapterId": "ch6-price",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T18:58:16.377Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 4450,
+    "destroyedByCategory": {
+      "energy": 3,
+      "extraction": 3,
+      "industry": 2
+    },
+    "landmarks": [
+      {
+        "id": "calder-cottages",
+        "status": "intact",
+        "closest": 47.2
+      },
+      {
+        "id": "coop-turbine",
+        "status": "destroyed",
+        "closest": 2.5
+      },
+      {
+        "id": "coal-train",
+        "status": "damaged",
+        "closest": 5
+      },
+      {
+        "id": "north-tower",
+        "status": "destroyed",
+        "closest": 14
+      },
+      {
+        "id": "turbine-hall",
+        "status": "intact",
+        "closest": 85.2
+      },
+      {
+        "id": "tank-farm",
+        "status": "intact",
+        "closest": 199
+      },
+      {
+        "id": "calder-dam",
+        "status": "intact",
+        "closest": 73.9
+      },
+      {
+        "id": "highway-bridge",
+        "status": "intact",
+        "closest": 31.4
+      },
+      {
+        "id": "bench-wells",
+        "status": "intact",
+        "closest": 111.3
+      },
+      {
+        "id": "works-pipeline",
+        "status": "destroyed",
+        "closest": 0.9
+      },
+      {
+        "id": "calder-house",
+        "status": "intact",
+        "closest": 60
+      },
+      {
+        "id": "calder-rig-four",
+        "status": "intact",
+        "closest": 39.9
+      }
+    ],
+    "notableEvents": 17
+  },
+  "historyChapters": [
+    "ch1-beginning",
+    "ch2-measurements",
+    "ch3-warning",
+    "ch4-people",
+    "ch5-denial"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 2967,
+      "summary": "round 1: 2824 in (2791 cached), 90 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2824,
+          "input_tokens_details": {
+            "cache_write_tokens": 30,
+            "cached_tokens": 2791
+          },
+          "output_tokens": 90,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2914
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2968,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.5,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2969,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-tank-inspection\",\"chapterId\":\"ch6-price\",\"kind\":\"report\",\"title\":\"Tank farm, inspection\",\"date\":\"2038\",\"author\":\"Calder Energy\",\"body\":\"Bund intact, raised one metre in 2028. Tanks 1 to 6 sound. Inspector's comment: adequate for the floods we have had. [Beneath, in Ines Moreno's hand: That is what adequate means. It is a word about the past. Copy to the Board, again.]\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\",\"kind\":\"record\",\"title\":\"Calder Energy, risk register, line 44\",\"date\":\"2031\",\"author\":\"Calder Energy\",\"body\":\"Risk: flood at Power …"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2970,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch6-price\",\"index\":6,\"title\":\"The Price\",\"act\":2,\"actTitle\":\"The Cost\",\"introLines\":[\"Power Valley made the electricity for the whole coast, and the jobs, and the smoke.\",\"On the day it mattered most, it also made the trains run.\"]},\"level\":{\"name\":\"Power Valley\",\"subtitle\":\"A 220-tonne iceberg loose in an industrial mountain valley: find your way through the plant.\",\"structures\":[{\"kind\":\"truck\",\"count\":18},{\"kind\":\"car\",\"count\":17},{\"kind\":\"railWagon\",\"count\":13},{\"kind\":\"pylon\",\"count\":9},{\"kind\":\"windTurbine\",\"count\":9},{\"kind\":\"factoryHall\",\"count\":7}…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2971,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2972,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 4628,
+      "summary": "round 2: 5833 in (2821 cached), 19 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5833,
+          "input_tokens_details": {
+            "cache_write_tokens": 3009,
+            "cached_tokens": 2821
+          },
+          "output_tokens": 19,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5852
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 4629,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 15
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":17,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":21.9,\"type\":\"landed\",\"value\":7.6},{\"t\":30.2,\"type\":\"waterfall\",\"value\":0},{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800},{\"t\":41,\"type\":\"chipped\",\"value\":0},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"ty…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 18081,
+      "summary": "round 3: 6224 in (5830 cached), 1290 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6224,
+          "input_tokens_details": {
+            "cache_write_tokens": 391,
+            "cached_tokens": 5830
+          },
+          "output_tokens": 1290,
+          "output_tokens_details": {
+            "reasoning_tokens": 1034
+          },
+          "total_tokens": 7514
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 18082,
+      "summary": "draft 1: \"The Co-op Clipping\"",
+      "data": {
+        "title": "The Co-op Clipping",
+        "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines belonged to 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, upstream spillways not company policy. The Board accepted the remaining risk. I keep the clipping beside that entry. A household bought a share; a Board accepted what the company would not pay toward. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+        "fragmentIds": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 21296,
+      "summary": "round 1: 2759 in (2476 cached), 214 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2759,
+          "input_tokens_details": {
+            "cache_write_tokens": 280,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 214,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2973
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21302,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "landmark",
+              "landmarkId": "coop-turbine",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "works-pipeline",
+              "status": "destroyed"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-coop-courier"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-risk-register"
+            },
+            {
+              "type": "outcome",
+              "value": "complete"
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21322,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21322,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.5,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21323,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":17,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150},{\"t\":21.9,\"type\":\"landed\",\"value\":7.6},{\"t\":30.2,\"type\":\"waterfall\",\"value\":0},{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800},{\"t\":41,\"type\":\"chipped\",\"value\":0},{\"t\":41,\"type\":\"broke\",\"kind\":\"coolingTower\",\"category\":\"energy\",\"landmarkId\":\"north-tower\",\"landmark\":\"The north cooling tower\",\"value\":700},{\"t\":45,\"ty…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21323,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-risk-register"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21323,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21324,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 36122,
+      "summary": "round 2: 5194 in (2756 cached), 1315 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5194,
+          "input_tokens_details": {
+            "cache_write_tokens": 2435,
+            "cached_tokens": 2756
+          },
+          "output_tokens": 1315,
+          "output_tokens_details": {
+            "reasoning_tokens": 1219
+          },
+          "total_tokens": 6509
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 36140,
+      "summary": "review 1: revise (2 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "In “relocation deferred, upstream spillways not company policy,” the register says co-funding upstream spillways was not company policy; specify the co-funding rather than the spillways themselves.",
+          "“A household bought a share” asserts a purchase the clipping does not record; it supports that 640 households owned the turbines and that a share cost about the price of a bicycle."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 36140,
+      "summary": "validation 1: passed (22 checks)",
+      "data": {
+        "passed": true,
+        "checked": 22,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 39693,
+      "summary": "round 1: 3213 in (2821 cached), 166 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3213,
+          "input_tokens_details": {
+            "cache_write_tokens": 389,
+            "cached_tokens": 2821
+          },
+          "output_tokens": 166,
+          "output_tokens_details": {
+            "reasoning_tokens": 132
+          },
+          "total_tokens": 3379
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 39694,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-risk-register"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "error",
+      "at": 84716,
+      "summary": "round 2: request timed out after 45000 ms; sending it once more"
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 94588,
+      "summary": "round 2: 3654 in (0 cached), 853 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3654,
+          "input_tokens_details": {
+            "cache_write_tokens": 3651,
+            "cached_tokens": 0
+          },
+          "output_tokens": 853,
+          "output_tokens_details": {
+            "reasoning_tokens": 592
+          },
+          "total_tokens": 4507
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 94588,
+      "summary": "draft 2: \"The Co-op Clipping\"",
+      "data": {
+        "title": "The Co-op Clipping",
+        "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines; the Board accepted what the company would not co-fund. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+        "fragmentIds": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 98082,
+      "summary": "round 1: 2862 in (2476 cached), 230 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2862,
+          "input_tokens_details": {
+            "cache_write_tokens": 383,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 230,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3092
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98085,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "landmark",
+              "landmarkId": "coop-turbine",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "works-pipeline",
+              "status": "destroyed"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-coop-courier"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-risk-register"
+            },
+            {
+              "type": "outcome",
+              "value": "complete"
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.5,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "coop-turbine",
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "works-pipeline",
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-risk-register"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 98098,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 108478,
+      "summary": "round 2: 4800 in (2859 cached), 1002 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4800,
+          "input_tokens_details": {
+            "cache_write_tokens": 1938,
+            "cached_tokens": 2859
+          },
+          "output_tokens": 1002,
+          "output_tokens_details": {
+            "reasoning_tokens": 933
+          },
+          "total_tokens": 5802
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 108488,
+      "summary": "review 2: revise (1 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "In “the Board accepted what the company would not co-fund,” the register says the Board accepted the residual risk and that co-funding upstream spillways was not company policy; it does not say the Board accepted the unfunded spillways."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 108488,
+      "summary": "validation 2: passed (22 checks)",
+      "data": {
+        "passed": true,
+        "checked": 22,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 111553,
+      "summary": "round 1: 3190 in (2821 cached), 157 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3190,
+          "input_tokens_details": {
+            "cache_write_tokens": 366,
+            "cached_tokens": 2821
+          },
+          "output_tokens": 157,
+          "output_tokens_details": {
+            "reasoning_tokens": 123
+          },
+          "total_tokens": 3347
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 111554,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-risk-register"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 118436,
+      "summary": "round 2: 3622 in (3187 cached), 744 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3622,
+          "input_tokens_details": {
+            "cache_write_tokens": 432,
+            "cached_tokens": 3187
+          },
+          "output_tokens": 744,
+          "output_tokens_details": {
+            "reasoning_tokens": 477
+          },
+          "total_tokens": 4366
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 118437,
+      "summary": "draft 3: \"The Co-op Clipping\"",
+      "data": {
+        "title": "The Co-op Clipping",
+        "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines. The Board accepted the residual risk; co-funding upstream spillways was not company policy. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+        "fragmentIds": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 121540,
+      "summary": "round 1: 2841 in (2476 cached), 213 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2841,
+          "input_tokens_details": {
+            "cache_write_tokens": 362,
+            "cached_tokens": 2476
+          },
+          "output_tokens": 213,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3054
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121543,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "landmark",
+              "landmarkId": "coop-turbine",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "works-pipeline",
+              "status": "destroyed"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-coop-courier"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch6-risk-register"
+            },
+            {
+              "type": "outcome",
+              "value": "complete"
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":16,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121559,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121559,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":113.5,\"distanceM\":1920,\"topSpeedMs\":28.8,\"startMassT\":220,\"peakMassT\":220,\"endMassT\":57.4,\"growth\":1,\"iceLeftPct\":26,\"waterfallsCrossed\":4,\"collisions\":15,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":8,\"storyPoints\":4450,\"destroyedByCategory\":{\"energy\":3,\"extraction\":3,\"industry\":2},\"destroyedByKind\":{\"windTurbine\":1,\"pipeline\":1,\"coolingTower\":2,\"factoryHall\":2,\"tank\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121559,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "coop-turbine",
+          "limit": 10
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":20,\"type\":\"broke\",\"kind\":\"windTurbine\",\"category\":\"energy\",\"landmarkId\":\"coop-turbine\",\"landmark\":\"The co-op turbine on the hill\",\"value\":150}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121560,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "works-pipeline",
+          "limit": 10
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":39.7,\"type\":\"broke\",\"kind\":\"pipeline\",\"category\":\"extraction\",\"landmarkId\":\"works-pipeline\",\"landmark\":\"The works gas main\",\"value\":800}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 121560,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch6-coop-courier",
+            "ch6-risk-register"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch6-coop-courier\",\"chapterId\":\"ch6-price\",\"kind\":\"newspaper\",\"title\":\"Valley co-op switches on its turbines\",\"date\":\"May 2032\",\"author\":\"Riverside Courier\",\"body\":\"Three wind turbines owned by 640 households in Power Valley and Riverside began turning yesterday on the hill above the Calder cottages. A share cost about the price of a bicycle. \\\"It will not run the plant,\\\" said one shareholder, a schoolteacher from Riverside, \\\"but it is ours, and it is a start, and I am sick of waiting for the start.\\\"\"},{\"id\":\"ch6-risk-register\",\"chapterId\":\"ch6-price\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 127067,
+      "summary": "round 2: 4397 in (2838 cached), 296 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4397,
+          "input_tokens_details": {
+            "cache_write_tokens": 1556,
+            "cached_tokens": 2838
+          },
+          "output_tokens": 296,
+          "output_tokens_details": {
+            "reasoning_tokens": 278
+          },
+          "total_tokens": 4693
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 127086,
+      "summary": "review 3: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 127086,
+      "summary": "validation 3: passed (22 checks)",
+      "data": {
+        "passed": true,
+        "checked": 22,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 127086,
+      "summary": "corrected after 3 review(s)",
+      "data": {
+        "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines. The Board accepted the residual risk; co-funding upstream spillways was not company policy. The clipping is thin newsprint, but the bicycle still fits in the margin."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 15
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 6
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 20
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 3
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 13
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "coop-turbine",
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "works-pipeline",
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "coop-turbine",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "works-pipeline",
+            "status": "destroyed"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-coop-courier"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch6-risk-register"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 3
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 16
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "coop-turbine",
+        "limit": 10
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "works-pipeline",
+        "limit": 10
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch6-coop-courier",
+          "ch6-risk-register"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    }
+  ],
+  "drafts": [
+    {
+      "title": "The Co-op Clipping",
+      "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines belonged to 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, upstream spillways not company policy. The Board accepted the remaining risk. I keep the clipping beside that entry. A household bought a share; a Board accepted what the company would not pay toward. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+      "fragmentIds": [
+        "ch6-coop-courier",
+        "ch6-risk-register"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "coop-turbine",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "works-pipeline",
+          "status": "destroyed"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-coop-courier"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-risk-register"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "title": "The Co-op Clipping",
+      "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines; the Board accepted what the company would not co-fund. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+      "fragmentIds": [
+        "ch6-coop-courier",
+        "ch6-risk-register"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "coop-turbine",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "works-pipeline",
+          "status": "destroyed"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-coop-courier"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-risk-register"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "title": "The Co-op Clipping",
+      "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines. The Board accepted the residual risk; co-funding upstream spillways was not company policy. The clipping is thin newsprint, but the bicycle still fits in the margin.",
+      "fragmentIds": [
+        "ch6-coop-courier",
+        "ch6-risk-register"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "coop-turbine",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "works-pipeline",
+          "status": "destroyed"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-coop-courier"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch6-risk-register"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "In “relocation deferred, upstream spillways not company policy,” the register says co-funding upstream spillways was not company policy; specify the co-funding rather than the spillways themselves.",
+        "“A household bought a share” asserts a purchase the clipping does not record; it supports that 640 households owned the turbines and that a share cost about the price of a bicycle."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "revise",
+      "issues": [
+        "In “the Board accepted what the company would not co-fund,” the register says the Board accepted the residual risk and that co-funding upstream spillways was not company policy; it does not say the Board accepted the unfunded spillways."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-21T18:58:34.459Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 14881,
+      "cachedInputTokens": 11442,
+      "outputTokens": 1399,
+      "reasoningTokens": 1034,
+      "requests": 3,
+      "toolCalls": 6,
+      "durationMs": 18082,
+      "costUsd": 0.00124357,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T18:58:52.499Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 7953,
+      "cachedInputTokens": 5232,
+      "outputTokens": 1529,
+      "reasoningTokens": 1219,
+      "requests": 2,
+      "toolCalls": 7,
+      "durationMs": 18040,
+      "costUsd": 0.0011568,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T18:59:50.965Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 6867,
+      "cachedInputTokens": 2821,
+      "outputTokens": 1019,
+      "reasoningTokens": 724,
+      "requests": 3,
+      "toolCalls": 1,
+      "durationMs": 58448,
+      "costUsd": 0.00104331,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:00:04.855Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 7662,
+      "cachedInputTokens": 5335,
+      "outputTokens": 1232,
+      "reasoningTokens": 933,
+      "requests": 2,
+      "toolCalls": 7,
+      "durationMs": 13889,
+      "costUsd": 0.00096008,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:00:14.814Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 6812,
+      "cachedInputTokens": 6008,
+      "outputTokens": 901,
+      "reasoningTokens": 600,
+      "requests": 2,
+      "toolCalls": 1,
+      "durationMs": 9949,
+      "costUsd": 0.00061093,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T19:00:23.444Z",
+      "runId": "lt-20261021-185816-dd515b",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 7238,
+      "cachedInputTokens": 5314,
+      "outputTokens": 509,
+      "reasoningTokens": 278,
+      "requests": 2,
+      "toolCalls": 6,
+      "durationMs": 8630,
+      "costUsd": 0.00054799,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 3,
+      "issues": [
+        "In “relocation deferred, upstream spillways not company policy,” the register says co-funding upstream spillways was not company policy; specify the co-funding rather than the spillways themselves.",
+        "“A household bought a share” asserts a purchase the clipping does not record; it supports that 640 households owned the turbines and that a share cost about the price of a bicycle.",
+        "In “the Board accepted what the company would not co-fund,” the register says the Board accepted the residual risk and that co-funding upstream spillways was not company policy; it does not say the Board accepted the unfunded spillways."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 22
+    },
+    "text": "First, the co-op turbine on the hill broke; later, the works gas main did. The courier clipping says three turbines were owned by 640 households, and a share cost about the price of a bicycle. One Riverside schoolteacher called it a start, and said he was sick of waiting for one. Calder Energy’s risk register has its own small arithmetic: flood likelihood low, impact severe; relocation deferred, co-funding upstream spillways not company policy. The Board accepted the residual risk. I keep the clipping beside that entry. The households owned the turbines. The Board accepted the residual risk; co-funding upstream spillways was not company policy. The clipping is thin newsprint, but the bicycle still fits in the margin."
+  }
+}

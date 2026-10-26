@@ -1,0 +1,687 @@
+/*
+ * THE LAST THAW — pilot-study styles. Deliberately the Arcade shell (styles.css tokens, .sub panel,
+ * .btn, .confirm), not the muted Story palette: the surveys sit outside the narrative and should feel
+ * like an instrument, not a chapter. Only existing --c-* tokens are used, so contrast.test.ts already
+ * covers every text/background pair here (WCAG AA). Hairline rules instead of boxes, tabular numerals
+ * for every figure and code, 200 ms state changes, and every selected option is marked with a tick
+ * as well as colour.
+ */
+
+.pilot {
+  --pilot-measure: 68ch;
+  --pilot-hit: 44px;
+}
+
+.pilot a {
+  color: var(--c-accent);
+  text-underline-offset: 3px;
+}
+
+.pilot a:hover {
+  color: var(--c-ice);
+}
+
+/* ---------------------------------------------------------------- sections */
+
+.pilot-section {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--c-rule);
+}
+
+.pilot-section--first {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.pilot-section__title {
+  margin: 0 0 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: clamp(1.375rem, 2.4vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.pilot-section__n {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--c-accent);
+}
+
+.pilot-section__lede {
+  margin: 0 0 8px;
+  max-width: var(--pilot-measure);
+  color: var(--c-ink-muted);
+}
+
+.pilot-note {
+  margin: 12px 0 0;
+  max-width: var(--pilot-measure);
+  font-size: 0.9375rem;
+  color: var(--c-ink-muted);
+}
+
+/* ---------------------------------------------------------------- hub */
+
+.pilot-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 520px;
+  margin-top: 16px;
+}
+
+.pilot-continue {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pilot-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pilot-field__label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+
+.pilot-select,
+.pilot-textarea {
+  width: 100%;
+  min-height: var(--pilot-hit);
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 2px;
+  background: var(--c-bg-deep);
+  color: var(--c-ink);
+  box-shadow: inset 0 0 0 1px var(--c-rule-strong);
+  transition: box-shadow var(--dur) var(--ease);
+}
+
+.pilot-select:hover,
+.pilot-textarea:hover {
+  box-shadow: inset 0 0 0 1px var(--c-accent);
+}
+
+.pilot-research {
+  margin-top: 48px;
+  border-top: 1px solid var(--c-rule);
+}
+
+.pilot-research > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--pilot-hit);
+  padding: 12px 0;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-ink-muted);
+}
+
+.pilot-research > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pilot-research > summary::before {
+  content: '+';
+  width: 1ch;
+  color: var(--c-accent);
+}
+
+.pilot-research[open] > summary::before {
+  content: '−';
+}
+
+.pilot-research > summary:hover {
+  color: var(--c-ink);
+}
+
+.pilot-research__body,
+.pilot-research__gate {
+  padding-bottom: 8px;
+}
+
+/* The tools take focus only as a reading start point once shown (like a heading); not a control. */
+.pilot-research__body:focus-visible {
+  outline: none;
+}
+
+.pilot-research__gate .pilot-note {
+  margin-top: 4px;
+}
+
+.pilot-stats {
+  margin: 20px 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--c-rule);
+  border-bottom: 1px solid var(--c-rule);
+}
+
+.pilot-stats > div {
+  padding: 12px 16px 12px 0;
+}
+
+.pilot-stats > div + div {
+  padding-left: 16px;
+  border-left: 1px solid var(--c-rule);
+}
+
+.pilot-stats dt {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--c-ink-muted);
+}
+
+.pilot-stats dd {
+  margin: 4px 0 0;
+  font-size: 1.75rem;
+  line-height: 1.1;
+}
+
+.pilot-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pilot-actions .btn {
+  width: auto;
+}
+
+.pilot-table-wrap {
+  margin-top: 24px;
+  overflow-x: auto;
+}
+
+.pilot-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.pilot-table caption {
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 0.875rem;
+  color: var(--c-ink-muted);
+}
+
+.pilot-table th,
+.pilot-table td {
+  padding: 8px 12px 8px 0;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--c-rule);
+}
+
+.pilot-table thead th {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--c-ink-muted);
+}
+
+.pilot-table tbody th {
+  font-weight: 600;
+  color: var(--c-accent);
+}
+
+.pilot-link-btn {
+  min-height: 32px;
+  padding: 4px 6px;
+  border: 0;
+  background: transparent;
+  color: var(--c-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.pilot-link-btn:hover:not(:disabled) {
+  color: var(--c-warn);
+}
+
+.pilot-link-btn:disabled {
+  color: var(--c-disabled-ink);
+  text-decoration: none;
+  cursor: default;
+}
+
+/* ---------------------------------------------------------------- consent */
+
+.pilot-prose {
+  max-width: var(--pilot-measure);
+  line-height: 1.6;
+}
+
+.pilot-prose h2 {
+  margin: 24px 0 4px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+
+.pilot-prose h2:first-child {
+  margin-top: 0;
+}
+
+.pilot-prose p {
+  margin: 0;
+}
+
+.pilot-consent {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--c-rule);
+}
+
+.pilot-consent__group {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pilot-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: var(--pilot-hit);
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.pilot-check input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+  accent-color: var(--c-btn);
+  cursor: pointer;
+}
+
+.pilot-consent .sub__actions {
+  margin-top: 16px;
+}
+
+/* ---------------------------------------------------------------- code ribbon */
+
+.pilot-code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--c-accent);
+  white-space: nowrap;
+}
+
+.pilot-ribbon {
+  margin: 0 0 8px;
+  padding: 10px 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  border-left: 3px solid var(--c-accent);
+  background: rgba(95, 243, 255, 0.06);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--c-ink-muted);
+}
+
+.pilot-ribbon .pilot-code {
+  font-size: 1rem;
+}
+
+.pilot-ribbon__hint {
+  flex-basis: 100%;
+  font-family: var(--font-body);
+  letter-spacing: 0;
+  font-size: 0.875rem;
+}
+
+/* ---------------------------------------------------------------- questions */
+
+.pilot-form .pilot-section:first-child {
+  margin-top: 24px;
+}
+
+.pilot-q {
+  margin: 0;
+  padding: 20px 0;
+  min-width: 0;
+  border: 0;
+  border-bottom: 1px solid var(--c-rule);
+}
+
+.pilot-q__text {
+  display: flex;
+  gap: 10px;
+  max-width: var(--pilot-measure);
+  margin-bottom: 12px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.45;
+}
+
+/* A floated legend is laid out like any block inside its fieldset, instead of straddling the top
+   border: the question's padding then sits above the text, and its margin below it. */
+.pilot-q > legend.pilot-q__text {
+  float: left;
+  width: 100%;
+}
+
+.pilot-q > legend + * {
+  clear: both;
+}
+
+.pilot-q__n {
+  flex: none;
+  min-width: 2.2ch;
+  font-weight: 600;
+  color: var(--c-accent);
+}
+
+.pilot-likert {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.pilot-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: var(--pilot-measure);
+}
+
+.pilot-opt {
+  position: relative;
+  display: flex;
+  min-height: var(--pilot-hit);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px var(--c-rule-strong);
+  cursor: pointer;
+  transition:
+    background-color var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease);
+}
+
+/* The real radio covers the whole option: native keyboard, form and screen-reader behaviour. */
+.pilot-opt input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.pilot-opt:hover {
+  background: rgba(95, 243, 255, 0.08);
+}
+
+.pilot-opt:has(input:focus-visible) {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+  z-index: 1;
+}
+
+.pilot-opt.is-on {
+  background: var(--c-btn);
+  box-shadow:
+    inset 0 0 0 1px var(--c-btn-edge),
+    inset 0 -3px 0 rgba(3, 15, 38, 0.35);
+}
+
+.pilot-opt__label {
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
+
+.pilot-opt--likert {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  padding: 10px 6px;
+  text-align: center;
+}
+
+.pilot-opt--likert .pilot-opt__n {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--c-accent);
+}
+
+.pilot-opt--likert .pilot-opt__label {
+  font-size: 0.8125rem;
+}
+
+.pilot-opt--likert.is-on .pilot-opt__n {
+  color: var(--c-ink);
+}
+
+.pilot-opt--likert.is-on .pilot-opt__n::before {
+  content: '✓ ';
+}
+
+.pilot-opt--row {
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+}
+
+.pilot-opt__mark {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px var(--c-ink-muted);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pilot-opt.is-on .pilot-opt__mark {
+  background: var(--c-ink);
+  box-shadow: none;
+  color: var(--c-bg);
+}
+
+.pilot-opt.is-on .pilot-opt__mark::before {
+  content: '✓';
+}
+
+.pilot-q--open .pilot-q__text {
+  margin-bottom: 10px;
+}
+
+.pilot-textarea {
+  display: block;
+  min-height: 112px;
+  max-width: var(--pilot-measure);
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.pilot-q__hint {
+  margin: 6px 0 0;
+  max-width: var(--pilot-measure);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.8125rem;
+  color: var(--c-ink-muted);
+}
+
+/* ---------------------------------------------------------------- submit */
+
+.pilot-submit {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--c-rule-strong);
+}
+
+.pilot-progress {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--c-ink-muted);
+}
+
+.pilot-submit .pilot-submit__actions {
+  margin-top: 12px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.pilot-error {
+  margin: 0 0 16px;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.pilot-error .icon {
+  color: var(--c-warn);
+  margin-top: 2px;
+}
+
+/* ---------------------------------------------------------------- answer key (debrief) */
+
+.pilot-key {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: pilot-key;
+}
+
+.pilot-key__item {
+  counter-increment: pilot-key;
+  position: relative;
+  padding: 16px 0 16px 3.2ch;
+  border-bottom: 1px solid var(--c-rule);
+  max-width: var(--pilot-measure);
+}
+
+.pilot-key__item::before {
+  content: counter(pilot-key, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 18px;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--c-accent);
+}
+
+.pilot-key__q {
+  margin: 0;
+  color: var(--c-ink-muted);
+}
+
+.pilot-key__a {
+  margin: 6px 0 0;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+.pilot-key__a .icon {
+  margin-top: 3px;
+  color: var(--c-ice);
+}
+
+.pilot-key__src {
+  margin: 6px 0 0;
+  font-size: 0.8125rem;
+  color: var(--c-ink-muted);
+}
+
+/* ---------------------------------------------------------------- small screens */
+
+@media (max-width: 640px) {
+  /* Five side-by-side anchors become a list: each label stays whole and readable at 390px. */
+  .pilot-likert {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pilot-opt--likert {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    text-align: left;
+  }
+
+  .pilot-opt--likert .pilot-opt__n {
+    min-width: 2.5ch;
+  }
+
+  .pilot-opt--likert .pilot-opt__label {
+    font-size: 0.9375rem;
+  }
+
+  .pilot-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pilot-stats > div:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .pilot-stats > div:nth-child(n + 3) {
+    border-top: 1px solid var(--c-rule);
+  }
+
+  .pilot-actions .btn {
+    flex: 1 1 auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pilot-opt,
+  .pilot-select,
+  .pilot-textarea {
+    transition: none;
+  }
+}

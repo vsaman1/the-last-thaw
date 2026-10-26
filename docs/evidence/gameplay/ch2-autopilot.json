@@ -1,0 +1,293 @@
+{
+ "case": "ch2-autopilot",
+ "plan": {
+  "kind": "autopilot"
+ },
+ "seconds": 3.539,
+ "evidence": {
+  "version": 1,
+  "chapterId": "ch2-measurements",
+  "levelId": "rocky-canyon",
+  "outcome": "complete",
+  "time": 44.6,
+  "distance": 925,
+  "topSpeed": 31.3,
+  "startMass": 30,
+  "endMass": 8.7,
+  "peakMass": 30,
+  "absorbed": 0,
+  "iceLeft": 0.291,
+  "waterfallsCrossed": 3,
+  "collisions": 3,
+  "treesFelled": 0,
+  "knockedDown": 2,
+  "buildingsDestroyed": 1,
+  "storyPoints": 265,
+  "destroyedByCategory": {
+   "home": 1,
+   "industry": 1
+  },
+  "destroyedByKind": {
+   "house": 1,
+   "logPile": 1
+  },
+  "landmarks": [
+   {
+    "id": "gauging-bridge",
+    "status": "intact",
+    "closest": 0.8
+   },
+   {
+    "id": "long-bridge",
+    "status": "intact",
+    "closest": 0.7
+   },
+   {
+    "id": "lind-cabin",
+    "status": "destroyed",
+    "closest": 3.7
+   },
+   {
+    "id": "trading-post",
+    "status": "intact",
+    "closest": 26.8
+   },
+   {
+    "id": "canyon-tower",
+    "status": "intact",
+    "closest": 13.2
+   },
+   {
+    "id": "canyon-boat",
+    "status": "intact",
+    "closest": 18.1
+   }
+  ],
+  "notable": [
+   {
+    "t": 12.6,
+    "s": 201.5,
+    "d": -15.8,
+    "type": "waterfall",
+    "value": 0
+   },
+   {
+    "t": 24.8,
+    "s": 455.4,
+    "d": -11,
+    "type": "landed",
+    "value": 19
+   },
+   {
+    "t": 27.9,
+    "s": 527,
+    "d": 0.3,
+    "type": "waterfall",
+    "value": 1
+   },
+   {
+    "t": 33.5,
+    "s": 697.1,
+    "d": 9,
+    "type": "chipped",
+    "value": 0.047
+   },
+   {
+    "t": 33.5,
+    "s": 700,
+    "d": 11,
+    "type": "broke",
+    "kind": "house",
+    "category": "home",
+    "landmarkId": "lind-cabin",
+    "value": 250
+   },
+   {
+    "t": 34.4,
+    "s": 722,
+    "d": 6.5,
+    "type": "broke",
+    "kind": "logPile",
+    "category": "industry",
+    "value": 15
+   },
+   {
+    "t": 40.4,
+    "s": 842.6,
+    "d": 6.3,
+    "type": "waterfall",
+    "value": 2
+   },
+   {
+    "t": 43.9,
+    "s": 938.1,
+    "d": 0.6,
+    "type": "enteredOcean"
+   }
+  ],
+  "route": [
+   {
+    "s": 30.1,
+    "d": 0
+   },
+   {
+    "s": 37.2,
+    "d": 0.4
+   },
+   {
+    "s": 48.1,
+    "d": 1.5
+   },
+   {
+    "s": 58.6,
+    "d": 2.8
+   },
+   {
+    "s": 70.9,
+    "d": 3.6
+   },
+   {
+    "s": 84.5,
+    "d": 1.2
+   },
+   {
+    "s": 103.2,
+    "d": -2.2
+   },
+   {
+    "s": 120.1,
+    "d": -3.5
+   },
+   {
+    "s": 138.2,
+    "d": -7
+   },
+   {
+    "s": 163.6,
+    "d": -9.6
+   },
+   {
+    "s": 182.5,
+    "d": -12.3
+   },
+   {
+    "s": 201.2,
+    "d": -15.8
+   },
+   {
+    "s": 225,
+    "d": -19.1
+   },
+   {
+    "s": 254.5,
+    "d": -17.4
+   },
+   {
+    "s": 277.7,
+    "d": -15.3
+   },
+   {
+    "s": 300.8,
+    "d": -15
+   },
+   {
+    "s": 329,
+    "d": -17.9
+   },
+   {
+    "s": 351.3,
+    "d": -18.9
+   },
+   {
+    "s": 373.5,
+    "d": -18.5
+   },
+   {
+    "s": 395.2,
+    "d": -17.5
+   },
+   {
+    "s": 420.6,
+    "d": -15.9
+   },
+   {
+    "s": 440.4,
+    "d": -13.9
+   },
+   {
+    "s": 460.9,
+    "d": -9.7
+   },
+   {
+    "s": 486,
+    "d": -3.7
+   },
+   {
+    "s": 517.6,
+    "d": -0.1
+   },
+   {
+    "s": 546.1,
+    "d": 0.7
+   },
+   {
+    "s": 576.9,
+    "d": -0.2
+   },
+   {
+    "s": 616.2,
+    "d": -0.6
+   },
+   {
+    "s": 648.3,
+    "d": 3
+   },
+   {
+    "s": 681.4,
+    "d": 7.8
+   },
+   {
+    "s": 712.3,
+    "d": 5.6
+   },
+   {
+    "s": 740.3,
+    "d": 4
+   },
+   {
+    "s": 762.3,
+    "d": 3
+   },
+   {
+    "s": 785,
+    "d": 1.5
+   },
+   {
+    "s": 813.2,
+    "d": 2.3
+   },
+   {
+    "s": 835.1,
+    "d": 5.3
+   },
+   {
+    "s": 862.1,
+    "d": 7.5
+   },
+   {
+    "s": 891,
+    "d": 4.7
+   },
+   {
+    "s": 926.3,
+    "d": 1.1
+   },
+   {
+    "s": 952.9,
+    "d": 0.2
+   }
+  ],
+  "reachedS": 955.1,
+  "coastS": 935
+ }
+}

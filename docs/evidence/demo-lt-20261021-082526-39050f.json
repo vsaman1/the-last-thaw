@@ -1,0 +1,1355 @@
+{
+  "runId": "lt-20261021-082526-39050f",
+  "mode": "reflection",
+  "chapterId": "ch4-people",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T08:25:26.650Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 460,
+    "destroyedByCategory": {
+      "home": 3,
+      "transport": 1
+    },
+    "landmarks": [
+      {
+        "id": "vey-house",
+        "status": "destroyed",
+        "closest": 0.4
+      },
+      {
+        "id": "mill-chapel",
+        "status": "intact",
+        "closest": 22.5
+      }
+    ],
+    "notableEvents": 4
+  },
+  "historyChapters": [
+    "ch1-beginning"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 3685,
+      "summary": "round 1: 2078 in (0 cached), 73 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2078,
+          "input_tokens_details": {
+            "cache_write_tokens": 2075,
+            "cached_tokens": 0
+          },
+          "output_tokens": 73,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2151
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3687,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":94.2,\"distanceM\":1830,\"topSpeedMs\":21.4,\"startMassT\":1200,\"peakMassT\":1840,\"endMassT\":1610,\"growth\":1.5,\"iceLeftPct\":83,\"waterfallsCrossed\":2,\"collisions\":14,\"treesFelled\":5,\"buildingsDestroyed\":3,\"destroyedTotal\":4,\"storyPoints\":460,\"destroyedByCategory\":{\"home\":3,\"transport\":1},\"destroyedByKind\":{\"house\":3,\"footbridge\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"The Vey house on Mill Lane\",\"status\":\"destroyed\"},{\"id\":\"mill-chapel\",\"name\":\"The chapel on Mill Lane\",\"status\":\"intact\"}],\"reachedCoast\":true,\"eventCounts\":{\"waterfall\":1,\"broke\":2,\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3688,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"A letter to Ines\",\"date\":\"March 2031\",\"author\":\"tomas-reed\",\"body\":\"Ines, the water came up to the third step this spring. Your grandfather would have laughed and moved the chairs.\"},{\"id\":\"ch4-chapel-notice\",\"chapterId\":\"ch4-people\",\"kind\":\"notice\",\"title\":\"Choir practice moved\",\"body\":\"Choir practice is moved to the chapel hall until the floor dries.\"}],\"earlier\":[{\"id\":\"ch1-gauge-log\",\"chapterId\":\"ch1-beginning\",\"title\":\"Gauge log, first entry\"},{\"id\":\"ch1-footbridge-notice\",\"chapterId…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3689,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch4-people\",\"index\":4,\"title\":\"The People\",\"act\":2,\"actTitle\":\"The Cost\",\"introLines\":[\"Chapter 4.\"]},\"level\":{\"name\":\"Riverside Town\",\"subtitle\":\"A fixture level.\",\"structures\":[{\"kind\":\"house\",\"count\":6},{\"kind\":\"church\",\"count\":1}]},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"The Vey house on Mill Lane\",\"category\":\"home\"},{\"id\":\"mill-chapel\",\"name\":\"The chapel on Mill Lane\",\"category\":\"community\"}]}}"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 3689,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"Intimate, restrained, concrete.\",\"avoid\":[\"slogans\",\"blame on one person\"]}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 5685,
+      "summary": "round 2: 2738 in (2075 cached), 19 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2738,
+          "input_tokens_details": {
+            "cache_write_tokens": 660,
+            "cached_tokens": 2075
+          },
+          "output_tokens": 19,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2757
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 5686,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 15
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":4,\"events\":[{\"t\":12.5,\"type\":\"waterfall\",\"value\":6.2},{\"t\":40.1,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"The Vey house on Mill Lane\"},{\"t\":61,\"type\":\"broke\",\"kind\":\"footbridge\",\"category\":\"transport\"},{\"t\":92,\"type\":\"enteredOcean\"}]}}"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 14411,
+      "summary": "round 3: 2866 in (2735 cached), 769 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2866,
+          "input_tokens_details": {
+            "cache_write_tokens": 128,
+            "cached_tokens": 2735
+          },
+          "output_tokens": 769,
+          "output_tokens_details": {
+            "reasoning_tokens": 493
+          },
+          "total_tokens": 3635
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 14412,
+      "summary": "draft 1: \"The Third Step\"",
+      "data": {
+        "title": "The Third Step",
+        "text": "The letter to Ines keeps the spring water at the third step, and her grandfather in the small kindness of moving the chairs. It does not say he actually came to do it. On this run, the Vey house on Mill Lane was broken; the footbridge broke later along the route. The chapel on Mill Lane remained intact. Its notice had already moved choir practice to the chapel hall until the floor dried. The run reached its end with the iceberg grown to a peak mass of 1,840 tonnes. The notice is practical, almost temporary: a room borrowed while the floor dries. The river leaves the chairs and the choir with different kinds of waiting.",
+        "fragmentIds": [
+          "ch4-vey-letter",
+          "ch4-chapel-notice"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-chapel-notice"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "mill-chapel",
+            "status": "intact"
+          },
+          {
+            "type": "count",
+            "what": "destroyed",
+            "category": "transport",
+            "value": 1
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "growth",
+            "peakMass": 1840
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 17249,
+      "summary": "round 1: 2399 in (0 cached), 224 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2399,
+          "input_tokens_details": {
+            "cache_write_tokens": 2396,
+            "cached_tokens": 0
+          },
+          "output_tokens": 224,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2623
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17256,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "fragment",
+              "fragmentId": "ch4-vey-letter"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch4-chapel-notice"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "vey-house",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "mill-chapel",
+              "status": "intact"
+            },
+            {
+              "type": "count",
+              "what": "destroyed",
+              "category": "transport",
+              "value": 1
+            },
+            {
+              "type": "outcome",
+              "value": "complete"
+            },
+            {
+              "type": "growth",
+              "peakMass": 1840
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":18,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17259,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"Nobody was inside any building the river broke.\",\"Tomas Reed never stopped reading the gauge.\"],\"avoid\":[\"slogans\",\"blame on one person\"]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17259,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":94.2,\"distanceM\":1830,\"topSpeedMs\":21.4,\"startMassT\":1200,\"peakMassT\":1840,\"endMassT\":1610,\"growth\":1.5,\"iceLeftPct\":83,\"waterfallsCrossed\":2,\"collisions\":14,\"treesFelled\":5,\"buildingsDestroyed\":3,\"destroyedTotal\":4,\"storyPoints\":460,\"destroyedByCategory\":{\"home\":3,\"transport\":1},\"destroyedByKind\":{\"house\":3,\"footbridge\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"The Vey house on Mill Lane\",\"status\":\"destroyed\"},{\"id\":\"mill-chapel\",\"name\":\"The chapel on Mill Lane\",\"status\":\"intact\"}],\"reachedCoast\":true,\"eventCounts\":{\"waterfall\":1,\"broke\":2,\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17259,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-letter",
+            "ch4-chapel-notice"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"A letter to Ines\",\"date\":\"March 2031\",\"author\":\"tomas-reed\",\"body\":\"Ines, the water came up to the third step this spring. Your grandfather would have laughed and moved the chairs.\"},{\"id\":\"ch4-chapel-notice\",\"chapterId\":\"ch4-people\",\"kind\":\"notice\",\"title\":\"Choir practice moved\",\"body\":\"Choir practice is moved to the chapel hall until the floor dries.\"}],\"earlier\":[],\"missing\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17260,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"Nobody was inside any building the river broke.\"},{\"text\":\"Tomas Reed never stopped reading the gauge.\"}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 17260,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"Intimate, restrained, concrete.\",\"avoid\":[\"slogans\",\"blame on one person\"]}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 21356,
+      "summary": "round 2: 3192 in (2396 cached), 247 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3192,
+          "input_tokens_details": {
+            "cache_write_tokens": 793,
+            "cached_tokens": 2396
+          },
+          "output_tokens": 247,
+          "output_tokens_details": {
+            "reasoning_tokens": 154
+          },
+          "total_tokens": 3439
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21356,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "type": "broke",
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":2,\"events\":[{\"t\":40.1,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"The Vey house on Mill Lane\"},{\"t\":61,\"type\":\"broke\",\"kind\":\"footbridge\",\"category\":\"transport\"}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21356,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch4-people"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[],\"note\":\"No saved record of that chapter.\"}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21357,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"tomas-reed\",\"name\":\"Tomas Reed\",\"role\":\"keeper of the river gauge at Kell Falls\",\"born\":1951,\"description\":\"Careful handwriting, a pencil behind one ear.\",\"history\":\"Read the gauge every morning for thirty years and posted the figures to the regional office.\",\"locations\":[\"kell-valley\"]},{\"id\":\"ines-vey\",\"name\":\"Ines Vey\",\"role\":\"schoolteacher on Mill Lane\",\"born\":1979,\"description\":\"Kept every letter she was sent.\",\"history\":\"Not yet revealed to the player.\",\"locations\":[\"mill-lane\"]}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 21357,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "timeline"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"timeline\",\"entries\":[{\"id\":\"gauge-installed\",\"year\":1987,\"summary\":\"The gauge below Kell Falls is installed.\"},{\"id\":\"floodplain-lots\",\"year\":2009,\"summary\":\"Building lots on the floodplain are approved.\"}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 31623,
+      "summary": "round 3: 3782 in (3189 cached), 830 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3782,
+          "input_tokens_details": {
+            "cache_write_tokens": 590,
+            "cached_tokens": 3189
+          },
+          "output_tokens": 830,
+          "output_tokens_details": {
+            "reasoning_tokens": 766
+          },
+          "total_tokens": 4612
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 31625,
+      "summary": "review 1: revise (1 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "“The notice had already moved choir practice” implies a timing the notice does not establish; the record says practice was moved to the chapel hall until the floor dries, but gives no date or order relative to the breaks."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 31625,
+      "summary": "validation 1: passed (24 checks)",
+      "data": {
+        "passed": true,
+        "checked": 24,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 34057,
+      "summary": "round 1: 2435 in (2075 cached), 66 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2435,
+          "input_tokens_details": {
+            "cache_write_tokens": 357,
+            "cached_tokens": 2075
+          },
+          "output_tokens": 66,
+          "output_tokens_details": {
+            "reasoning_tokens": 18
+          },
+          "total_tokens": 2501
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 34057,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":94.2,\"distanceM\":1830,\"topSpeedMs\":21.4,\"startMassT\":1200,\"peakMassT\":1840,\"endMassT\":1610,\"growth\":1.5,\"iceLeftPct\":83,\"waterfallsCrossed\":2,\"collisions\":14,\"treesFelled\":5,\"buildingsDestroyed\":3,\"destroyedTotal\":4,\"storyPoints\":460,\"destroyedByCategory\":{\"home\":3,\"transport\":1},\"destroyedByKind\":{\"house\":3,\"footbridge\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"The Vey house on Mill Lane\",\"status\":\"destroyed\"},{\"id\":\"mill-chapel\",\"name\":\"The chapel on Mill Lane\",\"status\":\"intact\"}],\"reachedCoast\":true,\"eventCounts\":{\"waterfall\":1,\"broke\":2,\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 34057,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"A letter to Ines\",\"date\":\"March 2031\",\"author\":\"tomas-reed\",\"body\":\"Ines, the water came up to the third step this spring. Your grandfather would have laughed and moved the chairs.\"},{\"id\":\"ch4-chapel-notice\",\"chapterId\":\"ch4-people\",\"kind\":\"notice\",\"title\":\"Choir practice moved\",\"body\":\"Choir practice is moved to the chapel hall until the floor dries.\"}],\"earlier\":[{\"id\":\"ch1-gauge-log\",\"chapterId\":\"ch1-beginning\",\"title\":\"Gauge log, first entry\"},{\"id\":\"ch1-footbridge-notice\",\"chapterId…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 36815,
+      "summary": "round 2: 2891 in (2432 cached), 77 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2891,
+          "input_tokens_details": {
+            "cache_write_tokens": 456,
+            "cached_tokens": 2432
+          },
+          "output_tokens": 77,
+          "output_tokens_details": {
+            "reasoning_tokens": 56
+          },
+          "total_tokens": 2968
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 36815,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 20
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":4,\"events\":[{\"t\":12.5,\"type\":\"waterfall\",\"value\":6.2},{\"t\":40.1,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"The Vey house on Mill Lane\"},{\"t\":61,\"type\":\"broke\",\"kind\":\"footbridge\",\"category\":\"transport\"},{\"t\":92,\"type\":\"enteredOcean\"}]}}"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 45469,
+      "summary": "round 3: 3077 in (2888 cached), 789 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3077,
+          "input_tokens_details": {
+            "cache_write_tokens": 186,
+            "cached_tokens": 2888
+          },
+          "output_tokens": 789,
+          "output_tokens_details": {
+            "reasoning_tokens": 516
+          },
+          "total_tokens": 3866
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 45470,
+      "summary": "draft 2: \"Chairs at the Third Step\"",
+      "data": {
+        "title": "Chairs at the Third Step",
+        "text": "On the page, the water reaches the third step. Tomas Reed writes that Ines’s grandfather would have laughed and moved the chairs; the letter leaves the gesture in the conditional. This run broke the Vey house on Mill Lane, then the footbridge. The chapel on Mill Lane remained intact. A separate notice says choir practice is moved to the chapel hall until the floor dries, without dating that arrangement against the breaks. The iceberg reached the end of its run with a peak mass of 1,840 tonnes. The route leaves the letter’s imagined kindness beside a house broken, a footbridge broken, and a chapel still standing.",
+        "fragmentIds": [
+          "ch4-vey-letter",
+          "ch4-chapel-notice"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-chapel-notice"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "mill-chapel",
+            "status": "intact"
+          },
+          {
+            "type": "count",
+            "what": "destroyed",
+            "category": "transport",
+            "value": 1
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "growth",
+            "peakMass": 1840
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 48120,
+      "summary": "round 1: 2396 in (2101 cached), 223 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 2396,
+          "input_tokens_details": {
+            "cache_write_tokens": 292,
+            "cached_tokens": 2101
+          },
+          "output_tokens": 223,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2619
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48122,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": {
+          "claims": [
+            {
+              "type": "fragment",
+              "fragmentId": "ch4-vey-letter"
+            },
+            {
+              "type": "fragment",
+              "fragmentId": "ch4-chapel-notice"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "vey-house",
+              "status": "destroyed"
+            },
+            {
+              "type": "landmark",
+              "landmarkId": "mill-chapel",
+              "status": "intact"
+            },
+            {
+              "type": "count",
+              "what": "destroyed",
+              "category": "transport",
+              "value": 1
+            },
+            {
+              "type": "outcome",
+              "value": "complete"
+            },
+            {
+              "type": "growth",
+              "peakMass": 1840
+            }
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":18,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48123,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"Nobody was inside any building the river broke.\",\"Tomas Reed never stopped reading the gauge.\"],\"avoid\":[\"slogans\",\"blame on one person\"]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48123,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":94.2,\"distanceM\":1830,\"topSpeedMs\":21.4,\"startMassT\":1200,\"peakMassT\":1840,\"endMassT\":1610,\"growth\":1.5,\"iceLeftPct\":83,\"waterfallsCrossed\":2,\"collisions\":14,\"treesFelled\":5,\"buildingsDestroyed\":3,\"destroyedTotal\":4,\"storyPoints\":460,\"destroyedByCategory\":{\"home\":3,\"transport\":1},\"destroyedByKind\":{\"house\":3,\"footbridge\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"The Vey house on Mill Lane\",\"status\":\"destroyed\"},{\"id\":\"mill-chapel\",\"name\":\"The chapel on Mill Lane\",\"status\":\"intact\"}],\"reachedCoast\":true,\"eventCounts\":{\"waterfall\":1,\"broke\":2,\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48123,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":4,\"events\":[{\"t\":12.5,\"type\":\"waterfall\",\"value\":6.2},{\"t\":40.1,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"The Vey house on Mill Lane\"},{\"t\":61,\"type\":\"broke\",\"kind\":\"footbridge\",\"category\":\"transport\"},{\"t\":92,\"type\":\"enteredOcean\"}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48123,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-letter",
+            "ch4-chapel-notice"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-letter\",\"chapterId\":\"ch4-people\",\"kind\":\"letter\",\"title\":\"A letter to Ines\",\"date\":\"March 2031\",\"author\":\"tomas-reed\",\"body\":\"Ines, the water came up to the third step this spring. Your grandfather would have laughed and moved the chairs.\"},{\"id\":\"ch4-chapel-notice\",\"chapterId\":\"ch4-people\",\"kind\":\"notice\",\"title\":\"Choir practice moved\",\"body\":\"Choir practice is moved to the chapel hall until the floor dries.\"}],\"earlier\":[],\"missing\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 48123,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"Nobody was inside any building the river broke.\"},{\"text\":\"Tomas Reed never stopped reading the gauge.\"}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 54871,
+      "summary": "round 2: 3243 in (2393 cached), 463 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3243,
+          "input_tokens_details": {
+            "cache_write_tokens": 847,
+            "cached_tokens": 2393
+          },
+          "output_tokens": 463,
+          "output_tokens_details": {
+            "reasoning_tokens": 391
+          },
+          "total_tokens": 3706
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 54871,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"tomas-reed\",\"name\":\"Tomas Reed\",\"role\":\"keeper of the river gauge at Kell Falls\",\"born\":1951,\"description\":\"Careful handwriting, a pencil behind one ear.\",\"history\":\"Read the gauge every morning for thirty years and posted the figures to the regional office.\",\"locations\":[\"kell-valley\"]},{\"id\":\"ines-vey\",\"name\":\"Ines Vey\",\"role\":\"schoolteacher on Mill Lane\",\"born\":1979,\"description\":\"Kept every letter she was sent.\",\"history\":\"Not yet revealed to the player.\",\"locations\":[\"mill-lane\"]}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 54871,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"Intimate, restrained, concrete.\",\"avoid\":[\"slogans\",\"blame on one person\"]}],\"more\":0}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 54871,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch3-warning"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[],\"note\":\"No saved record of that chapter.\"}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 57485,
+      "summary": "round 3: 3937 in (3240 cached), 128 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3937,
+          "input_tokens_details": {
+            "cache_write_tokens": 694,
+            "cached_tokens": 3240
+          },
+          "output_tokens": 128,
+          "output_tokens_details": {
+            "reasoning_tokens": 110
+          },
+          "total_tokens": 4065
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 57486,
+      "summary": "review 2: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 57486,
+      "summary": "validation 2: passed (24 checks)",
+      "data": {
+        "passed": true,
+        "checked": 24,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 57486,
+      "summary": "corrected after 2 review(s)",
+      "data": {
+        "text": "On the page, the water reaches the third step. Tomas Reed writes that Ines’s grandfather would have laughed and moved the chairs; the letter leaves the gesture in the conditional. This run broke the Vey house on Mill Lane, then the footbridge. The chapel on Mill Lane remained intact. A separate notice says choir practice is moved to the chapel hall until the floor dries, without dating that arrangement against the breaks. The iceberg reached the end of its run with a peak mass of 1,840 tonnes. The route leaves the letter’s imagined kindness beside a house broken, a footbridge broken, and a chapel still standing."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 15
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-chapel-notice"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "mill-chapel",
+            "status": "intact"
+          },
+          {
+            "type": "count",
+            "what": "destroyed",
+            "category": "transport",
+            "value": 1
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "growth",
+            "peakMass": 1840
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 7
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 3
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-letter",
+          "ch4-chapel-notice"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "type": "broke",
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch4-people"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "timeline"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 20
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": {
+        "claims": [
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-chapel-notice"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "mill-chapel",
+            "status": "intact"
+          },
+          {
+            "type": "count",
+            "what": "destroyed",
+            "category": "transport",
+            "value": 1
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          },
+          {
+            "type": "growth",
+            "peakMass": 1840
+          }
+        ]
+      },
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-letter",
+          "ch4-chapel-notice"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch3-warning"
+      },
+      "ok": true,
+      "ms": 0
+    }
+  ],
+  "drafts": [
+    {
+      "title": "The Third Step",
+      "text": "The letter to Ines keeps the spring water at the third step, and her grandfather in the small kindness of moving the chairs. It does not say he actually came to do it. On this run, the Vey house on Mill Lane was broken; the footbridge broke later along the route. The chapel on Mill Lane remained intact. Its notice had already moved choir practice to the chapel hall until the floor dried. The run reached its end with the iceberg grown to a peak mass of 1,840 tonnes. The notice is practical, almost temporary: a room borrowed while the floor dries. The river leaves the chairs and the choir with different kinds of waiting.",
+      "fragmentIds": [
+        "ch4-vey-letter",
+        "ch4-chapel-notice"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-chapel-notice"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "mill-chapel",
+          "status": "intact"
+        },
+        {
+          "type": "count",
+          "what": "destroyed",
+          "category": "transport",
+          "value": 1
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "growth",
+          "peakMass": 1840
+        }
+      ]
+    },
+    {
+      "title": "Chairs at the Third Step",
+      "text": "On the page, the water reaches the third step. Tomas Reed writes that Ines’s grandfather would have laughed and moved the chairs; the letter leaves the gesture in the conditional. This run broke the Vey house on Mill Lane, then the footbridge. The chapel on Mill Lane remained intact. A separate notice says choir practice is moved to the chapel hall until the floor dries, without dating that arrangement against the breaks. The iceberg reached the end of its run with a peak mass of 1,840 tonnes. The route leaves the letter’s imagined kindness beside a house broken, a footbridge broken, and a chapel still standing.",
+      "fragmentIds": [
+        "ch4-vey-letter",
+        "ch4-chapel-notice"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-chapel-notice"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "mill-chapel",
+          "status": "intact"
+        },
+        {
+          "type": "count",
+          "what": "destroyed",
+          "category": "transport",
+          "value": 1
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        },
+        {
+          "type": "growth",
+          "peakMass": 1840
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "“The notice had already moved choir practice” implies a timing the notice does not establish; the record says practice was moved to the chapel hall until the floor dries, but gives no date or order relative to the breaks."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-21T08:25:41.062Z",
+      "runId": "lt-20261021-082526-39050f",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 7682,
+      "cachedInputTokens": 4810,
+      "outputTokens": 861,
+      "reasoningTokens": 493,
+      "requests": 3,
+      "toolCalls": 5,
+      "durationMs": 14411,
+      "costUsd": 0.00083738,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T08:25:58.273Z",
+      "runId": "lt-20261021-082526-39050f",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 9373,
+      "cachedInputTokens": 5585,
+      "outputTokens": 1301,
+      "reasoningTokens": 920,
+      "requests": 3,
+      "toolCalls": 10,
+      "durationMs": 17208,
+      "costUsd": 0.00117962,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T08:26:12.120Z",
+      "runId": "lt-20261021-082526-39050f",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "inputTokens": 8403,
+      "cachedInputTokens": 7395,
+      "outputTokens": 932,
+      "reasoningTokens": 590,
+      "requests": 3,
+      "toolCalls": 3,
+      "durationMs": 13845,
+      "costUsd": 0.00066573,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-21T08:26:24.135Z",
+      "runId": "lt-20261021-082526-39050f",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "inputTokens": 9576,
+      "cachedInputTokens": 7734,
+      "outputTokens": 814,
+      "reasoningTokens": 501,
+      "requests": 3,
+      "toolCalls": 9,
+      "durationMs": 12014,
+      "costUsd": 0.00071437,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 2,
+      "issues": [
+        "“The notice had already moved choir practice” implies a timing the notice does not establish; the record says practice was moved to the chapel hall until the floor dries, but gives no date or order relative to the breaks."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 24
+    },
+    "text": "On the page, the water reaches the third step. Tomas Reed writes that Ines’s grandfather would have laughed and moved the chairs; the letter leaves the gesture in the conditional. This run broke the Vey house on Mill Lane, then the footbridge. The chapel on Mill Lane remained intact. A separate notice says choir practice is moved to the chapel hall until the floor dries, without dating that arrangement against the breaks. The iceberg reached the end of its run with a peak mass of 1,840 tonnes. The route leaves the letter’s imagined kindness beside a house broken, a footbridge broken, and a chapel still standing."
+  }
+}

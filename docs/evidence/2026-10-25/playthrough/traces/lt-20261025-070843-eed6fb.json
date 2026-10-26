@@ -1,0 +1,1678 @@
+{
+  "runId": "lt-20261025-070843-eed6fb",
+  "mode": "reflection",
+  "chapterId": "ch4-people",
+  "model": "gpt-6-luna",
+  "provider": "course",
+  "transport": "portkey",
+  "startedAt": "2026-10-25T07:08:43.357Z",
+  "evidenceSummary": {
+    "outcome": "complete",
+    "storyPoints": 2400,
+    "destroyedByCategory": {
+      "home": 6,
+      "water": 1
+    },
+    "landmarks": [
+      {
+        "id": "vey-house",
+        "status": "destroyed",
+        "closest": 0.3
+      },
+      {
+        "id": "pell-house",
+        "status": "destroyed",
+        "closest": 0
+      },
+      {
+        "id": "st-brides",
+        "status": "intact",
+        "closest": 22.3
+      },
+      {
+        "id": "gas-holder",
+        "status": "intact",
+        "closest": 146
+      },
+      {
+        "id": "level-crossing-train",
+        "status": "intact",
+        "closest": 45.3
+      },
+      {
+        "id": "viaduct",
+        "status": "intact",
+        "closest": 86.2
+      },
+      {
+        "id": "riverside-dam",
+        "status": "destroyed",
+        "closest": 3.4
+      },
+      {
+        "id": "harbour-light",
+        "status": "intact",
+        "closest": 117.3
+      },
+      {
+        "id": "station-court",
+        "status": "intact",
+        "closest": 32.9
+      },
+      {
+        "id": "harbour-view",
+        "status": "intact",
+        "closest": 58.3
+      },
+      {
+        "id": "flood-stone",
+        "status": "intact",
+        "closest": 71
+      }
+    ],
+    "notableEvents": 15
+  },
+  "historyChapters": [
+    "ch1-beginning",
+    "ch2-measurements",
+    "ch3-warning"
+  ],
+  "steps": [
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 2639,
+      "summary": "round 1: 3543 in (3540 cached), 121 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3543,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 3540
+          },
+          "output_tokens": 121,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3664
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2641,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":93.5,\"distanceM\":1571,\"topSpeedMs\":24.9,\"startMassT\":100,\"peakMassT\":100,\"endMassT\":33,\"growth\":1,\"iceLeftPct\":33,\"waterfallsCrossed\":4,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":7,\"storyPoints\":2400,\"destroyedByCategory\":{\"home\":6,\"water\":1},\"destroyedByKind\":{\"house\":6,\"dam\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's, the church on the hill\",\"status\":\"intact\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2643,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2643,
+      "summary": "get_level_context ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch4-people\",\"index\":4,\"title\":\"The People\",\"act\":2,\"actTitle\":\"The Cost\",\"introLines\":[\"Riverside is a hill town on its river, with a church on a hill, a railway, a dam and a harbour.\",\"Everyone knew whose car was whose.\"]},\"level\":{\"name\":\"Riverside Town\",\"subtitle\":\"A hundred tonnes of ice and a whole hillside town: which street reaches the sea?\",\"structures\":[{\"kind\":\"house\",\"count\":76},{\"kind\":\"car\",\"count\":19},{\"kind\":\"truck\",\"count\":4},{\"kind\":\"railWagon\",\"count\":3},{\"kind\":\"boat\",\"count\":3},{\"kind\":\"tank\",\"count\":2},{\"kind\":\"dam\",\"count\":2},{\"kind\":…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2644,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 20
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":15,\"events\":[{\"t\":23.9,\"type\":\"waterfall\",\"value\":0},{\"t\":24.4,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{\"t\":26,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"No. 14 Church Lane\",\"value\":250},{\"t\":27.2,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"pell-house\",\"landmark\":\"The Pells' house, next door\",\"value\":250},{\"t\":30.9,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{\"t\":51.3,\"type\":\"landed\",\"value\":10.9},{\"t\":55.7,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2646,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2647,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "locations"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"locations\",\"entries\":[{\"id\":\"vell-foot\",\"name\":\"Vell Foot\",\"chapterId\":\"ch1-beginning\",\"description\":\"The high valley below where the glacier used to end, and the short valley to the sea: a waterfall, a rowan tree, a bolted boulder and Tomas Lind's survey hut on the shore.\",\"landmarkIds\":[\"bolted-stone\",\"gate-stones\",\"falls-rowan\",\"survey-hut\"]},{\"id\":\"red-canyon\",\"name\":\"The Red Canyon\",\"chapterId\":\"ch2-measurements\",\"description\":\"Where the Vell's meltwater cut down through red rock to the sea: Lind's gauging footbridge, his field cabin, the trading post, the …"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 2647,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 9739,
+      "summary": "round 2: 8338 in (3540 cached), 835 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 8338,
+          "input_tokens_details": {
+            "cache_write_tokens": 4795,
+            "cached_tokens": 3540
+          },
+          "output_tokens": 835,
+          "output_tokens_details": {
+            "reasoning_tokens": 516
+          },
+          "total_tokens": 9173
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 9740,
+      "summary": "draft 1: \"The Kitchen Calendar\"",
+      "data": {
+        "title": "The Kitchen Calendar",
+        "text": "At No. 14 Church Lane, the kitchen calendar was left behind when you broke the house. Ruth Vey ran her home by a calendar in four colours of pen; green meant good news. Dorothy Pell lived next door. She told the wardens she had voted against the 2017 flood levy because she did not want anyone wondering, and she still came to every drill and knocked on every door on her list. You broke both houses, then Riverside dam. St Bride's, the church on the hill, remained intact. A notice on its door said the church hall would stay open as a place to rest until the last train left. It promised tea and biscuits. The river ran greyer beneath a light haze.",
+        "fragmentIds": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "pell-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "riverside-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "st-brides",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-house-gone"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-pells"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-church-notices"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 12008,
+      "summary": "round 1: 3433 in (3086 cached), 305 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3433,
+          "input_tokens_details": {
+            "cache_write_tokens": 344,
+            "cached_tokens": 3086
+          },
+          "output_tokens": 305,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3738
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12020,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":24,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12029,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":8,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12029,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":93.5,\"distanceM\":1571,\"topSpeedMs\":24.9,\"startMassT\":100,\"peakMassT\":100,\"endMassT\":33,\"growth\":1,\"iceLeftPct\":33,\"waterfallsCrossed\":4,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":7,\"storyPoints\":2400,\"destroyedByCategory\":{\"home\":6,\"water\":1},\"destroyedByKind\":{\"house\":6,\"dam\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's, the church on the hill\",\"status\":\"intact\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12030,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "limit": 30
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":15,\"events\":[{\"t\":23.9,\"type\":\"waterfall\",\"value\":0},{\"t\":24.4,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{\"t\":26,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"No. 14 Church Lane\",\"value\":250},{\"t\":27.2,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"pell-house\",\"landmark\":\"The Pells' house, next door\",\"value\":250},{\"t\":30.9,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{\"t\":51.3,\"type\":\"landed\",\"value\":10.9},{\"t\":55.7,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"value\":250},{…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12031,
+      "summary": "get_story_history ok",
+      "data": {
+        "args": {
+          "chapterId": "ch4-people"
+        },
+        "output": "{\"ok\":true,\"result\":{\"chapters\":[],\"note\":\"No saved record of that chapter.\"}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12031,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-pells",
+            "ch4-church-notices"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-pells\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12032,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "characters"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12032,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "locations"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"locations\",\"entries\":[{\"id\":\"vell-foot\",\"name\":\"Vell Foot\",\"chapterId\":\"ch1-beginning\",\"description\":\"The high valley below where the glacier used to end, and the short valley to the sea: a waterfall, a rowan tree, a bolted boulder and Tomas Lind's survey hut on the shore.\",\"landmarkIds\":[\"bolted-stone\",\"gate-stones\",\"falls-rowan\",\"survey-hut\"]},{\"id\":\"red-canyon\",\"name\":\"The Red Canyon\",\"chapterId\":\"ch2-measurements\",\"description\":\"Where the Vell's meltwater cut down through red rock to the sea: Lind's gauging footbridge, his field cabin, the trading post, the …"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 12032,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 20444,
+      "summary": "round 2: 7667 in (3430 cached), 1024 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 7667,
+          "input_tokens_details": {
+            "cache_write_tokens": 4234,
+            "cached_tokens": 3430
+          },
+          "output_tokens": 1024,
+          "output_tokens_details": {
+            "reasoning_tokens": 923
+          },
+          "total_tokens": 8691
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 20467,
+      "summary": "review 1: revise (2 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "“She told the wardens she had voted against the 2017 flood levy” is more specific than the record supports: it says Dorothy told everyone. Please use that wording instead.",
+          "“You broke both houses, then Riverside dam” reads as a bare inventory of what broke. The records support those outcomes; revise this sentence to reflect the people and details in the records rather than summarizing the run."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 20467,
+      "summary": "validation 1: passed (32 checks)",
+      "data": {
+        "passed": true,
+        "checked": 32,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 23341,
+      "summary": "round 1: 4029 in (3540 cached), 68 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4029,
+          "input_tokens_details": {
+            "cache_write_tokens": 486,
+            "cached_tokens": 3540
+          },
+          "output_tokens": 68,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 4097
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 23341,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-pells",
+            "ch4-church-notices"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-pells\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 23342,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":93.5,\"distanceM\":1571,\"topSpeedMs\":24.9,\"startMassT\":100,\"peakMassT\":100,\"endMassT\":33,\"growth\":1,\"iceLeftPct\":33,\"waterfallsCrossed\":4,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":7,\"storyPoints\":2400,\"destroyedByCategory\":{\"home\":6,\"water\":1},\"destroyedByKind\":{\"house\":6,\"dam\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's, the church on the hill\",\"status\":\"intact\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 35668,
+      "summary": "round 2: 5039 in (4026 cached), 1580 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5039,
+          "input_tokens_details": {
+            "cache_write_tokens": 1010,
+            "cached_tokens": 4026
+          },
+          "output_tokens": 1580,
+          "output_tokens_details": {
+            "reasoning_tokens": 1255
+          },
+          "total_tokens": 6619
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 35669,
+      "summary": "draft 2: \"The Kitchen Calendar\"",
+      "data": {
+        "title": "The Kitchen Calendar",
+        "text": "At No. 14 Church Lane, your water reached the house marked empty by my chalk circle. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Riverside dam broke too. The notice on St Bride's door kept the hall open as a place to rest until the last train left. The river ran greyer beneath a light haze.",
+        "fragmentIds": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "pell-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "riverside-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "st-brides",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-house-gone"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-pells"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-church-notices"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 38148,
+      "summary": "round 1: 3554 in (3086 cached), 261 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3554,
+          "input_tokens_details": {
+            "cache_write_tokens": 465,
+            "cached_tokens": 3086
+          },
+          "output_tokens": 261,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3815
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38153,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":24,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38162,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":8,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38162,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":93.5,\"distanceM\":1571,\"topSpeedMs\":24.9,\"startMassT\":100,\"peakMassT\":100,\"endMassT\":33,\"growth\":1,\"iceLeftPct\":33,\"waterfallsCrossed\":4,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":7,\"storyPoints\":2400,\"destroyedByCategory\":{\"home\":6,\"water\":1},\"destroyedByKind\":{\"house\":6,\"dam\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's, the church on the hill\",\"status\":\"intact\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38162,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "vey-house",
+          "limit": 10
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":26,\"type\":\"broke\",\"kind\":\"house\",\"category\":\"home\",\"landmarkId\":\"vey-house\",\"landmark\":\"No. 14 Church Lane\",\"value\":250}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38162,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-pells",
+            "ch4-church-notices"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-pells\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 38163,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 45218,
+      "summary": "round 2: 5772 in (3551 cached), 711 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 5772,
+          "input_tokens_details": {
+            "cache_write_tokens": 2218,
+            "cached_tokens": 3551
+          },
+          "output_tokens": 711,
+          "output_tokens_details": {
+            "reasoning_tokens": 680
+          },
+          "total_tokens": 6483
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 45218,
+      "summary": "get_run_events ok",
+      "data": {
+        "args": {
+          "landmarkId": "riverside-dam",
+          "limit": 10
+        },
+        "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":70.4,\"type\":\"damBreached\",\"kind\":\"dam\",\"category\":\"water\",\"landmarkId\":\"riverside-dam\",\"landmark\":\"Riverside dam\",\"value\":900}]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 50779,
+      "summary": "round 3: 6552 in (5769 cached), 596 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6552,
+          "input_tokens_details": {
+            "cache_write_tokens": 780,
+            "cached_tokens": 5769
+          },
+          "output_tokens": 596,
+          "output_tokens_details": {
+            "reasoning_tokens": 467
+          },
+          "total_tokens": 7148
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 50797,
+      "summary": "review 2: revise (2 issues)",
+      "data": {
+        "verdict": "revise",
+        "issues": [
+          "“Riverside dam broke too” remains a bare summary of what broke, so the earlier issue is unresolved. The run records that the dam was breached; revise this sentence to connect the event to the people or details the records support, rather than listing the break.",
+          "“The notice on St Bride’s door kept the hall open as a place to rest until the last train left” says the hall did stay open, but the notice only says it would. Please write that the notice said the hall would stay open until the last train left."
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 50797,
+      "summary": "validation 2: passed (32 checks)",
+      "data": {
+        "passed": true,
+        "checked": 32,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 54411,
+      "summary": "round 1: 4063 in (3540 cached), 272 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4063,
+          "input_tokens_details": {
+            "cache_write_tokens": 520,
+            "cached_tokens": 3540
+          },
+          "output_tokens": 272,
+          "output_tokens_details": {
+            "reasoning_tokens": 231
+          },
+          "total_tokens": 4335
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 54412,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-pells",
+            "ch4-church-notices"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-pells\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\"…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 59222,
+      "summary": "round 2: 4801 in (4060 cached), 457 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 4801,
+          "input_tokens_details": {
+            "cache_write_tokens": 738,
+            "cached_tokens": 4060
+          },
+          "output_tokens": 457,
+          "output_tokens_details": {
+            "reasoning_tokens": 439
+          },
+          "total_tokens": 5258
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "tool",
+      "at": 59222,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-harrow-letter\",\"chapterId\":\"ch4-people\",\"kind\":…"
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "request",
+      "at": 77286,
+      "summary": "round 3: 6514 in (4798 cached), 2105 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6514,
+          "input_tokens_details": {
+            "cache_write_tokens": 1713,
+            "cached_tokens": 4798
+          },
+          "output_tokens": 2105,
+          "output_tokens_details": {
+            "reasoning_tokens": 1706
+          },
+          "total_tokens": 8619
+        }
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "draft",
+      "at": 77287,
+      "summary": "draft 3: \"The Kitchen Calendar\"",
+      "data": {
+        "title": "The Kitchen Calendar",
+        "text": "At No. 14, your water reached the house I had marked empty with a circle crossed by a line of chalk. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Your water breached Riverside dam, whose spillway Gil Harrow had written was not raised in 2009 or 2016. He said inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he believed there was time. The notice on St Bride's door said the church hall would stay open as a place to rest until the last train left. The river ran greyer beneath a light haze.",
+        "fragmentIds": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-harrow-letter",
+          "ch4-church-notices"
+        ],
+        "factIds": [],
+        "claims": [
+          {
+            "type": "landmark",
+            "landmarkId": "vey-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "pell-house",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "riverside-dam",
+            "status": "destroyed"
+          },
+          {
+            "type": "landmark",
+            "landmarkId": "st-brides",
+            "status": "intact"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-vey-house-gone"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-pells"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-harrow-letter"
+          },
+          {
+            "type": "fragment",
+            "fragmentId": "ch4-church-notices"
+          },
+          {
+            "type": "outcome",
+            "value": "complete"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 80057,
+      "summary": "round 1: 3656 in (3086 cached), 274 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 3656,
+          "input_tokens_details": {
+            "cache_write_tokens": 567,
+            "cached_tokens": 3086
+          },
+          "output_tokens": 274,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3930
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80069,
+      "summary": "validate_narrative_events ok",
+      "data": {
+        "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":24,\"issues\":[]}}"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80092,
+      "summary": "check_narrative_continuity ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":9,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80093,
+      "summary": "get_run_summary ok",
+      "data": {
+        "args": {},
+        "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":93.5,\"distanceM\":1571,\"topSpeedMs\":24.9,\"startMassT\":100,\"peakMassT\":100,\"endMassT\":33,\"growth\":1,\"iceLeftPct\":33,\"waterfallsCrossed\":4,\"collisions\":10,\"treesFelled\":0,\"buildingsDestroyed\":6,\"destroyedTotal\":7,\"storyPoints\":2400,\"destroyedByCategory\":{\"home\":6,\"water\":1},\"destroyedByKind\":{\"house\":6,\"dam\":1},\"landmarks\":[{\"id\":\"vey-house\",\"name\":\"No. 14 Church Lane\",\"status\":\"destroyed\"},{\"id\":\"pell-house\",\"name\":\"The Pells' house, next door\",\"status\":\"destroyed\"},{\"id\":\"st-brides\",\"name\":\"St Bride's, the church on the hill\",\"status\":\"intact\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80093,
+      "summary": "get_archive_fragments ok",
+      "data": {
+        "args": {
+          "ids": [
+            "ch4-vey-house-gone",
+            "ch4-pells",
+            "ch4-harrow-letter",
+            "ch4-church-notices"
+          ]
+        },
+        "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch4-vey-house-gone\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\",\"title\":\"No. 14\",\"body\":\"The chalk mark on the door of No. 14 was a circle with a line through it, which meant empty. I drew it myself at ten past six, and then I stood there holding the chalk, because there was nothing left on my list. Left behind in the house were the kitchen calendar, a piano nobody had tuned since 2020, and eleven boxes of this archive that I could not carry. Water cannot read chalk. I have kept the chalk anyway.\"},{\"id\":\"ch4-pells\",\"chapterId\":\"ch4-people\",\"kind\":\"memory\"…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80094,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "invariants"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "tool",
+      "at": 80094,
+      "summary": "get_bible_entries ok",
+      "data": {
+        "args": {
+          "section": "style"
+        },
+        "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Plain modern English that a student reads once, without stopping: complete, grammatical sentences, each with a clear subject and verb; no riddles, poetic fragments or images the reader has to decode. People by their full names the first time (Tomas Lind), never by an initial; after that a first name the reader already knows. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a…"
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "request",
+      "at": 85499,
+      "summary": "round 2: 6328 in (3653 cached), 681 out",
+      "data": {
+        "status": "completed",
+        "model": "gpt-6-luna-global",
+        "gateway": {
+          "cacheStatus": "REFRESH",
+          "provider": "azure-openai"
+        },
+        "usage": {
+          "input_tokens": 6328,
+          "input_tokens_details": {
+            "cache_write_tokens": 2672,
+            "cached_tokens": 3653
+          },
+          "output_tokens": 681,
+          "output_tokens_details": {
+            "reasoning_tokens": 663
+          },
+          "total_tokens": 7009
+        }
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "review",
+      "at": 85515,
+      "summary": "review 3: approve (0 issues)",
+      "data": {
+        "verdict": "approve",
+        "issues": []
+      }
+    },
+    {
+      "agent": "historian",
+      "kind": "validation",
+      "at": 85515,
+      "summary": "validation 3: passed (33 checks)",
+      "data": {
+        "passed": true,
+        "checked": 33,
+        "issues": []
+      }
+    },
+    {
+      "agent": "archivist",
+      "kind": "final",
+      "at": 85515,
+      "summary": "corrected after 3 review(s)",
+      "data": {
+        "text": "At No. 14, your water reached the house I had marked empty with a circle crossed by a line of chalk. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Your water breached Riverside dam, whose spillway Gil Harrow had written was not raised in 2009 or 2016. He said inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he believed there was time. The notice on St Bride's door said the church hall would stay open as a place to rest until the last train left. The river ran greyer beneath a light haze."
+      }
+    }
+  ],
+  "toolCalls": [
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_level_context",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 20
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "locations"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+      "ok": true,
+      "ms": 12
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 9
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "limit": 30
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_story_history",
+      "args": {
+        "chapterId": "ch4-people"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "characters"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "locations"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+      "ok": true,
+      "ms": 5
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 9
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "vey-house",
+        "limit": 10
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_events",
+      "args": {
+        "landmarkId": "riverside-dam",
+        "limit": 10
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-church-notices"
+        ]
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "archivist",
+      "tool": "get_archive_fragments",
+      "args": {},
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "validate_narrative_events",
+      "args": "{\"claims\":[{\"type\":\"landmark\",\"landmarkId\":\"vey-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"pell-house\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"riverside-dam\",\"status\":\"destroyed\"},{\"type\":\"landmark\",\"landmarkId\":\"st-brides\",\"status\":\"intact\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-vey-house-gone\"},{\"type\":\"fragment\",\"fragmentId\":\"ch4-pells\"},{\"type\":\"fragment\",\"frag…",
+      "ok": true,
+      "ms": 12
+    },
+    {
+      "agent": "historian",
+      "tool": "check_narrative_continuity",
+      "args": {},
+      "ok": true,
+      "ms": 23
+    },
+    {
+      "agent": "historian",
+      "tool": "get_run_summary",
+      "args": {},
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_archive_fragments",
+      "args": {
+        "ids": [
+          "ch4-vey-house-gone",
+          "ch4-pells",
+          "ch4-harrow-letter",
+          "ch4-church-notices"
+        ]
+      },
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "invariants"
+      },
+      "ok": true,
+      "ms": 1
+    },
+    {
+      "agent": "historian",
+      "tool": "get_bible_entries",
+      "args": {
+        "section": "style"
+      },
+      "ok": true,
+      "ms": 0
+    }
+  ],
+  "drafts": [
+    {
+      "title": "The Kitchen Calendar",
+      "text": "At No. 14 Church Lane, the kitchen calendar was left behind when you broke the house. Ruth Vey ran her home by a calendar in four colours of pen; green meant good news. Dorothy Pell lived next door. She told the wardens she had voted against the 2017 flood levy because she did not want anyone wondering, and she still came to every drill and knocked on every door on her list. You broke both houses, then Riverside dam. St Bride's, the church on the hill, remained intact. A notice on its door said the church hall would stay open as a place to rest until the last train left. It promised tea and biscuits. The river ran greyer beneath a light haze.",
+      "fragmentIds": [
+        "ch4-vey-house-gone",
+        "ch4-pells",
+        "ch4-church-notices"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "pell-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "riverside-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "st-brides",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-house-gone"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-pells"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-church-notices"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "title": "The Kitchen Calendar",
+      "text": "At No. 14 Church Lane, your water reached the house marked empty by my chalk circle. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Riverside dam broke too. The notice on St Bride's door kept the hall open as a place to rest until the last train left. The river ran greyer beneath a light haze.",
+      "fragmentIds": [
+        "ch4-vey-house-gone",
+        "ch4-pells",
+        "ch4-church-notices"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "pell-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "riverside-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "st-brides",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-house-gone"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-pells"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-church-notices"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "title": "The Kitchen Calendar",
+      "text": "At No. 14, your water reached the house I had marked empty with a circle crossed by a line of chalk. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Your water breached Riverside dam, whose spillway Gil Harrow had written was not raised in 2009 or 2016. He said inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he believed there was time. The notice on St Bride's door said the church hall would stay open as a place to rest until the last train left. The river ran greyer beneath a light haze.",
+      "fragmentIds": [
+        "ch4-vey-house-gone",
+        "ch4-pells",
+        "ch4-harrow-letter",
+        "ch4-church-notices"
+      ],
+      "factIds": [],
+      "claims": [
+        {
+          "type": "landmark",
+          "landmarkId": "vey-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "pell-house",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "riverside-dam",
+          "status": "destroyed"
+        },
+        {
+          "type": "landmark",
+          "landmarkId": "st-brides",
+          "status": "intact"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-vey-house-gone"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-pells"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-harrow-letter"
+        },
+        {
+          "type": "fragment",
+          "fragmentId": "ch4-church-notices"
+        },
+        {
+          "type": "outcome",
+          "value": "complete"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "verdict": "revise",
+      "issues": [
+        "“She told the wardens she had voted against the 2017 flood levy” is more specific than the record supports: it says Dorothy told everyone. Please use that wording instead.",
+        "“You broke both houses, then Riverside dam” reads as a bare inventory of what broke. The records support those outcomes; revise this sentence to reflect the people and details in the records rather than summarizing the run."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "revise",
+      "issues": [
+        "“Riverside dam broke too” remains a bare summary of what broke, so the earlier issue is unresolved. The run records that the dam was breached; revise this sentence to connect the event to the people or details the records support, rather than listing the break.",
+        "“The notice on St Bride’s door kept the hall open as a place to rest until the last train left” says the hall did stay open, but the notice only says it would. Please write that the notice said the hall would stay open until the last train left."
+      ],
+      "validationIssues": []
+    },
+    {
+      "verdict": "approve",
+      "issues": [],
+      "validationIssues": []
+    }
+  ],
+  "usage": [
+    {
+      "ts": "2026-10-25T07:08:53.096Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 11881,
+      "cachedInputTokens": 7080,
+      "cacheWriteTokens": 4795,
+      "outputTokens": 956,
+      "reasoningTokens": 516,
+      "requests": 2,
+      "unmeteredRequests": 0,
+      "toolCalls": 7,
+      "durationMs": 9739,
+      "costUsd": 0.00114878,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-25T07:09:03.801Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 11100,
+      "cachedInputTokens": 6516,
+      "cacheWriteTokens": 4578,
+      "outputTokens": 1329,
+      "reasoningTokens": 923,
+      "requests": 2,
+      "unmeteredRequests": 0,
+      "toolCalls": 9,
+      "durationMs": 10704,
+      "costUsd": 0.00130251,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-25T07:09:19.026Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 9068,
+      "cachedInputTokens": 7566,
+      "cacheWriteTokens": 1496,
+      "outputTokens": 1648,
+      "reasoningTokens": 1255,
+      "requests": 2,
+      "unmeteredRequests": 0,
+      "toolCalls": 2,
+      "durationMs": 15187,
+      "costUsd": 0.00108726,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-25T07:09:34.136Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 15878,
+      "cachedInputTokens": 12406,
+      "cacheWriteTokens": 3463,
+      "outputTokens": 1568,
+      "reasoningTokens": 1147,
+      "requests": 3,
+      "unmeteredRequests": 0,
+      "toolCalls": 7,
+      "durationMs": 15110,
+      "costUsd": 0.00134184,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-25T07:10:00.643Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "archivist",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 15378,
+      "cachedInputTokens": 12398,
+      "cacheWriteTokens": 2971,
+      "outputTokens": 2834,
+      "reasoningTokens": 2376,
+      "requests": 3,
+      "unmeteredRequests": 0,
+      "toolCalls": 2,
+      "durationMs": 26470,
+      "costUsd": 0.00191326,
+      "ok": true
+    },
+    {
+      "ts": "2026-10-25T07:10:08.856Z",
+      "runId": "lt-20261025-070843-eed6fb",
+      "agent": "historian",
+      "model": "gpt-6-luna",
+      "provider": "course",
+      "inputTokens": 9984,
+      "cachedInputTokens": 6739,
+      "cacheWriteTokens": 3239,
+      "outputTokens": 955,
+      "reasoningTokens": 663,
+      "requests": 2,
+      "unmeteredRequests": 0,
+      "toolCalls": 6,
+      "durationMs": 8211,
+      "costUsd": 0.00095037,
+      "ok": true
+    }
+  ],
+  "result": {
+    "ok": true,
+    "review": {
+      "verdict": "corrected",
+      "rounds": 3,
+      "issues": [
+        "“She told the wardens she had voted against the 2017 flood levy” is more specific than the record supports: it says Dorothy told everyone. Please use that wording instead.",
+        "“You broke both houses, then Riverside dam” reads as a bare inventory of what broke. The records support those outcomes; revise this sentence to reflect the people and details in the records rather than summarizing the run.",
+        "“Riverside dam broke too” remains a bare summary of what broke, so the earlier issue is unresolved. The run records that the dam was breached; revise this sentence to connect the event to the people or details the records support, rather than listing the break.",
+        "“The notice on St Bride’s door kept the hall open as a place to rest until the last train left” says the hall did stay open, but the notice only says it would. Please write that the notice said the hall would stay open until the last train left."
+      ]
+    },
+    "validation": {
+      "passed": true,
+      "checked": 33
+    },
+    "text": "At No. 14, your water reached the house I had marked empty with a circle crossed by a line of chalk. The kitchen calendar and eleven boxes of my archive were left inside, and I could not carry the boxes. Next door, you broke Dorothy Pell's house. Dorothy brought shortbread to every wardens' meeting for three years. She told everyone she had voted against the 2017 flood levy so nobody would have to wonder. She had her own roof to fix that year, and I have her receipt. She came to every drill and knocked on every door on her list. Your water breached Riverside dam, whose spillway Gil Harrow had written was not raised in 2009 or 2016. He said inspectors called the dam satisfactory, the harbour needed dredging, the school roof leaked, and he believed there was time. The notice on St Bride's door said the church hall would stay open as a place to rest until the last train left. The river ran greyer beneath a light haze."
+  }
+}

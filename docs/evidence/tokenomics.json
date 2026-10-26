@@ -1,0 +1,501 @@
+{
+ "generatedFrom": "docs/evidence/runs/*.json and the browser traces docs/evidence/{browser,playthrough,playthrough2}/*trace_*.json",
+ "prices": {
+  "input": 0.1,
+  "cachedInput": 0.01,
+  "cacheWrite": 0.125,
+  "output": 0.5
+ },
+ "sets": {
+  "all": {
+   "runs": 17,
+   "approved": 12,
+   "mean": {
+    "inputTokens": 59627,
+    "cachedInputTokens": 43226,
+    "cacheWriteTokens": 16326,
+    "outputTokens": 6679,
+    "reasoningTokens": 4938,
+    "requests": 11.176471,
+    "toolCalls": 26.470588,
+    "costUsd": 0.00582,
+    "wallSeconds": 91.7
+   },
+   "total": {
+    "inputTokens": 1013661,
+    "cachedInputTokens": 734834,
+    "cacheWriteTokens": 277543,
+    "outputTokens": 113535,
+    "costUsd": 0.098937
+   },
+   "cachedShareOfInput": 0.725,
+   "writtenShareOfInput": 0.274,
+   "outputShareOfCost": 0.574,
+   "reasoningShareOfOutput": 0.739,
+   "costWithoutPromptCachingUsd": 0.158134,
+   "savingFromCaching": 0.374
+  },
+  "headless288b250toE735262": {
+   "runs": 8,
+   "approved": 6,
+   "mean": {
+    "inputTokens": 51693,
+    "cachedInputTokens": 35578,
+    "cacheWriteTokens": 16074,
+    "outputTokens": 6590,
+    "reasoningTokens": 4843,
+    "requests": 10.875,
+    "toolCalls": 25.375,
+    "costUsd": 0.005664,
+    "wallSeconds": 89.1
+   },
+   "total": {
+    "inputTokens": 413543,
+    "cachedInputTokens": 284621,
+    "cacheWriteTokens": 128592,
+    "outputTokens": 52723,
+    "costUsd": 0.045315
+   },
+   "cachedShareOfInput": 0.688,
+   "writtenShareOfInput": 0.311,
+   "outputShareOfCost": 0.582,
+   "reasoningShareOfOutput": 0.735,
+   "costWithoutPromptCachingUsd": 0.067716,
+   "savingFromCaching": 0.331,
+   "code": "288b250–e735262, before the Act I–III overlays",
+   "runIds": [
+    "lt-20261021-094044-a40f70",
+    "lt-20261021-094235-60dc7c",
+    "lt-20261021-094317-16a398",
+    "lt-20261021-094436-26cf7d",
+    "lt-20261021-094702-f4b794",
+    "lt-20261021-094814-3d26cc",
+    "lt-20261021-095113-f46bab",
+    "lt-20261021-095341-a82007"
+   ]
+  },
+  "headless288b250toE735262Reflections": {
+   "runs": 7,
+   "approved": 5,
+   "mean": {
+    "inputTokens": 44294,
+    "cachedInputTokens": 30152,
+    "cacheWriteTokens": 14111,
+    "outputTokens": 6169,
+    "reasoningTokens": 4488,
+    "requests": 10.571429,
+    "toolCalls": 24.285714,
+    "costUsd": 0.005153,
+    "wallSeconds": 86.3
+   },
+   "total": {
+    "inputTokens": 310061,
+    "cachedInputTokens": 211062,
+    "cacheWriteTokens": 98780,
+    "outputTokens": 43184,
+    "costUsd": 0.036072
+   },
+   "cachedShareOfInput": 0.681,
+   "writtenShareOfInput": 0.319,
+   "outputShareOfCost": 0.599,
+   "reasoningShareOfOutput": 0.727,
+   "costWithoutPromptCachingUsd": 0.052598,
+   "savingFromCaching": 0.314,
+   "runIds": [
+    "lt-20261021-094044-a40f70",
+    "lt-20261021-094235-60dc7c",
+    "lt-20261021-094317-16a398",
+    "lt-20261021-094436-26cf7d",
+    "lt-20261021-094702-f4b794",
+    "lt-20261021-095113-f46bab",
+    "lt-20261021-095341-a82007"
+   ]
+  },
+  "v3Epilogues": {
+   "runs": 2,
+   "approved": 2,
+   "mean": {
+    "inputTokens": 89529,
+    "cachedInputTokens": 61635,
+    "cacheWriteTokens": 27820,
+    "outputTokens": 8277,
+    "reasoningTokens": 6210,
+    "requests": 12.5,
+    "toolCalls": 29.5,
+    "costUsd": 0.008239,
+    "wallSeconds": 100.9
+   },
+   "total": {
+    "inputTokens": 179057,
+    "cachedInputTokens": 123270,
+    "cacheWriteTokens": 55640,
+    "outputTokens": 16553,
+    "costUsd": 0.016479
+   },
+   "cachedShareOfInput": 0.688,
+   "writtenShareOfInput": 0.311,
+   "outputShareOfCost": 0.502,
+   "reasoningShareOfOutput": 0.75,
+   "costWithoutPromptCachingUsd": 0.026182,
+   "savingFromCaching": 0.371,
+   "runIds": [
+    "lt-20261021-093343-5ae523",
+    "lt-20261021-094814-3d26cc"
+   ]
+  },
+  "browserPlaythrough1": {
+   "runs": 5,
+   "approved": 4,
+   "mean": {
+    "inputTokens": 52730,
+    "cachedInputTokens": 36058,
+    "cacheWriteTokens": 16628,
+    "outputTokens": 5835,
+    "reasoningTokens": 4158,
+    "requests": 10.6,
+    "toolCalls": 24.6,
+    "costUsd": 0.005361,
+    "wallSeconds": 90.8
+   },
+   "total": {
+    "inputTokens": 263652,
+    "cachedInputTokens": 180289,
+    "cacheWriteTokens": 83138,
+    "outputTokens": 29173,
+    "costUsd": 0.026804
+   },
+   "cachedShareOfInput": 0.684,
+   "writtenShareOfInput": 0.315,
+   "outputShareOfCost": 0.544,
+   "reasoningShareOfOutput": 0.713,
+   "costWithoutPromptCachingUsd": 0.040952,
+   "savingFromCaching": 0.345,
+   "code": "39aea91 (reflections as shipped; epilogue at most 3 reviews, asked for on Continue)",
+   "runIds": [
+    "lt-20261021-171113-78e2ef",
+    "lt-20261021-171251-4ccdf7",
+    "lt-20261021-171504-fd4493",
+    "lt-20261021-171714-a15cce",
+    "lt-20261021-171905-232d7e"
+   ]
+  },
+  "browserPlaythrough2": {
+   "runs": 5,
+   "approved": 4,
+   "mean": {
+    "inputTokens": 56373,
+    "cachedInputTokens": 38075,
+    "cacheWriteTokens": 18250,
+    "outputTokens": 7228,
+    "reasoningTokens": 5547,
+    "requests": 11.4,
+    "toolCalls": 26,
+    "costUsd": 0.006281,
+    "wallSeconds": 88.5
+   },
+   "total": {
+    "inputTokens": 281864,
+    "cachedInputTokens": 190373,
+    "cacheWriteTokens": 91251,
+    "outputTokens": 36140,
+    "costUsd": 0.031404
+   },
+   "cachedShareOfInput": 0.675,
+   "writtenShareOfInput": 0.324,
+   "outputShareOfCost": 0.575,
+   "reasoningShareOfOutput": 0.767,
+   "costWithoutPromptCachingUsd": 0.046256,
+   "savingFromCaching": 0.321,
+   "code": "e75c2f0 and later (the shipped configuration)",
+   "runIds": [
+    "lt-20261021-185424-9b1f71",
+    "lt-20261021-185629-73cdb5",
+    "lt-20261021-185816-dd515b",
+    "lt-20261021-190124-adf44c",
+    "lt-20261021-190124-e8bb8a"
+   ]
+  },
+  "browserReflections": {
+   "runs": 8,
+   "approved": 7,
+   "mean": {
+    "inputTokens": 42425,
+    "cachedInputTokens": 28401,
+    "cacheWriteTokens": 13996,
+    "outputTokens": 4934,
+    "reasoningTokens": 3524,
+    "requests": 9.625,
+    "toolCalls": 22.75,
+    "costUsd": 0.004504,
+    "wallSeconds": 72
+   },
+   "total": {
+    "inputTokens": 339400,
+    "cachedInputTokens": 227206,
+    "cacheWriteTokens": 111969,
+    "outputTokens": 39475,
+    "costUsd": 0.036028
+   },
+   "cachedShareOfInput": 0.669,
+   "writtenShareOfInput": 0.33,
+   "outputShareOfCost": 0.548,
+   "reasoningShareOfOutput": 0.714,
+   "costWithoutPromptCachingUsd": 0.053678,
+   "savingFromCaching": 0.329,
+   "runIds": [
+    "lt-20261021-171113-78e2ef",
+    "lt-20261021-171251-4ccdf7",
+    "lt-20261021-171504-fd4493",
+    "lt-20261021-171714-a15cce",
+    "lt-20261021-185424-9b1f71",
+    "lt-20261021-185629-73cdb5",
+    "lt-20261021-185816-dd515b",
+    "lt-20261021-190124-adf44c"
+   ]
+  },
+  "shippedEpilogues": {
+   "runs": 1,
+   "approved": 1,
+   "mean": {
+    "inputTokens": 98264,
+    "cachedInputTokens": 68663,
+    "cacheWriteTokens": 29487,
+    "outputTokens": 12590,
+    "reasoningTokens": 10318,
+    "requests": 14,
+    "toolCalls": 34,
+    "costUsd": 0.010679,
+    "wallSeconds": 118.1
+   },
+   "total": {
+    "inputTokens": 98264,
+    "cachedInputTokens": 68663,
+    "cacheWriteTokens": 29487,
+    "outputTokens": 12590,
+    "costUsd": 0.010679
+   },
+   "cachedShareOfInput": 0.699,
+   "writtenShareOfInput": 0.3,
+   "outputShareOfCost": 0.589,
+   "reasoningShareOfOutput": 0.82,
+   "costWithoutPromptCachingUsd": 0.016121,
+   "savingFromCaching": 0.338,
+   "runIds": [
+    "lt-20261021-190124-e8bb8a"
+   ]
+  }
+ },
+ "perPlayerStory": {
+  "definition": "one full playthrough, default 'selected' AI setting: reflections after chapters 1, 4, 6, 9 + the epilogue; every chapter completed once",
+  "measuredShipped": {
+   "costUsd": 0.031404,
+   "source": "browser playthrough 2, the one complete playthrough on the shipped configuration: the sum of its 5 traces",
+   "perNarrativeUsd": [
+    {
+     "runId": "lt-20261021-185424-9b1f71",
+     "mode": "reflection",
+     "chapterId": "ch1-beginning",
+     "ok": true,
+     "costUsd": 0.003696
+    },
+    {
+     "runId": "lt-20261021-185629-73cdb5",
+     "mode": "reflection",
+     "chapterId": "ch4-people",
+     "ok": true,
+     "costUsd": 0.002396
+    },
+    {
+     "runId": "lt-20261021-185816-dd515b",
+     "mode": "reflection",
+     "chapterId": "ch6-price",
+     "ok": true,
+     "costUsd": 0.005563
+    },
+    {
+     "runId": "lt-20261021-190124-adf44c",
+     "mode": "reflection",
+     "chapterId": "ch9-last-thaw",
+     "ok": false,
+     "costUsd": 0.00907
+    },
+    {
+     "runId": "lt-20261021-190124-e8bb8a",
+     "mode": "epilogue",
+     "chapterId": "ch9-last-thaw",
+     "ok": true,
+     "costUsd": 0.010679
+    }
+   ]
+  },
+  "pooledShipped": {
+   "costUsd": 0.028695,
+   "arithmetic": "4 × 0.004504 (mean of the 8 browser reflections) + 0.010679 (the 1 shipped epilogue)"
+  },
+  "headless288b250toE735262": {
+   "costUsd": 0.028851,
+   "arithmetic": "4 × 0.005153 + 0.008239"
+  },
+  "allChaptersSettingCostUsd": 0.051215,
+  "engagedPlayerCostUsd": 0.086085
+ },
+ "perMonth": {
+  "onePlaythrough": {
+   "perUser": 0.031404,
+   "users100": 3.140415,
+   "users10000": 314.0415
+  },
+  "onePlaythroughPooled": {
+   "perUser": 0.028695,
+   "users100": 2.8695,
+   "users10000": 286.95
+  },
+  "allChaptersSetting": {
+   "perUser": 0.051215,
+   "users100": 5.1215,
+   "users10000": 512.15
+  },
+  "engaged": {
+   "perUser": 0.086085,
+   "users100": 8.6085,
+   "users10000": 860.85
+  },
+  "headless288b250toE735262": {
+   "perUser": 0.028851,
+   "users100": 2.8851,
+   "users10000": 288.51
+  }
+ },
+ "serviceEstimator": {
+  "basedOnRuns": 8,
+  "model": "gpt-6-luna",
+  "measured": {
+   "avgCostPerNarrativeUsd": 0.005664,
+   "avgInputTokensPerNarrative": 51692.9,
+   "avgCachedInputTokensPerNarrative": 35577.6,
+   "avgOutputTokensPerNarrative": 6590.4,
+   "avgRequestsPerNarrative": 10.9
+  },
+  "perUserPerMonthUsd": 0.028322,
+  "at100UsersPerMonthUsd": 2.8322,
+  "at10000UsersPerMonthUsd": 283.22,
+  "assumptions": [
+   "Averages are measured from 8 logged narrative run(s) in the usage records of the 8 headless run files on 288b250–e735262 (docs/evidence/runs/*.json) (token counts from the API's usage objects; nothing estimated).",
+   "38 record(s) predate the count of requests without usage: a timed-out request in them is not counted, so treat these figures as a lower bound.",
+   "One playthrough per user per month with the default AI setting: reflections after chapters 1, 4, 6 and 9 plus the epilogue = 5 narratives. Replays, the \"all chapters\" setting and failed runs that fall back early change this linearly.",
+   "Narratives per user per month: 5.",
+   "Prices: the per-model table in src/server/pricing.ts (Lecture 11, citing the OpenAI pricing page). Runs on a model without a verified price are excluded from the cost averages.",
+   "Linear scaling: no volume discounts, no change in cache hit rate with more users, no Portkey fees.",
+   "Re-run after more play to tighten the averages."
+  ]
+ },
+ "serviceEstimatorShipped": {
+  "basedOnRuns": 5,
+  "model": "gpt-6-luna",
+  "measured": {
+   "avgCostPerNarrativeUsd": 0.006281,
+   "avgInputTokensPerNarrative": 56372.8,
+   "avgCachedInputTokensPerNarrative": 38074.6,
+   "avgOutputTokensPerNarrative": 7228,
+   "avgRequestsPerNarrative": 11.4
+  },
+  "perUserPerMonthUsd": 0.031404,
+  "at100UsersPerMonthUsd": 3.1404,
+  "at10000UsersPerMonthUsd": 314.04,
+  "assumptions": [
+   "Averages are measured from 5 logged narrative run(s) in the usage records of the 5 traces of browser playthrough 2 (docs/evidence/playthrough2/) (token counts from the API's usage objects; nothing estimated).",
+   "22 record(s) predate the count of requests without usage: a timed-out request in them is not counted, so treat these figures as a lower bound.",
+   "One playthrough per user per month with the default AI setting: reflections after chapters 1, 4, 6 and 9 plus the epilogue = 5 narratives. Replays, the \"all chapters\" setting and failed runs that fall back early change this linearly.",
+   "Narratives per user per month: 5.",
+   "Prices: the per-model table in src/server/pricing.ts (Lecture 11, citing the OpenAI pricing page). Runs on a model without a verified price are excluded from the cost averages.",
+   "Linear scaling: no volume discounts, no change in cache hit rate with more users, no Portkey fees.",
+   "Re-run after more play to tighten the averages."
+  ]
+ },
+ "cutOffReplies": {
+  "count": 11,
+  "outputTokens": 16600,
+  "runIds": [
+   "lt-20261021-091631-fb2773",
+   "lt-20261021-091747-599c14",
+   "lt-20261021-091832-76fcab",
+   "lt-20261021-092108-91f79f",
+   "lt-20261021-092254-6b7e8e",
+   "lt-20261021-092650-b77121",
+   "lt-20261021-190124-e8bb8a"
+  ],
+  "since86fe5ba": {
+   "runs": 19,
+   "cutOffs": [
+    {
+     "runId": "lt-20261021-190124-e8bb8a",
+     "agent": "historian",
+     "outputTokens": 1800
+    }
+   ]
+  }
+ },
+ "timedOutAttempts": {
+  "count": 5,
+  "runIds": [
+   "lt-20261021-092555-8873fb",
+   "lt-20261021-094436-26cf7d",
+   "lt-20261021-171714-a15cce",
+   "lt-20261021-171905-232d7e",
+   "lt-20261021-185816-dd515b"
+  ],
+  "note": "usage unknown (no reply); not in any token or cost figure here. One more is in docs/evidence/injection-lt-20261021-093604-fe037d.json."
+ },
+ "requestLatency": {
+  "headlessRuns": {
+   "requests": 188,
+   "minSeconds": 1.7,
+   "maxSeconds": 29,
+   "over21s": 7
+  },
+  "browserSessions": {
+   "requests": 112,
+   "minSeconds": 1.6,
+   "maxSeconds": 26.9,
+   "over21s": 2
+  }
+ },
+ "firstRequest": {
+  "inputTokens": [
+   2808,
+   2807,
+   2807,
+   2806,
+   2810,
+   2884,
+   2902,
+   2939,
+   2826,
+   2825,
+   2825,
+   2824,
+   2828,
+   2939,
+   2824,
+   2825
+  ],
+  "cachedTokens": [
+   0,
+   2773,
+   2804,
+   2773,
+   2773,
+   0,
+   2899,
+   0,
+   2791,
+   2822,
+   2822,
+   2791,
+   2791,
+   2936,
+   2821,
+   2822
+  ]
+ }
+}

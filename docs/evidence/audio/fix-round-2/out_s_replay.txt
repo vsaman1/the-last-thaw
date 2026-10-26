@@ -1,0 +1,16 @@
+FIRST ATTEMPT in play: {"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1},"ducks":{},"music":{"cue":"wonder","duckDb":0,"holds":[],"trimDb":0},"session":1}
+drive: {"why":"complete","frames":527,"wallSec":8.87990000000596,"phase":"complete","time":32.48333333333277}
+REVELATION panel (+5 s): {"buses":{"master":1,"music":0.6,"ambience":0.3185,"effects":0.201,"gate":1},"ducks":{"reading":{"music":-6,"ambience":-8,"effects":-12}},"music":{"cue":"wonder","duckDb":-6,"holds":["reveal"],"trimDb":0}}
+clicked at {"x":632.5,"y":511.34375}
+after click 0 {"phase":"intro","store":"loading","attempt":2,"btn":[]}
+after click 1 {"phase":"intro","store":"intro","attempt":2,"btn":[]}
+after click 2 {"phase":"playing","store":"playing","attempt":2,"btn":["",""]}
+REPLAYED ATTEMPT in play (+8 s): {"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1},"ducks":{},"music":{"cue":"wonder","duckDb":0,"holds":[],"trimDb":0},"session":3}
+meter during replay: {"master":{"peak":-16.7,"rms":-29.6},"music":{"peak":-999,"rms":-999},"ambience":{"peak":-19.7,"rms":-31.8},"effects":{"peak":-21.8,"rms":-33.8}}
+REPLAYED ATTEMPT later (+~60 s game): {"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.7999,"gate":1},"ducks":{"reading":{"music":-0.05927999997139182,"ambience":-0.07936000003815025,"effects":-0.11904000005722537}},"music":{"cue":"wonder","duckDb":-0.05927999997139182,"holds":["reveal"],"trimDb":0}}
+trace (reading ducks, motif, holds, sessions): [[2.21,"lifecycle","session 1 begins: mountain-valley story attempt 1 seed 3466363101"],[22.6,"duck","reading -6/-8/-12 dB"],[22.6,"hold","hold 'reveal'"],[22.6,"motif","motif act1@1 at +4.00 s, 13.9 s, -4.0 dB"],[27.73,"motif","motif stopped over 1.50 s"],[27.73,"hold","release 'reveal'"],[27.73,"duck","reading release"],[27.78,"lifecycle","session 1 ends: 0 voices faded over 0.120 s"],[29.63,"lifecycle","session 2 begins: mountain-valley story attempt 2 seed 2036476300"],[29.64,"lifecycle","session 2 ends: 0 voices faded over 0.120 s"],[29.64,"lifecycle","session 3 begins: mountain-valley story attempt 2 seed 2036476300"],[52.6,"duck","reading -6/-8/-12 dB"],[52.6,"hold","hold 'reveal'"],[52.6,"motif","motif act1@1 at +4.00 s, 13.9 s, -4.0 dB"]]
+--- console (4 lines, last 30) ---
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

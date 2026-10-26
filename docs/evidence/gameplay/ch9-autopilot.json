@@ -1,0 +1,388 @@
+{
+ "case": "ch9-autopilot",
+ "plan": {
+  "kind": "autopilot"
+ },
+ "seconds": 8.504,
+ "evidence": {
+  "version": 1,
+  "chapterId": "ch9-last-thaw",
+  "levelId": "summit-labyrinth",
+  "outcome": "complete",
+  "time": 119.2,
+  "distance": 1867,
+  "topSpeed": 34,
+  "startMass": 22,
+  "endMass": 77.5,
+  "peakMass": 109,
+  "absorbed": 100.5,
+  "iceLeft": 3.522,
+  "waterfallsCrossed": 5,
+  "collisions": 10,
+  "treesFelled": 0,
+  "knockedDown": 5,
+  "buildingsDestroyed": 3,
+  "storyPoints": 1400,
+  "destroyedByCategory": {
+   "water": 1,
+   "home": 1,
+   "community": 1
+  },
+  "destroyedByKind": {
+   "dam": 1,
+   "chalet": 1,
+   "church": 1
+  },
+  "landmarks": [
+   {
+    "id": "upper-dam",
+    "status": "destroyed",
+    "closest": 0.2
+   },
+   {
+    "id": "village-lift",
+    "status": "intact",
+    "closest": 49.6
+   },
+   {
+    "id": "first-chalet",
+    "status": "destroyed",
+    "closest": 0.2
+   },
+   {
+    "id": "lind-chalet",
+    "status": "intact",
+    "closest": 35.4
+   },
+   {
+    "id": "fjord-chapel",
+    "status": "destroyed",
+    "closest": 2.5
+   },
+   {
+    "id": "village-barn",
+    "status": "intact",
+    "closest": 200.3
+   },
+   {
+    "id": "fjord-chalet",
+    "status": "intact",
+    "closest": 44.6
+   }
+  ],
+  "notable": [
+   {
+    "t": 20.4,
+    "s": 251.4,
+    "d": -101.9,
+    "type": "absorbed",
+    "value": 9.8
+   },
+   {
+    "t": 25.6,
+    "s": 315,
+    "d": -111.6,
+    "type": "absorbed",
+    "value": 12.8
+   },
+   {
+    "t": 32.2,
+    "s": 385.7,
+    "d": -119.7,
+    "type": "absorbed",
+    "value": 13.3
+   },
+   {
+    "t": 45.3,
+    "s": 517.9,
+    "d": -112.5,
+    "type": "absorbed",
+    "value": 21.9
+   },
+   {
+    "t": 51.3,
+    "s": 581.9,
+    "d": -86.8,
+    "type": "absorbed",
+    "value": 20.5
+   },
+   {
+    "t": 63.9,
+    "s": 707.2,
+    "d": -103.3,
+    "type": "absorbed",
+    "value": 22.2
+   },
+   {
+    "t": 71.8,
+    "s": 829.5,
+    "d": -90,
+    "type": "chipped",
+    "value": 0.422
+   },
+   {
+    "t": 71.8,
+    "s": 832,
+    "d": -90,
+    "type": "damBreached",
+    "kind": "dam",
+    "category": "water",
+    "landmarkId": "upper-dam",
+    "value": 900
+   },
+   {
+    "t": 77.8,
+    "s": 879.8,
+    "d": -89.7,
+    "type": "waterfall",
+    "value": 0
+   },
+   {
+    "t": 85.2,
+    "s": 1019.3,
+    "d": -79.8,
+    "type": "waterfall",
+    "value": 2
+   },
+   {
+    "t": 90.4,
+    "s": 1154.9,
+    "d": -68.3,
+    "type": "waterfall",
+    "value": 3
+   },
+   {
+    "t": 95.3,
+    "s": 1313.8,
+    "d": -59.7,
+    "type": "waterfall",
+    "value": 4
+   },
+   {
+    "t": 98.8,
+    "s": 1433.4,
+    "d": -59.9,
+    "type": "chipped",
+    "value": 0.06
+   },
+   {
+    "t": 98.8,
+    "s": 1440,
+    "d": -60,
+    "type": "broke",
+    "kind": "chalet",
+    "category": "home",
+    "landmarkId": "first-chalet",
+    "value": 200
+   },
+   {
+    "t": 105.2,
+    "s": 1609.8,
+    "d": -69.1,
+    "type": "chipped",
+    "value": 0.088
+   },
+   {
+    "t": 105.2,
+    "s": 1611.8,
+    "d": -70,
+    "type": "broke",
+    "kind": "church",
+    "category": "community",
+    "landmarkId": "fjord-chapel",
+    "value": 300
+   },
+   {
+    "t": 105.2,
+    "s": 1614,
+    "d": -70.1,
+    "type": "chipped",
+    "value": 0.104
+   },
+   {
+    "t": 105.4,
+    "s": 1620.3,
+    "d": -67.8,
+    "type": "chipped",
+    "value": 0.106
+   },
+   {
+    "t": 115.7,
+    "s": 1771,
+    "d": -33.3,
+    "type": "waterfall",
+    "value": 5
+   },
+   {
+    "t": 118.3,
+    "s": 1831.5,
+    "d": -20.6,
+    "type": "enteredOcean"
+   }
+  ],
+  "route": [
+   {
+    "s": 30.1,
+    "d": 0
+   },
+   {
+    "s": 47,
+    "d": -7.9
+   },
+   {
+    "s": 72.3,
+    "d": -20.6
+   },
+   {
+    "s": 99.1,
+    "d": -34
+   },
+   {
+    "s": 133.3,
+    "d": -53
+   },
+   {
+    "s": 169.5,
+    "d": -76
+   },
+   {
+    "s": 216.1,
+    "d": -95.8
+   },
+   {
+    "s": 261.1,
+    "d": -102.2
+   },
+   {
+    "s": 296.3,
+    "d": -107.1
+   },
+   {
+    "s": 329.9,
+    "d": -112.8
+   },
+   {
+    "s": 360.2,
+    "d": -116.9
+   },
+   {
+    "s": 395.8,
+    "d": -119.6
+   },
+   {
+    "s": 419.7,
+    "d": -121.2
+   },
+   {
+    "s": 449.2,
+    "d": -122.3
+   },
+   {
+    "s": 481.1,
+    "d": -120.1
+   },
+   {
+    "s": 520.2,
+    "d": -109.3
+   },
+   {
+    "s": 548.7,
+    "d": -98.8
+   },
+   {
+    "s": 582.2,
+    "d": -87.8
+   },
+   {
+    "s": 611.1,
+    "d": -98.4
+   },
+   {
+    "s": 642,
+    "d": -109.4
+   },
+   {
+    "s": 670.3,
+    "d": -114.4
+   },
+   {
+    "s": 705.6,
+    "d": -105.5
+   },
+   {
+    "s": 747.8,
+    "d": -93.1
+   },
+   {
+    "s": 795.4,
+    "d": -90.3
+   },
+   {
+    "s": 833.5,
+    "d": -89.7
+   },
+   {
+    "s": 864.6,
+    "d": -89.5
+   },
+   {
+    "s": 904.1,
+    "d": -89.2
+   },
+   {
+    "s": 964.1,
+    "d": -84.5
+   },
+   {
+    "s": 1022.3,
+    "d": -79.5
+   },
+   {
+    "s": 1106.5,
+    "d": -71.8
+   },
+   {
+    "s": 1188.8,
+    "d": -65.5
+   },
+   {
+    "s": 1292.1,
+    "d": -60
+   },
+   {
+    "s": 1390,
+    "d": -59.8
+   },
+   {
+    "s": 1479.6,
+    "d": -60.3
+   },
+   {
+    "s": 1567.8,
+    "d": -63.5
+   },
+   {
+    "s": 1630.2,
+    "d": -66.1
+   },
+   {
+    "s": 1677.6,
+    "d": -55.5
+   },
+   {
+    "s": 1722.2,
+    "d": -44.6
+   },
+   {
+    "s": 1777.6,
+    "d": -31.7
+   },
+   {
+    "s": 1845.7,
+    "d": -18.5
+   }
+  ],
+  "reachedS": 1850.2,
+  "coastS": 1830
+ }
+}

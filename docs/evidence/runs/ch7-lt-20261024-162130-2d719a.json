@@ -1,0 +1,2179 @@
+{
+ "case": "ch7",
+ "label": "chapter 7, autopilot, through the Calder processing plant",
+ "date": "2026-10-24T16:22:46.535Z",
+ "model": "gpt-6-luna",
+ "runId": "lt-20261024-162130-2d719a",
+ "code": "bc69b9e+uncommitted",
+ "instructions": {
+  "archivist": "491aa90c43cd",
+  "historian": "964ff05dfa7a",
+  "budgets": {
+   "maxRounds": 6,
+   "maxToolCalls": 12,
+   "maxHistorianRounds": 3,
+   "maxOutputTokens": {
+    "archivist": 3200,
+    "historian": 1800
+   },
+   "requestTimeoutMs": 45000,
+   "narrativeDeadlineMs": {
+    "reflection": 170000,
+    "epilogue": 290000
+   },
+   "maxRequestsPerProcess": 300,
+   "dailyTokenBudget": 1500000,
+   "postsPerMinute": 12,
+   "maxBodyBytes": 65536
+  }
+ },
+ "mode": "reflection",
+ "chapterId": "ch7-escape",
+ "gameplay": {
+  "file": "docs/evidence/gameplay/ch7-autopilot.json",
+  "plan": {
+   "kind": "autopilot"
+  }
+ },
+ "history": [
+  {
+   "chapterId": "ch1-beginning",
+   "gameplay": "ch1-autopilot",
+   "reflection": "ai lt-20261023-205931-9b9c06"
+  },
+  {
+   "chapterId": "ch2-measurements",
+   "gameplay": "ch2-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch3-warning",
+   "gameplay": "ch3-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch4-people",
+   "gameplay": "ch4-through-church-lane",
+   "reflection": "ai lt-20261021-094235-60dc7c"
+  },
+  {
+   "chapterId": "ch5-denial",
+   "gameplay": "ch5-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch6-price",
+   "gameplay": "ch6-autopilot",
+   "reflection": "ai lt-20261021-095113-f46bab"
+  }
+ ],
+ "request": {
+  "chapterId": "ch7-escape",
+  "evidence": {
+   "version": 1,
+   "chapterId": "ch7-escape",
+   "levelId": "ravine-run",
+   "outcome": "complete",
+   "time": 63.2,
+   "distance": 1412,
+   "topSpeed": 34,
+   "startMass": 30,
+   "endMass": 9.4,
+   "peakMass": 30,
+   "absorbed": 0,
+   "iceLeft": 0.314,
+   "waterfallsCrossed": 4,
+   "collisions": 12,
+   "treesFelled": 0,
+   "knockedDown": 11,
+   "buildingsDestroyed": 5,
+   "storyPoints": 4915,
+   "destroyedByCategory": {
+    "extraction": 7,
+    "industry": 1,
+    "energy": 1,
+    "community": 1
+   },
+   "destroyedByKind": {
+    "tank": 5,
+    "logPile": 1,
+    "pumpjack": 1,
+    "pylon": 1,
+    "waterTower": 1,
+    "pipeline": 1
+   },
+   "landmarks": [
+    {
+     "id": "first-cut-bridge",
+     "status": "intact",
+     "closest": 110.5
+    },
+    {
+     "id": "hollins-farm",
+     "status": "intact",
+     "closest": 174.1
+    },
+    {
+     "id": "leap-farm",
+     "status": "intact",
+     "closest": 163.1
+    },
+    {
+     "id": "ranger-tank",
+     "status": "destroyed",
+     "closest": 1.9
+    },
+    {
+     "id": "ranger-post",
+     "status": "intact",
+     "closest": 36.6
+    },
+    {
+     "id": "rope-bridge",
+     "status": "intact",
+     "closest": 130.4
+    },
+    {
+     "id": "road-end-farm",
+     "status": "intact",
+     "closest": 192.4
+    },
+    {
+     "id": "beach-house",
+     "status": "intact",
+     "closest": 125.9
+    },
+    {
+     "id": "mesa-wells",
+     "status": "intact",
+     "closest": 66.5
+    },
+    {
+     "id": "mesa-pipeline",
+     "status": "destroyed",
+     "closest": 1.3
+    },
+    {
+     "id": "field-hostel",
+     "status": "intact",
+     "closest": 85.9
+    },
+    {
+     "id": "mesa-plant",
+     "status": "destroyed",
+     "closest": 3.2
+    }
+   ],
+   "notable": [
+    {
+     "t": 2.8,
+     "s": 55,
+     "d": -4,
+     "type": "broke",
+     "kind": "tank",
+     "category": "extraction",
+     "landmarkId": "mesa-plant",
+     "value": 600
+    },
+    {
+     "t": 17.7,
+     "s": 292.8,
+     "d": -11.6,
+     "type": "landed",
+     "value": 9.1
+    },
+    {
+     "t": 18.4,
+     "s": 310,
+     "d": -12,
+     "type": "broke",
+     "kind": "tank",
+     "category": "extraction",
+     "value": 600
+    },
+    {
+     "t": 19,
+     "s": 322,
+     "d": -13,
+     "type": "broke",
+     "kind": "logPile",
+     "category": "industry",
+     "value": 15
+    },
+    {
+     "t": 20.3,
+     "s": 345,
+     "d": -15,
+     "type": "broke",
+     "kind": "pumpjack",
+     "category": "extraction",
+     "value": 600
+    },
+    {
+     "t": 28.7,
+     "s": 500.1,
+     "d": -14.1,
+     "type": "waterfall",
+     "value": 0
+    },
+    {
+     "t": 30.3,
+     "s": 545,
+     "d": -8,
+     "type": "broke",
+     "kind": "tank",
+     "category": "extraction",
+     "value": 600
+    },
+    {
+     "t": 35.5,
+     "s": 667.6,
+     "d": -3.4,
+     "type": "landed",
+     "value": 9.6
+    },
+    {
+     "t": 37.6,
+     "s": 725,
+     "d": -1,
+     "type": "broke",
+     "kind": "pylon",
+     "category": "energy",
+     "value": 250
+    },
+    {
+     "t": 43.1,
+     "s": 858.1,
+     "d": 3.3,
+     "type": "waterfall",
+     "value": 1
+    },
+    {
+     "t": 45,
+     "s": 914,
+     "d": 8.7,
+     "type": "chipped",
+     "value": 0.049
+    },
+    {
+     "t": 45,
+     "s": 914.1,
+     "d": 9.1,
+     "type": "broke",
+     "kind": "waterTower",
+     "category": "community",
+     "landmarkId": "ranger-tank",
+     "value": 250
+    },
+    {
+     "t": 49.5,
+     "s": 1035,
+     "d": 5.1,
+     "type": "landed",
+     "value": 11.1
+    },
+    {
+     "t": 50.6,
+     "s": 1068,
+     "d": 2,
+     "type": "broke",
+     "kind": "tank",
+     "category": "extraction",
+     "value": 600
+    },
+    {
+     "t": 53.3,
+     "s": 1140.5,
+     "d": -0.4,
+     "type": "waterfall",
+     "value": 2
+    },
+    {
+     "t": 58.2,
+     "s": 1287.7,
+     "d": 0.1,
+     "type": "landed",
+     "value": 13.7
+    },
+    {
+     "t": 59,
+     "s": 1318,
+     "d": 2.7,
+     "type": "broke",
+     "kind": "pipeline",
+     "category": "extraction",
+     "landmarkId": "mesa-pipeline",
+     "value": 800
+    },
+    {
+     "t": 61.2,
+     "s": 1379.8,
+     "d": -0.1,
+     "type": "waterfall",
+     "value": 3
+    },
+    {
+     "t": 61.8,
+     "s": 1405,
+     "d": 0,
+     "type": "broke",
+     "kind": "tank",
+     "category": "extraction",
+     "value": 600
+    },
+    {
+     "t": 62.5,
+     "s": 1423.5,
+     "d": -0.1,
+     "type": "enteredOcean"
+    }
+   ],
+   "route": [
+    {
+     "s": 30.1,
+     "d": 0
+    },
+    {
+     "s": 41.1,
+     "d": -0.3
+    },
+    {
+     "s": 55.2,
+     "d": -0.8
+    },
+    {
+     "s": 73.1,
+     "d": -1.5
+    },
+    {
+     "s": 95.2,
+     "d": -2
+    },
+    {
+     "s": 118.6,
+     "d": -3.1
+    },
+    {
+     "s": 143.3,
+     "d": -4.8
+    },
+    {
+     "s": 170.4,
+     "d": -7.5
+    },
+    {
+     "s": 200.6,
+     "d": -9.4
+    },
+    {
+     "s": 232.3,
+     "d": -9.9
+    },
+    {
+     "s": 267.3,
+     "d": -10.6
+    },
+    {
+     "s": 296,
+     "d": -11.8
+    },
+    {
+     "s": 328.3,
+     "d": -13.6
+    },
+    {
+     "s": 356.7,
+     "d": -15
+    },
+    {
+     "s": 383.7,
+     "d": -16.2
+    },
+    {
+     "s": 414.3,
+     "d": -18.7
+    },
+    {
+     "s": 445.7,
+     "d": -17.7
+    },
+    {
+     "s": 477.2,
+     "d": -15.9
+    },
+    {
+     "s": 510.3,
+     "d": -13.2
+    },
+    {
+     "s": 551,
+     "d": -8.7
+    },
+    {
+     "s": 591.2,
+     "d": -5.5
+    },
+    {
+     "s": 629.8,
+     "d": -4.5
+    },
+    {
+     "s": 666.2,
+     "d": -3.4
+    },
+    {
+     "s": 708.1,
+     "d": -2
+    },
+    {
+     "s": 748.9,
+     "d": -0.5
+    },
+    {
+     "s": 789.4,
+     "d": 0.2
+    },
+    {
+     "s": 828.1,
+     "d": 1.5
+    },
+    {
+     "s": 867.5,
+     "d": 3.8
+    },
+    {
+     "s": 914.1,
+     "d": 7.2
+    },
+    {
+     "s": 959.3,
+     "d": 9.3
+    },
+    {
+     "s": 1009,
+     "d": 7.1
+    },
+    {
+     "s": 1052.3,
+     "d": 3.7
+    },
+    {
+     "s": 1097.5,
+     "d": 0.7
+    },
+    {
+     "s": 1141,
+     "d": -0.4
+    },
+    {
+     "s": 1191.9,
+     "d": -0.3
+    },
+    {
+     "s": 1240.3,
+     "d": 0
+    },
+    {
+     "s": 1286.3,
+     "d": 0.1
+    },
+    {
+     "s": 1337.1,
+     "d": -0.1
+    },
+    {
+     "s": 1385.4,
+     "d": -0.1
+    },
+    {
+     "s": 1434.8,
+     "d": -0.1
+    }
+   ],
+   "reachedS": 1440.4,
+   "coastS": 1420
+  },
+  "history": [
+   {
+    "chapterId": "ch1-beginning",
+    "outcome": "complete",
+    "storyPoints": 0,
+    "destroyedByCategory": {},
+    "destroyedByKind": {},
+    "landmarks": [
+     {
+      "id": "bolted-stone",
+      "status": "intact",
+      "closest": 6.3
+     },
+     {
+      "id": "gate-stones",
+      "status": "intact",
+      "closest": 6.6
+     },
+     {
+      "id": "falls-rowan",
+      "status": "intact",
+      "closest": 14.1
+     },
+     {
+      "id": "survey-hut",
+      "status": "intact",
+      "closest": 13.3
+     }
+    ],
+    "fragmentIds": [
+     "ch1-hut-stands",
+     "ch1-benchmark-register",
+     "ch1-clean-run",
+     "ch1-hut-door-note"
+    ],
+    "reflectionExcerpt": "The bolted stone at Vell Foot is still in place. The survey register describes a brass bolt set into a granite boulder as the fixed point for measurements. It records the instruction, “Do not move the boulder,” then marks it as a joke. The…"
+   },
+   {
+    "chapterId": "ch2-measurements",
+    "outcome": "complete",
+    "storyPoints": 265,
+    "destroyedByCategory": {
+     "home": 1,
+     "industry": 1
+    },
+    "destroyedByKind": {
+     "house": 1,
+     "logPile": 1
+    },
+    "landmarks": [
+     {
+      "id": "gauging-bridge",
+      "status": "intact",
+      "closest": 0.8
+     },
+     {
+      "id": "long-bridge",
+      "status": "intact",
+      "closest": 0.7
+     },
+     {
+      "id": "lind-cabin",
+      "status": "destroyed",
+      "closest": 3.7
+     },
+     {
+      "id": "trading-post",
+      "status": "intact",
+      "closest": 26.8
+     },
+     {
+      "id": "canyon-tower",
+      "status": "intact",
+      "closest": 13.2
+     },
+     {
+      "id": "canyon-boat",
+      "status": "intact",
+      "closest": 18.1
+     }
+    ],
+    "fragmentIds": [
+     "ch2-cabin-gone",
+     "ch2-gauge-reading",
+     "ch2-notebook-lake",
+     "ch2-young-lind"
+    ],
+    "reflectionExcerpt": "The measurements were never secret. They were in reports with plain titles, filed in the proper places and sent to the people whose job it was to read them. Some of those people did read them. One wrote \"very good\" in the margin and passed…"
+   },
+   {
+    "chapterId": "ch3-warning",
+    "outcome": "complete",
+    "storyPoints": 0,
+    "destroyedByCategory": {},
+    "destroyedByKind": {},
+    "landmarks": [
+     {
+      "id": "post-bus",
+      "status": "intact",
+      "closest": 33.4
+     },
+     {
+      "id": "lift-pylon",
+      "status": "intact",
+      "closest": 161.9
+     },
+     {
+      "id": "hairpin-chalet",
+      "status": "intact",
+      "closest": 19.2
+     },
+     {
+      "id": "village-guesthouse",
+      "status": "intact",
+      "closest": 41.7
+     },
+     {
+      "id": "pass-chapel",
+      "status": "intact",
+      "closest": 73.8
+     },
+     {
+      "id": "valley-chalet",
+      "status": "intact",
+      "closest": 169.4
+     }
+    ],
+    "fragmentIds": [
+     "ch3-valley-letter",
+     "ch3-chapel-log",
+     "ch3-exercise-notice",
+     "ch3-sorel-letter"
+    ],
+    "reflectionExcerpt": "The last chalet on the valley road was still standing when you passed, and I have written that down first. The plan for the pass had two assembly points, three roads, coaches, soup and a siren on the chapel roof that nobody on the valley r…"
+   },
+   {
+    "chapterId": "ch4-people",
+    "outcome": "complete",
+    "storyPoints": 2650,
+    "destroyedByCategory": {
+     "home": 7,
+     "water": 1
+    },
+    "destroyedByKind": {
+     "house": 7,
+     "dam": 1
+    },
+    "landmarks": [
+     {
+      "id": "vey-house",
+      "status": "destroyed",
+      "closest": 0.1
+     },
+     {
+      "id": "pell-house",
+      "status": "destroyed",
+      "closest": 0.5
+     },
+     {
+      "id": "st-brides",
+      "status": "intact",
+      "closest": 22.3
+     },
+     {
+      "id": "gas-holder",
+      "status": "intact",
+      "closest": 146.3
+     },
+     {
+      "id": "level-crossing-train",
+      "status": "intact",
+      "closest": 45.3
+     },
+     {
+      "id": "viaduct",
+      "status": "intact",
+      "closest": 86.2
+     },
+     {
+      "id": "riverside-dam",
+      "status": "destroyed",
+      "closest": 3.4
+     },
+     {
+      "id": "harbour-light",
+      "status": "intact",
+      "closest": 117.3
+     }
+    ],
+    "fragmentIds": [
+     "ch4-vey-house-gone",
+     "ch4-harrow-letter",
+     "ch4-levy-result",
+     "ch4-pells"
+    ],
+    "reflectionExcerpt": "You broke No. 14, then the Pells’ house next door. I had marked my own door with the circle for empty; I kept the chalk. There were eleven boxes I could not carry, and an untuned piano in the room. Mrs Pell had a receipt for roof repairs a…"
+   },
+   {
+    "chapterId": "ch5-denial",
+    "outcome": "complete",
+    "storyPoints": 1420,
+    "destroyedByCategory": {
+     "home": 2,
+     "farm": 1,
+     "water": 1
+    },
+    "destroyedByKind": {
+     "chalet": 2,
+     "barn": 1,
+     "dam": 1
+    },
+    "landmarks": [
+     {
+      "id": "kessel-dam",
+      "status": "destroyed",
+      "closest": 0.6
+     },
+     {
+      "id": "dairy-chalet",
+      "status": "destroyed",
+      "closest": 1.6
+     },
+     {
+      "id": "kessel-barn",
+      "status": "destroyed",
+      "closest": 1.5
+     },
+     {
+      "id": "kessel-guesthouse",
+      "status": "intact",
+      "closest": 30.8
+     },
+     {
+      "id": "gorge-chalet",
+      "status": "destroyed",
+      "closest": 2.6
+     },
+     {
+      "id": "kessel-lift",
+      "status": "intact",
+      "closest": 96
+     },
+     {
+      "id": "coop-silo",
+      "status": "intact",
+      "closest": 68.4
+     }
+    ],
+    "fragmentIds": [
+     "ch5-moreno-memo",
+     "ch5-lake-walk",
+     "ch5-board-minutes",
+     "ch5-dairy"
+    ],
+    "reflectionExcerpt": "You hit the Kessel dam with all the ice you had gathered on the way down, and it gave way. That is more or less what Anna Sorel's 2024 report said would happen if something big enough arrived. I want to be fair to the people who read that …"
+   },
+   {
+    "chapterId": "ch6-price",
+    "outcome": "complete",
+    "storyPoints": 3650,
+    "destroyedByCategory": {
+     "energy": 3,
+     "industry": 2,
+     "extraction": 2
+    },
+    "destroyedByKind": {
+     "windTurbine": 1,
+     "coolingTower": 2,
+     "factoryHall": 2,
+     "tank": 2
+    },
+    "landmarks": [
+     {
+      "id": "calder-cottages",
+      "status": "intact",
+      "closest": 47.2
+     },
+     {
+      "id": "coop-turbine",
+      "status": "destroyed",
+      "closest": 2.5
+     },
+     {
+      "id": "coal-train",
+      "status": "damaged",
+      "closest": 5
+     },
+     {
+      "id": "north-tower",
+      "status": "destroyed",
+      "closest": 14.1
+     },
+     {
+      "id": "turbine-hall",
+      "status": "intact",
+      "closest": 85.2
+     },
+     {
+      "id": "tank-farm",
+      "status": "intact",
+      "closest": 198.9
+     },
+     {
+      "id": "calder-dam",
+      "status": "intact",
+      "closest": 73.9
+     },
+     {
+      "id": "highway-bridge",
+      "status": "intact",
+      "closest": 31.4
+     }
+    ],
+    "fragmentIds": [
+     "ch6-tank-inspection",
+     "ch6-risk-register",
+     "ch6-coop-courier",
+     "ch6-brother-yard"
+    ],
+    "reflectionExcerpt": "A share cost about the price of a bicycle. A schoolteacher from Riverside called the co-op turbines “ours” and “a start,” and said she was sick of waiting for the start. The co-op turbine broke on the hill; after it, the north cooling towe…"
+   }
+  ]
+ },
+ "result": {
+  "ok": true,
+  "title": "Bottles on the Porch",
+  "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the tanks held the salty, oily water that came up from the wells with the oil, and stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply.",
+  "fragmentIds": [
+   "ch7-plant-letter",
+   "ch7-water-porch"
+  ],
+  "factIds": [],
+  "claims": [
+   {
+    "type": "landmark",
+    "landmarkId": "mesa-plant",
+    "status": "destroyed"
+   },
+   {
+    "type": "landmark",
+    "landmarkId": "ranger-tank",
+    "status": "destroyed"
+   },
+   {
+    "type": "landmark",
+    "landmarkId": "mesa-pipeline",
+    "status": "destroyed"
+   },
+   {
+    "type": "fragment",
+    "fragmentId": "ch7-plant-letter"
+   },
+   {
+    "type": "fragment",
+    "fragmentId": "ch7-water-porch"
+   }
+  ],
+  "review": {
+   "verdict": "corrected",
+   "rounds": 2,
+   "issues": [
+    "“waste-water tanks” is not the letter’s description. It says they held salty, oily water that came up from the wells with the oil; use that wording."
+   ]
+  },
+  "validation": {
+   "passed": true,
+   "checked": 29
+  }
+ },
+ "totals": {
+  "agentInvocations": 4,
+  "requests": 12,
+  "toolCalls": 23,
+  "inputTokens": 68455,
+  "cachedInputTokens": 47767,
+  "cacheWriteTokens": 20652,
+  "outputTokens": 4726,
+  "reasoningTokens": 3290,
+  "costUsd": 0.00542578,
+  "agentMs": 75991,
+  "wallMs": 76053,
+  "gatewayCacheHits": 0
+ },
+ "trace": {
+  "runId": "lt-20261024-162130-2d719a",
+  "mode": "reflection",
+  "chapterId": "ch7-escape",
+  "model": "gpt-6-luna",
+  "provider": "course",
+  "transport": "portkey",
+  "startedAt": "2026-10-24T16:21:30.483Z",
+  "evidenceSummary": {
+   "outcome": "complete",
+   "storyPoints": 4915,
+   "destroyedByCategory": {
+    "extraction": 7,
+    "industry": 1,
+    "energy": 1,
+    "community": 1
+   },
+   "landmarks": [
+    {
+     "id": "first-cut-bridge",
+     "status": "intact",
+     "closest": 110.5
+    },
+    {
+     "id": "hollins-farm",
+     "status": "intact",
+     "closest": 174.1
+    },
+    {
+     "id": "leap-farm",
+     "status": "intact",
+     "closest": 163.1
+    },
+    {
+     "id": "ranger-tank",
+     "status": "destroyed",
+     "closest": 1.9
+    },
+    {
+     "id": "ranger-post",
+     "status": "intact",
+     "closest": 36.6
+    },
+    {
+     "id": "rope-bridge",
+     "status": "intact",
+     "closest": 130.4
+    },
+    {
+     "id": "road-end-farm",
+     "status": "intact",
+     "closest": 192.4
+    },
+    {
+     "id": "beach-house",
+     "status": "intact",
+     "closest": 125.9
+    },
+    {
+     "id": "mesa-wells",
+     "status": "intact",
+     "closest": 66.5
+    },
+    {
+     "id": "mesa-pipeline",
+     "status": "destroyed",
+     "closest": 1.3
+    },
+    {
+     "id": "field-hostel",
+     "status": "intact",
+     "closest": 85.9
+    },
+    {
+     "id": "mesa-plant",
+     "status": "destroyed",
+     "closest": 3.2
+    }
+   ],
+   "notableEvents": 20
+  },
+  "historyChapters": [
+   "ch1-beginning",
+   "ch2-measurements",
+   "ch3-warning",
+   "ch4-people",
+   "ch5-denial",
+   "ch6-price"
+  ],
+  "steps": [
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 2677,
+    "summary": "round 1: 3522 in (0 cached), 89 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3522,
+      "input_tokens_details": {
+       "cache_write_tokens": 3519,
+       "cached_tokens": 0
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 3611
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 2682,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":63.2,\"distanceM\":1412,\"topSpeedMs\":34,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":9.4,\"growth\":1,\"iceLeftPct\":31,\"waterfallsCrossed\":4,\"collisions\":12,\"treesFelled\":0,\"buildingsDestroyed\":5,\"destroyedTotal\":10,\"storyPoints\":4915,\"destroyedByCategory\":{\"extraction\":7,\"industry\":1,\"energy\":1,\"community\":1},\"destroyedByKind\":{\"tank\":5,\"logPile\":1,\"pumpjack\":1,\"pylon\":1,\"waterTower\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"first-cut-bridge\",\"name\":\"The First Cut rope bridge\",\"status\":\"intact\"},{\"id\":\"hollins-farm\",\"name\":\"Hollins farm on the ranger road…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 2685,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch7-plant-notice\",\"chapterId\":\"ch7-escape\",\"kind\":\"notice\",\"title\":\"Red Mesa: do not use the water\",\"date\":\"14 August 2039\",\"author\":\"Vell Valley Water Board\",\"body\":\"The tanks of the Calder processing plant at the head of the Red Mesa were broken open on 12 August, and their waste water has run down every stream on the mesa. Until further notice: do not drink from any well or stream on the mesa, do not water animals from them, and do not eat anything grown in the lower fields. The streams are running brown, with an oily film on the still pools, and the…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 2686,
+    "summary": "get_level_context ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch7-escape\",\"index\":7,\"title\":\"The Escape\",\"act\":3,\"actTitle\":\"The Reckoning\",\"introLines\":[\"South of the valley, the farms of the Red Mesa had one way out: the ranger road, round the ends of six ravines.\",\"At the head of the mesa, above every farm, stood the Calder processing plant and its tanks of oily waste water.\"]},\"level\":{\"name\":\"Ravine Run\",\"subtitle\":\"An open red-rock mountainside cut by deadly ravines: pick your crossing, keep your speed.\",\"structures\":[{\"kind\":\"tank\",\"count\":18},{\"kind\":\"car\",\"count\":13},{\"kind\":\"house\",\"count\":10},{\"kind\":\"pylo…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 2688,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "characters"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 2689,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "style"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Plain modern English that a student reads once, without stopping: complete, grammatical sentences, each with a clear subject and verb; no riddles, poetic fragments or images the reader has to decode. People by their full names the first time (Tomas Lind), never by an initial; after that a first name the reader already knows. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 5296,
+    "summary": "round 2: 8393 in (3519 cached), 165 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 8393,
+      "input_tokens_details": {
+       "cache_write_tokens": 4871,
+       "cached_tokens": 3519
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+       "reasoning_tokens": 87
+      },
+      "total_tokens": 8558
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 5297,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "limit": 20
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":20,\"events\":[{\"t\":2.8,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"landmarkId\":\"mesa-plant\",\"landmark\":\"The Calder processing plant\",\"value\":600},{\"t\":17.7,\"type\":\"landed\",\"value\":9.1},{\"t\":18.4,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":19,\"type\":\"broke\",\"kind\":\"logPile\",\"category\":\"industry\",\"value\":15},{\"t\":20.3,\"type\":\"broke\",\"kind\":\"pumpjack\",\"category\":\"extraction\",\"value\":600},{\"t\":28.7,\"type\":\"waterfall\",\"value\":0},{\"t\":30.3,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":35.5,\"type\":\"landed\",\"valu…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 5297,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "landmarkId": "mesa-plant",
+      "limit": 10
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":2.8,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"landmarkId\":\"mesa-plant\",\"landmark\":\"The Calder processing plant\",\"value\":600}]}}"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 5298,
+    "summary": "get_story_history ok",
+    "data": {
+     "args": {
+      "chapterId": "ch6-price"
+     },
+     "output": "{\"ok\":true,\"result\":{\"chapters\":[{\"chapterId\":\"ch6-price\",\"title\":\"The Price\",\"outcome\":\"complete\",\"storyPoints\":3650,\"destroyedTotal\":7,\"destroyedByCategory\":{\"energy\":3,\"industry\":2,\"extraction\":2},\"landmarks\":[{\"id\":\"calder-cottages\",\"name\":\"The Calder cottages on the access road\",\"status\":\"intact\"},{\"id\":\"coop-turbine\",\"name\":\"The co-op turbine on the hill\",\"status\":\"destroyed\"},{\"id\":\"coal-train\",\"name\":\"The coal train in the yard\",\"status\":\"damaged\"},{\"id\":\"north-tower\",\"name\":\"The north cooling tower\",\"status\":\"destroyed\"},{\"id\":\"turbine-hall\",\"name\":\"The turbine hall\",\"status\":\"intact\"…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 19241,
+    "summary": "round 3: 9418 in (8390 cached), 1647 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 9418,
+      "input_tokens_details": {
+       "cache_write_tokens": 1025,
+       "cached_tokens": 8390
+      },
+      "output_tokens": 1647,
+      "output_tokens_details": {
+       "reasoning_tokens": 1352
+      },
+      "total_tokens": 11065
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "draft",
+    "at": 19242,
+    "summary": "draft 1: \"Bottles on the Porch\"",
+    "data": {
+     "title": "Bottles on the Porch",
+     "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the Calder processing plant's waste-water tanks stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply.",
+     "fragmentIds": [
+      "ch7-plant-letter",
+      "ch7-water-porch"
+     ],
+     "factIds": [],
+     "claims": [
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-plant",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "ranger-tank",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-pipeline",
+       "status": "destroyed"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-plant-letter"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-water-porch"
+      }
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 21755,
+    "summary": "round 1: 3388 in (0 cached), 206 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3388,
+      "input_tokens_details": {
+       "cache_write_tokens": 3385,
+       "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 3594
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21825,
+    "summary": "validate_narrative_events ok",
+    "data": {
+     "args": {
+      "claims": [
+       {
+        "type": "landmark",
+        "landmarkId": "mesa-plant",
+        "status": "destroyed"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "ranger-tank",
+        "status": "destroyed"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "mesa-pipeline",
+        "status": "destroyed"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch7-plant-letter"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch7-water-porch"
+       }
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":22,\"issues\":[]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21856,
+    "summary": "check_narrative_continuity ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":7,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21856,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":63.2,\"distanceM\":1412,\"topSpeedMs\":34,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":9.4,\"growth\":1,\"iceLeftPct\":31,\"waterfallsCrossed\":4,\"collisions\":12,\"treesFelled\":0,\"buildingsDestroyed\":5,\"destroyedTotal\":10,\"storyPoints\":4915,\"destroyedByCategory\":{\"extraction\":7,\"industry\":1,\"energy\":1,\"community\":1},\"destroyedByKind\":{\"tank\":5,\"logPile\":1,\"pumpjack\":1,\"pylon\":1,\"waterTower\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"first-cut-bridge\",\"name\":\"The First Cut rope bridge\",\"status\":\"intact\"},{\"id\":\"hollins-farm\",\"name\":\"Hollins farm on the ranger road…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21857,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "limit": 30
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":20,\"events\":[{\"t\":2.8,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"landmarkId\":\"mesa-plant\",\"landmark\":\"The Calder processing plant\",\"value\":600},{\"t\":17.7,\"type\":\"landed\",\"value\":9.1},{\"t\":18.4,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":19,\"type\":\"broke\",\"kind\":\"logPile\",\"category\":\"industry\",\"value\":15},{\"t\":20.3,\"type\":\"broke\",\"kind\":\"pumpjack\",\"category\":\"extraction\",\"value\":600},{\"t\":28.7,\"type\":\"waterfall\",\"value\":0},{\"t\":30.3,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":35.5,\"type\":\"landed\",\"valu…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21857,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {
+      "ids": [
+       "ch7-plant-letter",
+       "ch7-water-porch"
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch7-plant-letter\",\"chapterId\":\"ch7-escape\",\"kind\":\"letter\",\"title\":\"Letter from Ada Hollins to Calder Energy\",\"date\":\"May 2036\",\"body\":\"Dear Calder Energy, my family has farmed below your processing plant since it was built in 1971. It gave my father his first steady job, and on dark evenings the flame on its tall chimney is how we find our way home across the mesa. I am not writing to complain about the smell, which we stopped noticing years ago. I am writing about the tanks. They hold the salty, oily water that comes up from your wells with the oil, a…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 21857,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "characters"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of Riverside\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history\":\"Not yet revea…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 28863,
+    "summary": "round 2: 6841 in (3385 cached), 767 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 6841,
+      "input_tokens_details": {
+       "cache_write_tokens": 3453,
+       "cached_tokens": 3385
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+       "reasoning_tokens": 677
+      },
+      "total_tokens": 7608
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "error",
+    "at": 28864,
+    "summary": "round 2: invalid reply",
+    "data": {
+     "problems": [
+      "review.issues[0]: at most 300 characters"
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 30803,
+    "summary": "round 3: 6960 in (6838 cached), 79 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 6960,
+      "input_tokens_details": {
+       "cache_write_tokens": 119,
+       "cached_tokens": 6838
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+       "reasoning_tokens": 24
+      },
+      "total_tokens": 7039
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "review",
+    "at": 30825,
+    "summary": "review 1: revise (1 issues)",
+    "data": {
+     "verdict": "revise",
+     "issues": [
+      "“waste-water tanks” is not the letter’s description. It says they held salty, oily water that came up from the wells with the oil; use that wording."
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "validation",
+    "at": 30825,
+    "summary": "validation 1: passed (29 checks)",
+    "data": {
+     "passed": true,
+     "checked": 29,
+     "issues": []
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 53673,
+    "summary": "round 1: 3938 in (3519 cached), 32 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3938,
+      "input_tokens_details": {
+       "cache_write_tokens": 416,
+       "cached_tokens": 3519
+      },
+      "output_tokens": 32,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 3970
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 53674,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {
+      "ids": [
+       "ch7-plant-letter",
+       "ch7-water-porch"
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch7-plant-letter\",\"chapterId\":\"ch7-escape\",\"kind\":\"letter\",\"title\":\"Letter from Ada Hollins to Calder Energy\",\"date\":\"May 2036\",\"body\":\"Dear Calder Energy, my family has farmed below your processing plant since it was built in 1971. It gave my father his first steady job, and on dark evenings the flame on its tall chimney is how we find our way home across the mesa. I am not writing to complain about the smell, which we stopped noticing years ago. I am writing about the tanks. They hold the salty, oily water that comes up from your wells with the oil, a…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 58843,
+    "summary": "round 2: 4294 in (3935 cached), 558 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 4294,
+      "input_tokens_details": {
+       "cache_write_tokens": 356,
+       "cached_tokens": 3935
+      },
+      "output_tokens": 558,
+      "output_tokens_details": {
+       "reasoning_tokens": 252
+      },
+      "total_tokens": 4852
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "draft",
+    "at": 58843,
+    "summary": "draft 2: \"Bottles on the Porch\"",
+    "data": {
+     "title": "Bottles on the Porch",
+     "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the tanks held the salty, oily water that came up from the wells with the oil, and stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply.",
+     "fragmentIds": [
+      "ch7-plant-letter",
+      "ch7-water-porch"
+     ],
+     "factIds": [],
+     "claims": [
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-plant",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "ranger-tank",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-pipeline",
+       "status": "destroyed"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-plant-letter"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-water-porch"
+      }
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 61587,
+    "summary": "round 1: 3468 in (3065 cached), 215 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3468,
+      "input_tokens_details": {
+       "cache_write_tokens": 400,
+       "cached_tokens": 3065
+      },
+      "output_tokens": 215,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 3683
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61592,
+    "summary": "validate_narrative_events ok",
+    "data": {
+     "args": {
+      "claims": [
+       {
+        "type": "landmark",
+        "landmarkId": "mesa-plant",
+        "status": "destroyed"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "ranger-tank",
+        "status": "destroyed"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "mesa-pipeline",
+        "status": "destroyed"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch7-plant-letter"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch7-water-porch"
+       }
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":22,\"issues\":[]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61600,
+    "summary": "check_narrative_continuity ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":7,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in Carran.\",\"Tomas Li…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61601,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":63.2,\"distanceM\":1412,\"topSpeedMs\":34,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":9.4,\"growth\":1,\"iceLeftPct\":31,\"waterfallsCrossed\":4,\"collisions\":12,\"treesFelled\":0,\"buildingsDestroyed\":5,\"destroyedTotal\":10,\"storyPoints\":4915,\"destroyedByCategory\":{\"extraction\":7,\"industry\":1,\"energy\":1,\"community\":1},\"destroyedByKind\":{\"tank\":5,\"logPile\":1,\"pumpjack\":1,\"pylon\":1,\"waterTower\":1,\"pipeline\":1},\"landmarks\":[{\"id\":\"first-cut-bridge\",\"name\":\"The First Cut rope bridge\",\"status\":\"intact\"},{\"id\":\"hollins-farm\",\"name\":\"Hollins farm on the ranger road…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61601,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "landmarkId": "mesa-plant",
+      "limit": 30
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":2.8,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"landmarkId\":\"mesa-plant\",\"landmark\":\"The Calder processing plant\",\"value\":600}]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61602,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {
+      "ids": [
+       "ch7-plant-letter",
+       "ch7-water-porch"
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch7-plant-letter\",\"chapterId\":\"ch7-escape\",\"kind\":\"letter\",\"title\":\"Letter from Ada Hollins to Calder Energy\",\"date\":\"May 2036\",\"body\":\"Dear Calder Energy, my family has farmed below your processing plant since it was built in 1971. It gave my father his first steady job, and on dark evenings the flame on its tall chimney is how we find our way home across the mesa. I am not writing to complain about the smell, which we stopped noticing years ago. I am writing about the tanks. They hold the salty, oily water that comes up from your wells with the oil, a…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 61602,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "invariants"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of No. 14 Church Lane, Riverside. She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left Riverside on the last train, driven by her brother Elias, with four boxes, and keeps the archive in C…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 64802,
+    "summary": "round 2: 5542 in (3465 cached), 262 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 5542,
+      "input_tokens_details": {
+       "cache_write_tokens": 2074,
+       "cached_tokens": 3465
+      },
+      "output_tokens": 262,
+      "output_tokens_details": {
+       "reasoning_tokens": 236
+      },
+      "total_tokens": 5804
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 64802,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "limit": 30,
+      "type": "broke"
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":10,\"events\":[{\"t\":2.8,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"landmarkId\":\"mesa-plant\",\"landmark\":\"The Calder processing plant\",\"value\":600},{\"t\":18.4,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":19,\"type\":\"broke\",\"kind\":\"logPile\",\"category\":\"industry\",\"value\":15},{\"t\":20.3,\"type\":\"broke\",\"kind\":\"pumpjack\",\"category\":\"extraction\",\"value\":600},{\"t\":30.3,\"type\":\"broke\",\"kind\":\"tank\",\"category\":\"extraction\",\"value\":600},{\"t\":37.6,\"type\":\"broke\",\"kind\":\"pylon\",\"category\":\"energy\",\"value\":250},{\"t\":45,\"type\":\"broke\",\"kind\":\"waterT…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 71749,
+    "summary": "round 3: 6115 in (5539 cached), 366 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 6115,
+      "input_tokens_details": {
+       "cache_write_tokens": 573,
+       "cached_tokens": 5539
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+       "reasoning_tokens": 340
+      },
+      "total_tokens": 6481
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 71749,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "type": "landed",
+      "limit": 30
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":4,\"events\":[{\"t\":17.7,\"type\":\"landed\",\"value\":9.1},{\"t\":35.5,\"type\":\"landed\",\"value\":9.6},{\"t\":49.5,\"type\":\"landed\",\"value\":11.1},{\"t\":58.2,\"type\":\"landed\",\"value\":13.7}]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 76033,
+    "summary": "round 4: 6576 in (6112 cached), 340 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 6576,
+      "input_tokens_details": {
+       "cache_write_tokens": 461,
+       "cached_tokens": 6112
+      },
+      "output_tokens": 340,
+      "output_tokens_details": {
+       "reasoning_tokens": 322
+      },
+      "total_tokens": 6916
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "review",
+    "at": 76045,
+    "summary": "review 2: approve (0 issues)",
+    "data": {
+     "verdict": "approve",
+     "issues": []
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "validation",
+    "at": 76045,
+    "summary": "validation 2: passed (29 checks)",
+    "data": {
+     "passed": true,
+     "checked": 29,
+     "issues": []
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "final",
+    "at": 76045,
+    "summary": "corrected after 2 review(s)",
+    "data": {
+     "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the tanks held the salty, oily water that came up from the wells with the oil, and stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply."
+    }
+   }
+  ],
+  "toolCalls": [
+   {
+    "agent": "archivist",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 5
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_archive_fragments",
+    "args": {},
+    "ok": true,
+    "ms": 3
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_level_context",
+    "args": {},
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "characters"
+    },
+    "ok": true,
+    "ms": 2
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "style"
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_run_events",
+    "args": {
+     "limit": 20
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_run_events",
+    "args": {
+     "landmarkId": "mesa-plant",
+     "limit": 10
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_story_history",
+    "args": {
+     "chapterId": "ch6-price"
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "validate_narrative_events",
+    "args": {
+     "claims": [
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-plant",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "ranger-tank",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-pipeline",
+       "status": "destroyed"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-plant-letter"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-water-porch"
+      }
+     ]
+    },
+    "ok": true,
+    "ms": 70
+   },
+   {
+    "agent": "historian",
+    "tool": "check_narrative_continuity",
+    "args": {},
+    "ok": true,
+    "ms": 31
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "limit": 30
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "get_archive_fragments",
+    "args": {
+     "ids": [
+      "ch7-plant-letter",
+      "ch7-water-porch"
+     ]
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "characters"
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_archive_fragments",
+    "args": {
+     "ids": [
+      "ch7-plant-letter",
+      "ch7-water-porch"
+     ]
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "validate_narrative_events",
+    "args": {
+     "claims": [
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-plant",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "ranger-tank",
+       "status": "destroyed"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "mesa-pipeline",
+       "status": "destroyed"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-plant-letter"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch7-water-porch"
+      }
+     ]
+    },
+    "ok": true,
+    "ms": 5
+   },
+   {
+    "agent": "historian",
+    "tool": "check_narrative_continuity",
+    "args": {},
+    "ok": true,
+    "ms": 8
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "landmarkId": "mesa-plant",
+     "limit": 30
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_archive_fragments",
+    "args": {
+     "ids": [
+      "ch7-plant-letter",
+      "ch7-water-porch"
+     ]
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "invariants"
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "limit": 30,
+     "type": "broke"
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "type": "landed",
+     "limit": 30
+    },
+    "ok": true,
+    "ms": 0
+   }
+  ],
+  "drafts": [
+   {
+    "title": "Bottles on the Porch",
+    "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the Calder processing plant's waste-water tanks stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply.",
+    "fragmentIds": [
+     "ch7-plant-letter",
+     "ch7-water-porch"
+    ],
+    "factIds": [],
+    "claims": [
+     {
+      "type": "landmark",
+      "landmarkId": "mesa-plant",
+      "status": "destroyed"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "ranger-tank",
+      "status": "destroyed"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "mesa-pipeline",
+      "status": "destroyed"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch7-plant-letter"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch7-water-porch"
+     }
+    ]
+   },
+   {
+    "title": "Bottles on the Porch",
+    "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the tanks held the salty, oily water that came up from the wells with the oil, and stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply.",
+    "fragmentIds": [
+     "ch7-plant-letter",
+     "ch7-water-porch"
+    ],
+    "factIds": [],
+    "claims": [
+     {
+      "type": "landmark",
+      "landmarkId": "mesa-plant",
+      "status": "destroyed"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "ranger-tank",
+      "status": "destroyed"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "mesa-pipeline",
+      "status": "destroyed"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch7-plant-letter"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch7-water-porch"
+     }
+    ]
+   }
+  ],
+  "reviews": [
+   {
+    "verdict": "revise",
+    "issues": [
+     "“waste-water tanks” is not the letter’s description. It says they held salty, oily water that came up from the wells with the oil; use that wording."
+    ],
+    "validationIssues": []
+   },
+   {
+    "verdict": "approve",
+    "issues": [],
+    "validationIssues": []
+   }
+  ],
+  "usage": [
+   {
+    "ts": "2026-10-24T16:21:49.725Z",
+    "runId": "lt-20261024-162130-2d719a",
+    "agent": "archivist",
+    "model": "gpt-6-luna",
+    "provider": "course",
+    "inputTokens": 21333,
+    "cachedInputTokens": 11909,
+    "cacheWriteTokens": 9415,
+    "outputTokens": 1901,
+    "reasoningTokens": 1439,
+    "requests": 3,
+    "unmeteredRequests": 0,
+    "toolCalls": 8,
+    "durationMs": 19240,
+    "costUsd": 0.00224737,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-24T16:22:01.286Z",
+    "runId": "lt-20261024-162130-2d719a",
+    "agent": "historian",
+    "model": "gpt-6-luna",
+    "provider": "course",
+    "inputTokens": 17189,
+    "cachedInputTokens": 10223,
+    "cacheWriteTokens": 6957,
+    "outputTokens": 1052,
+    "reasoningTokens": 701,
+    "requests": 3,
+    "unmeteredRequests": 0,
+    "toolCalls": 6,
+    "durationMs": 11553,
+    "costUsd": 0.00149876,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-24T16:22:29.326Z",
+    "runId": "lt-20261024-162130-2d719a",
+    "agent": "archivist",
+    "model": "gpt-6-luna",
+    "provider": "course",
+    "inputTokens": 8232,
+    "cachedInputTokens": 7454,
+    "cacheWriteTokens": 772,
+    "outputTokens": 590,
+    "reasoningTokens": 252,
+    "requests": 2,
+    "unmeteredRequests": 0,
+    "toolCalls": 1,
+    "durationMs": 28009,
+    "costUsd": 0.00046664,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-24T16:22:46.516Z",
+    "runId": "lt-20261024-162130-2d719a",
+    "agent": "historian",
+    "model": "gpt-6-luna",
+    "provider": "course",
+    "inputTokens": 21701,
+    "cachedInputTokens": 18181,
+    "cacheWriteTokens": 3508,
+    "outputTokens": 1183,
+    "reasoningTokens": 898,
+    "requests": 4,
+    "unmeteredRequests": 0,
+    "toolCalls": 8,
+    "durationMs": 17189,
+    "costUsd": 0.00121301,
+    "ok": true
+   }
+  ],
+  "result": {
+   "ok": true,
+   "review": {
+    "verdict": "corrected",
+    "rounds": 2,
+    "issues": [
+     "“waste-water tanks” is not the letter’s description. It says they held salty, oily water that came up from the wells with the oil; use that wording."
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "checked": 29
+   },
+   "text": "I have Ada Hollins's letter to Calder Energy from 2036. She wrote that the tanks held the salty, oily water that came up from the wells with the oil, and stood above the farms' wells, streams and potato fields. She asked Calder to empty them before the field closed. You reached the Calder processing plant first. The ranger post water tower broke later, and the gathering pipeline broke after that.\n\nThe water tower supplied the mesa's last stop. The ranger filled every bottle she could find and lined them up on the porch with a sign: “TAKE ONE. TAKE TWO IF YOU ARE CARRYING A CHILD.” By nine, every bottle was gone. The rivers here run brown under a grey haze. The grass is brown, and the snow is grey. I have copied the sign carefully. A pencil is not much of an emergency supply."
+  }
+ }
+}

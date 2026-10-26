@@ -1,0 +1,8 @@
+# npm test on the submitted tree (fresh install, 2026-10-25); summary lines of the run log
+ Test Files  176 passed | 5 skipped (181)
+      Tests  2672 passed | 4 skipped (2676)
+   Start at  08:43:14
+   Duration  608.47s (tests 88%, import 8%, transform 2%, environment 2%)
+
+npm test exit 0 in 612 s
+

@@ -1,0 +1,373 @@
+{
+ "case": "ch6-autopilot",
+ "plan": {
+  "kind": "autopilot"
+ },
+ "seconds": 28.874,
+ "evidence": {
+  "version": 1,
+  "chapterId": "ch6-price",
+  "levelId": "power-valley",
+  "outcome": "complete",
+  "time": 113.4,
+  "distance": 1921,
+  "topSpeed": 28.7,
+  "startMass": 220,
+  "endMass": 57.6,
+  "peakMass": 220,
+  "absorbed": 0,
+  "iceLeft": 0.262,
+  "waterfallsCrossed": 4,
+  "collisions": 13,
+  "treesFelled": 0,
+  "knockedDown": 14,
+  "buildingsDestroyed": 6,
+  "storyPoints": 3650,
+  "destroyedByCategory": {
+   "energy": 3,
+   "industry": 2,
+   "extraction": 2
+  },
+  "destroyedByKind": {
+   "windTurbine": 1,
+   "coolingTower": 2,
+   "factoryHall": 2,
+   "tank": 2
+  },
+  "landmarks": [
+   {
+    "id": "calder-cottages",
+    "status": "intact",
+    "closest": 47.2
+   },
+   {
+    "id": "coop-turbine",
+    "status": "destroyed",
+    "closest": 2.5
+   },
+   {
+    "id": "coal-train",
+    "status": "damaged",
+    "closest": 5
+   },
+   {
+    "id": "north-tower",
+    "status": "destroyed",
+    "closest": 14.1
+   },
+   {
+    "id": "turbine-hall",
+    "status": "intact",
+    "closest": 85.2
+   },
+   {
+    "id": "tank-farm",
+    "status": "intact",
+    "closest": 198.9
+   },
+   {
+    "id": "calder-dam",
+    "status": "intact",
+    "closest": 73.9
+   },
+   {
+    "id": "highway-bridge",
+    "status": "intact",
+    "closest": 31.4
+   }
+  ],
+  "notable": [
+   {
+    "t": 20,
+    "s": 306,
+    "d": -45,
+    "type": "broke",
+    "kind": "windTurbine",
+    "category": "energy",
+    "landmarkId": "coop-turbine",
+    "value": 150
+   },
+   {
+    "t": 21.9,
+    "s": 326,
+    "d": -45.1,
+    "type": "landed",
+    "value": 7.6
+   },
+   {
+    "t": 30.2,
+    "s": 478.5,
+    "d": -54.9,
+    "type": "waterfall",
+    "value": 0
+   },
+   {
+    "t": 41,
+    "s": 727.4,
+    "d": -98.3,
+    "type": "chipped",
+    "value": 0.034
+   },
+   {
+    "t": 41,
+    "s": 735,
+    "d": -88,
+    "type": "broke",
+    "kind": "coolingTower",
+    "category": "energy",
+    "landmarkId": "north-tower",
+    "value": 700
+   },
+   {
+    "t": 44.9,
+    "s": 796.8,
+    "d": -103.2,
+    "type": "chipped",
+    "value": 0.035
+   },
+   {
+    "t": 44.9,
+    "s": 805,
+    "d": -113,
+    "type": "broke",
+    "kind": "coolingTower",
+    "category": "energy",
+    "value": 700
+   },
+   {
+    "t": 51.6,
+    "s": 915,
+    "d": -80,
+    "type": "broke",
+    "kind": "factoryHall",
+    "category": "industry",
+    "value": 450
+   },
+   {
+    "t": 54.3,
+    "s": 947,
+    "d": -68,
+    "type": "broke",
+    "kind": "tank",
+    "category": "extraction",
+    "value": 600
+   },
+   {
+    "t": 57.6,
+    "s": 978,
+    "d": -64,
+    "type": "broke",
+    "kind": "tank",
+    "category": "extraction",
+    "value": 600
+   },
+   {
+    "t": 75.1,
+    "s": 1127.8,
+    "d": -162.9,
+    "type": "waterfall",
+    "value": 1
+   },
+   {
+    "t": 85,
+    "s": 1321.4,
+    "d": -166.1,
+    "type": "landed",
+    "value": 8.9
+   },
+   {
+    "t": 92.7,
+    "s": 1483.3,
+    "d": -112.7,
+    "type": "waterfall",
+    "value": 2
+   },
+   {
+    "t": 96.9,
+    "s": 1600,
+    "d": -40,
+    "type": "broke",
+    "kind": "factoryHall",
+    "category": "industry",
+    "value": 450
+   },
+   {
+    "t": 112,
+    "s": 1832.9,
+    "d": -1.3,
+    "type": "waterfall",
+    "value": 3
+   },
+   {
+    "t": 112.6,
+    "s": 1847.9,
+    "d": -0.4,
+    "type": "enteredOcean"
+   }
+  ],
+  "route": [
+   {
+    "s": 30.1,
+    "d": 0
+   },
+   {
+    "s": 51.1,
+    "d": 0
+   },
+   {
+    "s": 80.9,
+    "d": 0
+   },
+   {
+    "s": 117.3,
+    "d": 0
+   },
+   {
+    "s": 160.2,
+    "d": -3.6
+   },
+   {
+    "s": 203.5,
+    "d": -12.3
+   },
+   {
+    "s": 252.5,
+    "d": -29.3
+   },
+   {
+    "s": 303.8,
+    "d": -42.2
+   },
+   {
+    "s": 348.7,
+    "d": -47.2
+   },
+   {
+    "s": 400.8,
+    "d": -48.9
+   },
+   {
+    "s": 455.6,
+    "d": -52.3
+   },
+   {
+    "s": 522.4,
+    "d": -57.8
+   },
+   {
+    "s": 591.4,
+    "d": -70
+   },
+   {
+    "s": 655,
+    "d": -92.2
+   },
+   {
+    "s": 720.2,
+    "d": -102.4
+   },
+   {
+    "s": 768.5,
+    "d": -100.2
+   },
+   {
+    "s": 816.5,
+    "d": -99
+   },
+   {
+    "s": 863.5,
+    "d": -94.5
+   },
+   {
+    "s": 906.8,
+    "d": -82.2
+   },
+   {
+    "s": 943.1,
+    "d": -73
+   },
+   {
+    "s": 974.3,
+    "d": -68.3
+   },
+   {
+    "s": 995.3,
+    "d": -80.6
+   },
+   {
+    "s": 1018.4,
+    "d": -99.4
+   },
+   {
+    "s": 1042.1,
+    "d": -121.7
+   },
+   {
+    "s": 1067.8,
+    "d": -142.1
+   },
+   {
+    "s": 1096.4,
+    "d": -155.9
+   },
+   {
+    "s": 1134.8,
+    "d": -163.7
+   },
+   {
+    "s": 1192.1,
+    "d": -166.7
+   },
+   {
+    "s": 1250.9,
+    "d": -169.4
+   },
+   {
+    "s": 1308.5,
+    "d": -167.2
+   },
+   {
+    "s": 1371.6,
+    "d": -162.1
+   },
+   {
+    "s": 1433.9,
+    "d": -142.3
+   },
+   {
+    "s": 1492.8,
+    "d": -106.3
+   },
+   {
+    "s": 1562.3,
+    "d": -61.3
+   },
+   {
+    "s": 1613.3,
+    "d": -37
+   },
+   {
+    "s": 1652.9,
+    "d": -25.6
+   },
+   {
+    "s": 1699.3,
+    "d": -16
+   },
+   {
+    "s": 1749.9,
+    "d": -9.4
+   },
+   {
+    "s": 1803.5,
+    "d": -3.9
+   },
+   {
+    "s": 1864,
+    "d": 0.1
+   }
+  ],
+  "reachedS": 1865.3,
+  "coastS": 1845
+ }
+}

@@ -1,0 +1,1097 @@
+/*
+ * THE LAST THAW — Story Mode styles. A subdued variant of styles.css: the same fonts and focus ring,
+ * a darker muted palette, a readable serif for documents, hairline rules instead of boxes, restrained
+ * 150–250 ms transitions. Values of the --st-* colours live in palette.ts (tested for WCAG AA).
+ */
+
+:root {
+  --st-bg: #0A1017;
+  --st-ink: #ECE8DF;
+  --st-muted: #ADA79B;
+  --st-accent: #9FC3D1;
+  --st-paper: #EAE4D6;
+  --st-paper-ink: #2B2722;
+  --st-paper-muted: #5E574D;
+  --st-warn: #E0AE66;
+  --st-science-bg: #0C1A16;
+  --st-science-accent: #A6D3B2;
+
+  --st-rule: rgba(173, 167, 155, 0.28);
+  --st-surface: rgba(10, 16, 23, 0.94);
+  --st-scrim: rgba(10, 16, 23, 0.72);
+  --st-measure: 68ch;
+}
+
+/* ---------------------------------------------------------------- screens */
+
+.story-screen {
+  color: var(--st-ink);
+  background: radial-gradient(ellipse at 50% -10%, rgba(10, 16, 23, 0.55), rgba(10, 16, 23, 0.92) 70%);
+}
+
+.story-sub {
+  max-width: 960px;
+  background: var(--st-surface);
+  border-top: 1px solid var(--st-accent);
+}
+
+.story-sub--narrow {
+  max-width: 760px;
+}
+
+.story-head {
+  margin-bottom: 28px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-eyebrow {
+  margin: 0 0 10px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+}
+
+.story-eyebrow--science {
+  color: var(--st-science-accent);
+}
+
+.story-title {
+  margin: 0 0 12px;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--st-ink);
+}
+
+.story-title:focus-visible,
+.story-panel__title:focus-visible,
+.story-epilogue__title:focus-visible {
+  outline: none;
+}
+
+.story-standfirst {
+  max-width: var(--st-measure);
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--st-muted);
+}
+
+.story-progress-line {
+  margin: 14px 0 0;
+  font-size: 0.875rem;
+  color: var(--st-muted);
+}
+
+.story-section-title {
+  margin: 32px 0 14px;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--st-accent);
+}
+
+.story-empty {
+  margin: 16px 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--st-muted);
+}
+
+.story-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 0;
+}
+
+.story-actions--rule {
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px solid var(--st-rule);
+}
+
+.story-actions--stack {
+  flex-direction: column;
+}
+
+/* Start over: the question sits under the actions behind a warm hairline, in the Story palette. */
+.story-restart {
+  margin: 18px 0 0;
+  padding: 2px 0 2px 16px;
+  border-left: 1px solid var(--st-warn);
+  animation: story-restart-in 200ms ease-out;
+}
+
+.story-restart__q {
+  max-width: var(--st-measure);
+  margin: 0;
+  line-height: 1.6;
+  color: var(--st-ink);
+}
+
+.story-restart .story-actions {
+  margin-top: 14px;
+}
+
+.story-restart__note {
+  margin: 14px 0 0;
+  font-size: 0.875rem;
+  color: var(--st-muted);
+}
+
+.story-restart__note:empty {
+  display: none;
+}
+
+@keyframes story-restart-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-restart {
+    animation: none;
+  }
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* ---------------------------------------------------------------- chapter progress */
+
+.story-act {
+  margin-top: 30px;
+}
+
+.story-act__title {
+  margin: 0 0 8px;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: var(--st-ink);
+}
+
+.story-chapters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--st-rule);
+}
+
+.story-chapter {
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-chapter__btn {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 12px;
+  padding: 14px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--st-ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 180ms var(--ease), color 180ms var(--ease);
+}
+
+.story-chapter__btn:hover:not(:disabled) {
+  background: rgba(159, 195, 209, 0.08);
+}
+
+.story-chapter__btn:disabled {
+  cursor: not-allowed;
+  color: var(--st-muted);
+}
+
+.story-chapter__num {
+  font-family: var(--font-mono);
+  color: var(--st-muted);
+}
+
+.story-chapter__title {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+}
+
+.story-chapter__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--st-muted);
+}
+
+.story-chapter[data-status='archived'] .story-chapter__status {
+  color: var(--st-accent);
+}
+
+.story-chapter__replay {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid var(--st-rule);
+  color: var(--st-ink);
+}
+
+/* ---------------------------------------------------------------- chapter card */
+
+.story-intro__skip {
+  display: flex;
+  justify-content: flex-end;
+  margin: -8px 0 8px;
+}
+
+.story-lines {
+  max-width: var(--st-measure);
+  margin: 0 0 24px;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.65;
+}
+
+.story-lines p {
+  margin: 0 0 0.6em;
+  animation: story-rise 240ms var(--ease) both;
+}
+
+.story-lines p:nth-child(2) {
+  animation-delay: 120ms;
+}
+
+.story-lines p:nth-child(3) {
+  animation-delay: 240ms;
+}
+
+.story-lines p:nth-child(4) {
+  animation-delay: 360ms;
+}
+
+@keyframes story-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 6px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.story-tutorial__card {
+  max-width: var(--st-measure);
+  margin: 0 0 16px;
+  padding-left: 14px;
+  border-left: 1px solid var(--st-accent);
+}
+
+.story-tutorial__card h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.story-tutorial__card p {
+  margin: 0;
+  line-height: 1.55;
+  color: var(--st-muted);
+}
+
+/* ---------------------------------------------------------------- points guide */
+
+/* The pause panel's palette by default (styles.css), the story screens' inside them. */
+.points-guide {
+  --pg-ink: var(--c-ink);
+  --pg-muted: var(--c-ink-muted);
+  --pg-rule: var(--c-rule);
+  --pg-accent: var(--c-accent);
+  margin: 18px 0 0;
+}
+
+.story-screen .points-guide {
+  --pg-ink: var(--st-ink);
+  --pg-muted: var(--st-muted);
+  --pg-rule: var(--st-rule);
+  --pg-accent: var(--st-accent);
+}
+
+.points-guide__tier + .points-guide__tier {
+  margin-top: 16px;
+}
+
+.points-guide__tier-title {
+  margin: 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--pg-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pg-accent);
+}
+
+/* Name left, points right, in as many columns as fit (one on a phone, three in the pause panel). */
+.points-guide__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(176px, 100%), 1fr));
+  column-gap: 28px;
+  margin: 0;
+}
+
+.points-guide__list > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--pg-rule);
+  font-size: 0.9375rem;
+}
+
+.points-guide__list dt {
+  color: var(--pg-ink);
+}
+
+.points-guide__list dd {
+  margin: 0;
+  color: var(--pg-ink);
+}
+
+.points-guide__note {
+  max-width: var(--st-measure);
+  margin: 14px 0 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--pg-muted);
+}
+
+/* On the chapter list: below the buttons, ruled off like the start-over question. */
+.story-guide {
+  margin: 24px 0 0;
+  border-top: 1px solid var(--st-rule);
+  animation: story-restart-in 200ms ease-out;
+}
+
+.story-guide__standfirst {
+  max-width: var(--st-measure);
+  margin: 0;
+  line-height: 1.6;
+  color: var(--st-muted);
+}
+
+.story-guide .story-actions {
+  margin-top: 18px;
+}
+
+/* Headings that take focus only as a reading start point are not controls: no ring. */
+.story-guide__title:focus-visible,
+#points-guide-title:focus-visible {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-guide {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------- tables */
+
+.story-table {
+  width: 100%;
+  margin: 12px 0;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.story-table caption {
+  margin-bottom: 8px;
+  text-align: left;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--st-muted);
+}
+
+.story-table th,
+.story-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--st-rule);
+  text-align: left;
+  font-weight: 400;
+}
+
+.story-table thead th {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+}
+
+.story-table .is-num {
+  text-align: right;
+}
+
+/* A wide table ("How this was made") scrolls inside its own box on a phone rather than widening the
+   panel and pushing the reflection sideways with it. Tool and model names stay on one line. */
+.story-table-wrap {
+  max-width: 100%;
+  margin: 12px 0;
+  overflow-x: auto;
+}
+
+.story-table-wrap > .story-table {
+  margin: 0;
+}
+
+.story-table-wrap td.mono {
+  white-space: nowrap;
+}
+
+.story-points-table {
+  max-width: 420px;
+}
+
+/* ---------------------------------------------------------------- documents (fiction, on paper) */
+
+.story-doc {
+  max-width: var(--st-measure);
+  margin: 0 0 20px;
+  padding: 20px 24px;
+  background: var(--st-paper);
+  color: var(--st-paper-ink);
+  font-family: var(--font-serif);
+  text-align: left;
+  animation: story-rise 240ms var(--ease) both;
+}
+
+.story-doc[data-kind='newspaper'] .story-doc__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.story-doc[data-kind='notice'],
+.story-doc[data-kind='record'],
+.story-doc[data-kind='report'] {
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+}
+
+.story-doc__meta {
+  margin: 0 0 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--st-paper-muted);
+}
+
+.story-doc__title {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.story-doc__body {
+  margin: 0 0 0.75em;
+  line-height: 1.6;
+}
+
+.story-doc__body:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------------- reflections */
+
+.story-reflection {
+  max-width: var(--st-measure);
+  margin: 24px 0;
+  padding: 4px 0 4px 18px;
+  border-left: 2px solid var(--st-muted);
+  text-align: left;
+}
+
+.story-reflection.is-ai {
+  border-left-color: var(--st-accent);
+}
+
+.story-reflection__title {
+  margin: 0 0 10px;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.story-reflection__text {
+  margin: 0 0 0.75em;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.story-reflection__label {
+  margin: 12px 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--st-muted);
+}
+
+.story-reflection.is-ai .story-reflection__label {
+  color: var(--st-accent);
+}
+
+.story-reflection__status {
+  margin: 8px 0 0;
+  font-size: 0.8125rem;
+  color: var(--st-muted);
+}
+
+.story-reflection[aria-busy='true'] .story-reflection__status::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--st-accent);
+  animation: story-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes story-pulse {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+.story-how,
+.story-details {
+  max-width: var(--st-measure);
+  margin: 14px 0 0;
+  text-align: left;
+}
+
+.story-how summary,
+.story-details summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--st-ink);
+}
+
+.story-how__body {
+  padding: 8px 0 0 14px;
+  border-left: 1px solid var(--st-rule);
+  font-size: 0.875rem;
+}
+
+.story-how__h {
+  margin: 14px 0 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+}
+
+.story-how__issues {
+  margin: 4px 0;
+  padding-left: 18px;
+}
+
+.story-how__trace {
+  margin-top: 10px;
+  font-size: 0.75rem;
+  color: var(--st-muted);
+}
+
+/* ---------------------------------------------------------------- run facts (plain data) */
+
+.story-facts {
+  padding-top: 10px;
+}
+
+.story-facts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px 18px;
+  margin: 0;
+}
+
+.story-facts__grid dt {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+}
+
+.story-facts__grid dd {
+  margin: 2px 0 0;
+  font-size: 1.0625rem;
+}
+
+.story-facts__line {
+  margin: 12px 0 0;
+  font-size: 0.875rem;
+  color: var(--st-muted);
+}
+
+.story-facts__landmarks {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.story-facts__landmarks li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-facts__status {
+  font-family: var(--font-mono);
+  color: var(--st-muted);
+}
+
+/* ---------------------------------------------------------------- archive */
+
+.story-entry {
+  margin: 0 0 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-entry__title {
+  margin: 0 0 4px;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.story-entry__meta {
+  margin: 0 0 16px;
+  font-size: 0.8125rem;
+  color: var(--st-muted);
+}
+
+/* ---------------------------------------------------------------- science (fact, kept apart) */
+
+.story-science {
+  background: radial-gradient(ellipse at 50% -10%, rgba(12, 26, 22, 0.6), rgba(12, 26, 22, 0.95) 70%);
+}
+
+.story-science .story-sub {
+  background: rgba(12, 26, 22, 0.96);
+  border-top-color: var(--st-science-accent);
+}
+
+.story-science .story-section-title {
+  color: var(--st-science-accent);
+}
+
+.story-facts-list {
+  margin: 0;
+  padding-left: 1.4em;
+}
+
+.story-fact {
+  margin: 0 0 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-fact__statement {
+  margin: 0 0 6px;
+  line-height: 1.6;
+}
+
+.story-fact__source {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--st-muted);
+}
+
+.story-fact__source a {
+  color: var(--st-science-accent);
+}
+
+.story-metaphors div {
+  margin: 0 0 14px;
+}
+
+.story-metaphors dt {
+  font-weight: 600;
+}
+
+.story-metaphors dd {
+  margin: 2px 0 0;
+  line-height: 1.55;
+  color: var(--st-muted);
+}
+
+/* Credits: small print under the science, a hairline above. */
+.story-credits {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--st-rule);
+  font-size: 0.875rem;
+}
+
+.story-credits__h {
+  margin: 16px 0 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.story-credits__note {
+  margin: 0 0 8px;
+  line-height: 1.55;
+  color: var(--st-muted);
+}
+
+.story-credits__list {
+  margin: 0;
+  padding-left: 1.2em;
+  line-height: 1.55;
+  color: var(--st-muted);
+}
+
+.story-credits__list li {
+  margin: 0 0 4px;
+}
+
+.story-credits__work {
+  color: var(--st-ink);
+}
+
+.story-credits a {
+  color: var(--st-science-accent);
+}
+
+.story-credits__line {
+  margin: 14px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--st-muted);
+}
+
+/* ---------------------------------------------------------------- in game */
+
+/* Story Mode's counter sits with the HUD's other counters, in the HUD's own figures. */
+.hud__story-points dd {
+  color: var(--st-ink);
+}
+
+.story-caption {
+  position: absolute;
+  top: 92px;
+  left: 50%;
+  width: min(560px, calc(100% - 32px));
+  margin: 0;
+  transform: translateX(-50%);
+  padding: 10px 16px;
+  background: var(--st-scrim);
+  color: var(--st-ink);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  text-align: center;
+  pointer-events: none;
+  animation: story-caption 6.5s var(--ease) both;
+}
+
+@keyframes story-caption {
+  0% {
+    opacity: 0;
+  }
+  4%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* A named place broke (StoryLandmarkNotice): below the caption, so the two never cover each other
+   (chapter 7's plant breaks while the caption is still up). A hairline rule on the left, not a box. */
+.story-landmark {
+  position: absolute;
+  top: 196px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: min(420px, calc(100% - 32px));
+  margin: 0;
+  transform: translateX(-50%);
+  padding: 8px 14px;
+  background: var(--st-scrim);
+  border-left: 2px solid var(--st-accent, currentColor);
+  color: var(--st-ink);
+  text-align: left;
+  pointer-events: none;
+  animation: story-landmark 4.5s var(--ease) both;
+}
+
+/* Kept mounted through a pause (so resuming never replays it), but not drawn over the pause menu. */
+.overlay-layer[data-phase='paused'] .story-landmark {
+  visibility: hidden;
+}
+
+.story-landmark__eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.story-landmark__name {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.3;
+}
+
+.story-landmark__label {
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  opacity: 0.85;
+}
+
+@keyframes story-landmark {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-4px);
+  }
+  5%,
+  85% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* The overlay layer lets the mouse through to the 3D view (styles.css); Story Mode's panels take it back,
+   like the arcade's own panels, so they can be clicked, tapped and scrolled. The caption stays see-through. */
+.overlay-layer > .story-panel,
+.overlay-layer > .story-epilogue {
+  pointer-events: auto;
+}
+
+.story-panel {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(12px, 4vh, 48px) 16px;
+  background: var(--st-scrim);
+  color: var(--st-ink);
+  animation: fade-in 250ms var(--ease) 150ms both;
+}
+
+.story-panel--center {
+  align-items: center;
+}
+
+.story-panel__inner {
+  width: min(760px, 100%);
+  padding: clamp(20px, 4vw, 40px);
+  background: var(--st-surface);
+  border-top: 1px solid var(--st-accent);
+  animation: panel-in 240ms var(--ease) 150ms both;
+}
+
+.story-panel__inner--narrow {
+  width: min(480px, 100%);
+}
+
+/* The fail panel's one record (a run that stopped short): under a hairline, before the actions. */
+.story-fail-doc {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--st-rule);
+}
+
+.story-fail-doc__label {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--st-muted);
+}
+
+.story-fail-doc .story-doc {
+  margin-bottom: 0;
+}
+
+.story-panel__head {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--st-rule);
+}
+
+.story-panel__title {
+  margin: 0 0 8px;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.1;
+}
+
+.story-panel__standfirst {
+  margin: 0;
+  color: var(--st-muted);
+  line-height: 1.55;
+}
+
+/* The epilogue rises over the river view: the text on the solid story surface, and above it a fade strip.
+   The strip holds no text and sits outside the scroll box, so no line ever passes over the see-through part
+   of the fade (it used to sit behind the eyebrow and title, and stayed put while the text scrolled). It sits
+   above the section's own box too, and lets the mouse through to the river. */
+.story-epilogue {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: calc(72vh - 56px);
+  display: flex;
+  flex-direction: column;
+  color: var(--st-ink);
+  animation: fade-in 1.2s var(--ease) both;
+}
+
+.story-epilogue::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 56px;
+  background: linear-gradient(to top, var(--st-surface), rgba(10, 16, 23, 0));
+  pointer-events: none;
+}
+
+.story-epilogue__scroll {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 6px 16px 24px;
+  background: var(--st-surface);
+}
+
+.story-epilogue__inner {
+  max-width: var(--st-measure);
+  margin: 0 auto;
+}
+
+.story-epilogue__title {
+  margin: 0 0 6px;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.story-epilogue .story-reflection {
+  border-left: 0;
+  padding-left: 0;
+}
+
+/* ---------------------------------------------------------------- small screens, motion */
+
+@media (max-width: 720px) {
+  .story-chapter__btn {
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+  }
+
+  .story-chapter__status {
+    grid-column: 2;
+    flex-wrap: wrap;
+  }
+
+  .story-doc {
+    padding: 16px;
+  }
+
+  .story-table th,
+  .story-table td {
+    padding: 6px 5px;
+  }
+
+  .story-table thead th {
+    letter-spacing: 0.04em;
+  }
+
+  .story-caption {
+    top: 120px;
+    font-size: 0.9375rem;
+  }
+
+  .story-landmark {
+    top: 232px;
+  }
+
+  .story-actions .btn {
+    flex: 1 1 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-lines p,
+  .story-doc,
+  .story-panel,
+  .story-panel__inner,
+  .story-epilogue,
+  .story-reflection[aria-busy='true'] .story-reflection__status::before {
+    animation: none;
+  }
+
+  .story-caption {
+    animation-name: story-caption-still;
+  }
+
+  @keyframes story-caption-still {
+    0%,
+    95% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .story-landmark {
+    animation-name: story-caption-still;
+  }
+}

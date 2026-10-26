@@ -1,0 +1,16 @@
+CH1 in play: {"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1},"ducks":{},"music":{"cue":"wonder","duckDb":0,"holds":[],"trimDb":0},"session":2}
+drive: {"why":"complete","frames":527,"wallSec":8.854399999976158,"phase":"complete","time":32.48333333333277}
+CHAPTER COMPLETE panel (+3 s): {"buses":{"master":1,"music":0.6,"ambience":0.3185,"effects":0.201,"gate":1},"ducks":{"reading":{"music":-6,"ambience":-8,"effects":-12}},"music":{"cue":"wonder","duckDb":-6,"holds":[],"trimDb":0}}
+clicked Continue at {"x":640,"y":280.09375}
+after Continue: {"screen":"game","chapterId":"ch2-measurements","attempt":2}
+next chapter: {"screen":"game","chapterId":"ch2-measurements","attempt":2}
+NEXT CHAPTER in play (+10 s): {"buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1},"ducks":{},"music":{"cue":"wonder","duckDb":0,"holds":[],"trimDb":0},"session":3}
+meter in next chapter: {"master":{"peak":-15.3,"rms":-27.5},"music":{"peak":-999,"rms":-999},"ambience":{"peak":-15.8,"rms":-28.7},"effects":{"peak":-16.4,"rms":-33.5}}
+NEXT CHAPTER +30 s: {"phase":"playing","buses":{"master":1,"music":0.6,"ambience":0.8,"effects":0.8,"gate":1},"ducks":{},"music":{"cue":"wonder","duckDb":0,"holds":[],"trimDb":0}}
+trace (ducks, holds, sessions): [[3.23,"lifecycle","session 1 begins: mountain-valley story attempt 1 seed 3466363101"],[3.25,"lifecycle","session 1 ends: 0 voices faded over 0.120 s"],[3.25,"lifecycle","session 2 begins: mountain-valley story attempt 1 seed 3466363101"],[23.45,"duck","reading -6/-8/-12 dB"],[26.98,"duck","reading release"],[27.07,"lifecycle","session 2 ends: 1 voices faded over 0.120 s"],[28.49,"lifecycle","session 3 begins: rocky-canyon story attempt 2 seed 2633996138"]]
+--- console (5 lines, last 30) ---
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

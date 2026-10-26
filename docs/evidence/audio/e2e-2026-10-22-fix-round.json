@@ -1,0 +1,279 @@
+{
+ "total": {
+  "pass": 329,
+  "fail": 0,
+  "na": 2
+ },
+ "rows": [
+  {
+   "id": "S0",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Clock sanity: the audio clock against the wall clock, a fired sound on the meter",
+   "pass": 5,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 8
+  },
+  {
+   "id": "S1",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Autoplay: nothing before a gesture, unlock on the first click",
+   "pass": 8,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 17
+  },
+  {
+   "id": "S2",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Arcade basics: K.545 under the effects, the fade on leaving",
+   "pass": 8,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 23
+  },
+  {
+   "id": "S3",
+   "stamp": "2026-10-22T17-29-21",
+   "kind": "bridge",
+   "title": "Event coverage on every level, and magnitude in the wild (S4)",
+   "pass": 21,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 751
+  },
+  {
+   "id": "S3E",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "S3/S4 on the real engine: coverage, magnitude in the wild, mix replays (R11)",
+   "pass": 30,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 804
+  },
+  {
+   "id": "S4M",
+   "stamp": "2026-10-22T19-35-56",
+   "kind": "physics",
+   "title": "The magnitude mapping against every collision of nine levels on five lines (audio off)",
+   "pass": 2,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 658
+  },
+  {
+   "id": "S5",
+   "stamp": "2026-10-22T19-35-56",
+   "kind": "bridge",
+   "title": "Rapid collisions: fastForward bursts stay bounded",
+   "pass": 6,
+   "fail": 0,
+   "na": 1,
+   "wallSec": 50
+  },
+  {
+   "id": "S5E",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "S5 on the real engine: fastForward bursts on the plant line; voices, master peak, drops",
+   "pass": 7,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 57
+  },
+  {
+   "id": "S6",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "Volume controls by keyboard, the M key, persistence",
+   "pass": 29,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 26
+  },
+  {
+   "id": "S7",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Pause, rapid toggles and blur",
+   "pass": 8,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 23
+  },
+  {
+   "id": "S8",
+   "stamp": "2026-10-22T17-29-21",
+   "kind": "bridge",
+   "title": "Leave, retry, level change: every attempt's sound ends",
+   "pass": 16,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 42
+  },
+  {
+   "id": "S8E",
+   "stamp": "2026-10-22T18-18-43",
+   "kind": "engine",
+   "title": "S8 on the real engine: Retry, level change, quit and leaving Story end every sound",
+   "pass": 10,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 85
+  },
+  {
+   "id": "S9",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Hidden tab",
+   "pass": 6,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 19
+  },
+  {
+   "id": "S10",
+   "stamp": "2026-10-22T17-29-21",
+   "kind": "bridge",
+   "title": "Church bells: every church rings, the hour, levels without a church",
+   "pass": 20,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 335
+  },
+  {
+   "id": "S10E",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "S10 on the real engine: every church level from the menu, strikes played or dropped",
+   "pass": 20,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 343
+  },
+  {
+   "id": "S11",
+   "stamp": "2026-10-22T17-29-21",
+   "kind": "bridge",
+   "title": "Story moments: revelation, river view, ch8 card, ch9 chapel and sea, epilogue, narrative off",
+   "pass": 23,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 126
+  },
+  {
+   "id": "S11E",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "S11 on the real engine: the ch8 card, chapter 1 and chapter 9 motifs, the chapel, the epilogue",
+   "pass": 18,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 137
+  },
+  {
+   "id": "CALVE",
+   "stamp": "2026-10-22T17-29-21",
+   "kind": "bridge",
+   "title": "The intro's calving (P1): full on the first attempt, the short beat on Retry",
+   "pass": 6,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 28
+  },
+  {
+   "id": "S12",
+   "stamp": "2026-10-22T18-59-34",
+   "kind": "engine",
+   "title": "Performance",
+   "pass": 3,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 402
+  },
+  {
+   "id": "S13",
+   "stamp": "2026-10-22T17-24-27",
+   "kind": "engine",
+   "title": "Determinism: the same lab sequence twice; the bank checksum (R9)",
+   "pass": 4,
+   "fail": 0,
+   "na": 1,
+   "wallSec": 14
+  },
+  {
+   "id": "R",
+   "stamp": "2026-10-22T17-52-14",
+   "kind": "engine",
+   "title": "Offline renders (lab)",
+   "pass": 25,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 100
+  },
+  {
+   "id": "BAKE",
+   "stamp": "2026-10-22T19-07-08",
+   "kind": "engine",
+   "title": "The level set from a cold start straight into play: bells, notReady drops, frame times",
+   "pass": 16,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 268
+  },
+  {
+   "id": "BAKE",
+   "stamp": "2026-10-22T19-16-07",
+   "kind": "engine",
+   "title": "The level set from a cold start straight into play: bells, notReady drops, frame times",
+   "pass": 16,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 268
+  },
+  {
+   "id": "BAKE",
+   "stamp": "2026-10-22T19-25-06",
+   "kind": "engine",
+   "title": "The level set from a cold start straight into play: bells, notReady drops, frame times",
+   "pass": 16,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 267
+  },
+  {
+   "id": "BAKEOFF",
+   "stamp": "2026-10-22T19-11-38",
+   "kind": "engine",
+   "title": "The same flows with ?audio=off (the frame-time baseline)",
+   "pass": 2,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 266
+  },
+  {
+   "id": "BAKEOFF",
+   "stamp": "2026-10-22T19-20-38",
+   "kind": "engine",
+   "title": "The same flows with ?audio=off (the frame-time baseline)",
+   "pass": 2,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 266
+  },
+  {
+   "id": "BAKEOFF",
+   "stamp": "2026-10-22T19-29-36",
+   "kind": "engine",
+   "title": "The same flows with ?audio=off (the frame-time baseline)",
+   "pass": 2,
+   "fail": 0,
+   "na": 0,
+   "wallSec": 266
+  }
+ ]
+}

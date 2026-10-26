@@ -1,0 +1,42 @@
+drive: {"why":"complete","frames":641,"wallSec":11.22069999998808,"phase":"complete","time":32.48333333333277}
+panel +1 s: {"ctxTime":24.1147,"motif":{"startsAt":26.9053,"endsAt":40.8144},"holds":["reveal"]}
+hide -> hidden
+hidden 20 s: {"ctx":"suspended","ctxTime":24.192,"holds":["reveal"],"playing":null}
+show -> visible
+visible +0.7 s {"ctxTime":24.552,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +1.4 s {"ctxTime":25.2853,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +2.1 s {"ctxTime":26.0053,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +2.8 s {"ctxTime":26.7387,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +3.5 s {"ctxTime":27.4533,"motifBusPeak":-19.3,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +4.2 s {"ctxTime":28.184,"motifBusPeak":-21.6,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +4.9 s {"ctxTime":28.8933,"motifBusPeak":-23.6,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +5.6 s {"ctxTime":29.6027,"motifBusPeak":-28.4,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +6.3 s {"ctxTime":30.32,"motifBusPeak":-18.5,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +7.0 s {"ctxTime":31.032,"motifBusPeak":-29.4,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +7.7 s {"ctxTime":31.7493,"motifBusPeak":-33.7,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +8.4 s {"ctxTime":32.4587,"motifBusPeak":-18.8,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +9.1 s {"ctxTime":33.184,"motifBusPeak":-20.1,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +9.8 s {"ctxTime":33.9013,"motifBusPeak":-24.8,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +10.5 s {"ctxTime":34.6133,"motifBusPeak":-25.3,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +11.2 s {"ctxTime":35.3307,"motifBusPeak":-20.1,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +11.9 s {"ctxTime":36.04,"motifBusPeak":-24,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +12.6 s {"ctxTime":36.7707,"motifBusPeak":-29.9,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +13.3 s {"ctxTime":37.4933,"motifBusPeak":-35,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +14.0 s {"ctxTime":38.208,"motifBusPeak":-37.9,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +14.7 s {"ctxTime":38.92,"motifBusPeak":-41.8,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +15.4 s {"ctxTime":39.632,"motifBusPeak":-43,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +16.1 s {"ctxTime":40.3547,"motifBusPeak":-48.5,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +16.8 s {"ctxTime":41.08,"motifBusPeak":-63.1,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +17.5 s {"ctxTime":41.8,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +18.2 s {"ctxTime":42.5173,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +18.9 s {"ctxTime":43.232,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +19.6 s {"ctxTime":43.9493,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +20.3 s {"ctxTime":44.664,"motifBusPeak":-999,"holds":["reveal"],"playing":null,"recordingPlaying":[]}
+visible +21.0 s {"ctxTime":45.3813,"motifBusPeak":-999,"holds":[],"playing":"wonder","recordingPlaying":[["wonder",0.08]]}
+trace: [[0,"lifecycle","context starting: gesture"],[0,"lifecycle","context running: running"],[22.87,"hold","hold 'reveal'"],[22.87,"motif","motif act1@1: not baked"],[23.13,"motif","motif act1@1: not baked"],[23.41,"motif","motif act1@1 at +3.50 s, 13.9 s, -4.0 dB"],[24.19,"lifecycle","context suspended: hidden"],[24.19,"lifecycle","context starting: visible"],[24.19,"lifecycle","context running: running"],[44.82,"hold","release 'reveal'"]]
+RESULT {"motifEndsAt":40.8144,"dueAt":44.81,"releasedAtCtx":45.3813,"samplesWithRecordingDuringMotif":0}
+--- console (4 lines, last 30) ---
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

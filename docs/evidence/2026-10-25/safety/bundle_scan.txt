@@ -1,0 +1,20 @@
+Client bundle scan — 2026-10-25T07:15:54Z — built from listing/research @ ba6fa8d into scratch dist/ (vite build)
+files scanned: 12, total bytes: 32332498
+PORTKEY_API_KEY value (28 chars, from the environment): 0 matches
+"SECRET-CANARY-LT-7f3a9c2e41d8": 0
+"OPENAI_API_KEY": 1
+"PORTKEY_API_KEY": 0
+"PORTKEY": 0
+"Authorization": 0
+"Bearer ": 0
+"x-portkey": 0
+"api.portkey.ai": 0
+"api.openai.com": 0
+"loadConfig": 0
+"portkeyTransport": 0
+"openaiTransport": 0
+"createStoryHandler": 0
+"OPENAI_DAILY_USD_LIMIT": 1
+"agent-usage.jsonl": 0
+"You are the Historian": 0
+"process.env": 0

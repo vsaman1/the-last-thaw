@@ -1,0 +1,6 @@
+# s_hmr.mjs with HMR_FILE=src/audio/engine/graph.ts (a module under the manager), after the fix
+before: {"marker":null,"contexts":["running"],"status":"running"}
+after update 1: {"marker":null,"contexts":["running"],"status":"running"}
+after update 2: {"marker":null,"contexts":["running"],"status":"running"}
+after update 3: {"marker":null,"contexts":["running"],"status":"running"}
+5 s later: {"marker":null,"contexts":["running"],"status":"running"}

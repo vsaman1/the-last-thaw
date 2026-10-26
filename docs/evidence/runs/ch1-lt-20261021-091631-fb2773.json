@@ -1,0 +1,1486 @@
+{
+ "case": "ch1",
+ "label": "chapter 1, autopilot",
+ "date": "2026-10-21T09:17:29.590Z",
+ "model": "gpt-6-luna",
+ "runId": "lt-20261021-091631-fb2773",
+ "mode": "reflection",
+ "chapterId": "ch1-beginning",
+ "gameplay": {
+  "file": "docs/evidence/gameplay/ch1-autopilot.json",
+  "plan": {
+   "kind": "autopilot"
+  }
+ },
+ "history": [],
+ "request": {
+  "chapterId": "ch1-beginning",
+  "evidence": {
+   "version": 1,
+   "chapterId": "ch1-beginning",
+   "levelId": "mountain-valley",
+   "outcome": "complete",
+   "time": 32.5,
+   "distance": 528,
+   "topSpeed": 24.3,
+   "startMass": 30,
+   "endMass": 12.5,
+   "peakMass": 30,
+   "absorbed": 0,
+   "iceLeft": 0.416,
+   "waterfallsCrossed": 1,
+   "collisions": 2,
+   "treesFelled": 0,
+   "knockedDown": 3,
+   "buildingsDestroyed": 0,
+   "storyPoints": 0,
+   "destroyedByCategory": {},
+   "destroyedByKind": {},
+   "landmarks": [
+    {
+     "id": "bolted-stone",
+     "status": "intact",
+     "closest": 6.3
+    },
+    {
+     "id": "gate-stones",
+     "status": "intact",
+     "closest": 6.6
+    },
+    {
+     "id": "falls-rowan",
+     "status": "intact",
+     "closest": 14.1
+    },
+    {
+     "id": "survey-hut",
+     "status": "intact",
+     "closest": 13.3
+    }
+   ],
+   "notable": [
+    {
+     "t": 26.9,
+     "s": 430.2,
+     "d": 0.4,
+     "type": "waterfall",
+     "value": 0
+    },
+    {
+     "t": 31.6,
+     "s": 542.7,
+     "d": -0.4,
+     "type": "enteredOcean"
+    }
+   ],
+   "route": [
+    {
+     "s": 30.1,
+     "d": 0
+    },
+    {
+     "s": 35.3,
+     "d": 0
+    },
+    {
+     "s": 41.3,
+     "d": 0
+    },
+    {
+     "s": 48.1,
+     "d": 0.1
+    },
+    {
+     "s": 55.7,
+     "d": 0.2
+    },
+    {
+     "s": 67,
+     "d": 0.3
+    },
+    {
+     "s": 76.5,
+     "d": 0.5
+    },
+    {
+     "s": 86.6,
+     "d": 0.6
+    },
+    {
+     "s": 97.2,
+     "d": 0.7
+    },
+    {
+     "s": 107.7,
+     "d": 0.5
+    },
+    {
+     "s": 117.8,
+     "d": 0.4
+    },
+    {
+     "s": 128.2,
+     "d": 0.4
+    },
+    {
+     "s": 138.9,
+     "d": 0.3
+    },
+    {
+     "s": 149.9,
+     "d": 0.4
+    },
+    {
+     "s": 161.2,
+     "d": 0.5
+    },
+    {
+     "s": 176.8,
+     "d": 0.3
+    },
+    {
+     "s": 188.9,
+     "d": 0
+    },
+    {
+     "s": 201.4,
+     "d": -0.4
+    },
+    {
+     "s": 214.2,
+     "d": -0.6
+    },
+    {
+     "s": 227.4,
+     "d": -0.8
+    },
+    {
+     "s": 240.8,
+     "d": -1.3
+    },
+    {
+     "s": 254.5,
+     "d": -1.6
+    },
+    {
+     "s": 268.3,
+     "d": -1.7
+    },
+    {
+     "s": 282.3,
+     "d": -2
+    },
+    {
+     "s": 296.4,
+     "d": -2.4
+    },
+    {
+     "s": 315.5,
+     "d": -1.5
+    },
+    {
+     "s": 329.8,
+     "d": -0.1
+    },
+    {
+     "s": 344.5,
+     "d": 1.2
+    },
+    {
+     "s": 359.6,
+     "d": 1.7
+    },
+    {
+     "s": 374.9,
+     "d": 2
+    },
+    {
+     "s": 390.2,
+     "d": 1.2
+    },
+    {
+     "s": 405.2,
+     "d": 0.2
+    },
+    {
+     "s": 420.1,
+     "d": 0.2
+    },
+    {
+     "s": 436.3,
+     "d": 0.5
+    },
+    {
+     "s": 455.6,
+     "d": 1.2
+    },
+    {
+     "s": 481.1,
+     "d": 1.1
+    },
+    {
+     "s": 500.2,
+     "d": 0.7
+    },
+    {
+     "s": 519.3,
+     "d": 0.7
+    },
+    {
+     "s": 538.3,
+     "d": -0.1
+    },
+    {
+     "s": 556.2,
+     "d": -1
+    }
+   ],
+   "reachedS": 560.1,
+   "coastS": 540
+  },
+  "history": []
+ },
+ "result": {
+  "ok": true,
+  "title": "The Benchmark",
+  "text": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf.",
+  "fragmentIds": [
+   "ch1-benchmark-register",
+   "ch1-hut-stands"
+  ],
+  "factIds": [],
+  "claims": [
+   {
+    "type": "outcome",
+    "value": "complete"
+   },
+   {
+    "type": "count",
+    "what": "waterfalls",
+    "value": 1
+   },
+   {
+    "type": "landmark",
+    "landmarkId": "bolted-stone",
+    "status": "intact"
+   },
+   {
+    "type": "landmark",
+    "landmarkId": "survey-hut",
+    "status": "intact"
+   },
+   {
+    "type": "fragment",
+    "fragmentId": "ch1-benchmark-register"
+   },
+   {
+    "type": "fragment",
+    "fragmentId": "ch1-hut-stands"
+   }
+  ],
+  "review": {
+   "verdict": "corrected",
+   "rounds": 2,
+   "issues": [
+    "“The bolted stone remains where Tomas Lind set it” implies Lind set the stone; the register says he set a brass bolt in a granite boulder. Revise to say the bolt remains in the boulder."
+   ]
+  },
+  "validation": {
+   "passed": true,
+   "checked": 23
+  }
+ },
+ "totals": {
+  "agentInvocations": 4,
+  "requests": 11,
+  "toolCalls": 21,
+  "inputTokens": 42933,
+  "cachedInputTokens": 29570,
+  "cacheWriteTokens": 13330,
+  "outputTokens": 4308,
+  "reasoningTokens": 2928,
+  "costUsd": 0.00411926,
+  "agentMs": 58198,
+  "wallMs": 58234,
+  "gatewayCacheHits": 0
+ },
+ "trace": {
+  "runId": "lt-20261021-091631-fb2773",
+  "mode": "reflection",
+  "chapterId": "ch1-beginning",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T09:16:31.360Z",
+  "evidenceSummary": {
+   "outcome": "complete",
+   "storyPoints": 0,
+   "destroyedByCategory": {},
+   "landmarks": [
+    {
+     "id": "bolted-stone",
+     "status": "intact",
+     "closest": 6.3
+    },
+    {
+     "id": "gate-stones",
+     "status": "intact",
+     "closest": 6.6
+    },
+    {
+     "id": "falls-rowan",
+     "status": "intact",
+     "closest": 14.1
+    },
+    {
+     "id": "survey-hut",
+     "status": "intact",
+     "closest": 13.3
+    }
+   ],
+   "notableEvents": 2
+  },
+  "historyChapters": [],
+  "steps": [
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 5104,
+    "summary": "round 1: 2808 in (0 cached), 46 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 2808,
+      "input_tokens_details": {
+       "cache_write_tokens": 2805,
+       "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 2854
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 5105,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":32.5,\"distanceM\":528,\"topSpeedMs\":24.3,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":12.5,\"growth\":1,\"iceLeftPct\":42,\"waterfallsCrossed\":1,\"collisions\":2,\"treesFelled\":0,\"buildingsDestroyed\":0,\"destroyedTotal\":0,\"storyPoints\":0,\"destroyedByCategory\":{},\"destroyedByKind\":{},\"landmarks\":[{\"id\":\"bolted-stone\",\"name\":\"The bolted stone\",\"status\":\"intact\"},{\"id\":\"gate-stones\",\"name\":\"The Gate\",\"status\":\"intact\"},{\"id\":\"falls-rowan\",\"name\":\"The rowan below the falls\",\"status\":\"intact\"},{\"id\":\"survey-hut\",\"name\":\"The survey hut at Vell Foot\",\"status\":\"in…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 5107,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch1-hut-stands\",\"chapterId\":\"ch1-beginning\",\"kind\":\"memory\",\"title\":\"Margin note, in pencil\",\"body\":\"The hut still stands at Vell Foot, door shut, kettle on the shelf. Someone has pinned a new note to the door in a hand I do not know: Went up to look at the stakes. Could not find them. Left the tea. Nobody signed it. I have left it where it is. An archive can be a place as well as a box.\"},{\"id\":\"ch1-benchmark-register\",\"chapterId\":\"ch1-beginning\",\"kind\":\"record\",\"title\":\"Benchmark register, Vell Foot\",\"date\":\"1979\",\"author\":\"tomas-lind\",\"body\":\"BM 1. B…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 7317,
+    "summary": "round 2: 3786 in (2805 cached), 109 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3786,
+      "input_tokens_details": {
+       "cache_write_tokens": 978,
+       "cached_tokens": 2805
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+       "reasoning_tokens": 28
+      },
+      "total_tokens": 3895
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 7318,
+    "summary": "get_level_context ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"chapter\":{\"id\":\"ch1-beginning\",\"index\":1,\"title\":\"The Beginning\",\"act\":1,\"actTitle\":\"The Wonder\",\"introLines\":[\"High in the Vell cirque, the ice has been here for longer than anyone has had a name for it.\",\"This summer, it moves.\",\"Go where the ground takes you. The river will follow.\"]},\"level\":{\"name\":\"Mountain Valley\",\"subtitle\":\"Steer your melting iceberg down a green valley: ride the falls, reach the sea.\",\"structures\":[{\"kind\":\"stoneBarrier\",\"count\":1},{\"kind\":\"house\",\"count\":1}]},\"landmarks\":[{\"id\":\"bolted-stone\",\"name\":\"The bolted stone\",\"category\":\"nature\",\"label…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 7318,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "limit": 30
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":2,\"events\":[{\"t\":26.9,\"type\":\"waterfall\",\"value\":0},{\"t\":31.6,\"type\":\"enteredOcean\"}]}}"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 7320,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "characters"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of (a place not yet reached)\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 7321,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "style"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"style\",\"entries\":[{\"voice\":\"The archivist's: first person, unnamed until chapter 8; plain, exact, warm, wry when it hurts. Short sentences. Specific objects carry the feeling: a kitchen calendar, a survey stake, a ticket stub, a kettle on a shelf, chalk on a door. Documents keep their own registers (field notes, minutes, notices, letters, logs) and are allowed to be dull, because records are. Humour is welcome. Say a hard thing once.\",\"avoid\":[\"slogans, calls to action and lectures about climate change\",\"telling the reader what to feel, or repeating a moral poin…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 22111,
+    "summary": "round 3: 4832 in (3783 cached), 1600 out",
+    "data": {
+     "status": "incomplete",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 4832,
+      "input_tokens_details": {
+       "cache_write_tokens": 1046,
+       "cached_tokens": 3783
+      },
+      "output_tokens": 1600,
+      "output_tokens_details": {
+       "reasoning_tokens": 1409
+      },
+      "total_tokens": 6432
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "error",
+    "at": 22112,
+    "summary": "round 3: invalid reply",
+    "data": {
+     "problems": [
+      "the reply is not a JSON object"
+     ]
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 26621,
+    "summary": "round 4: 5049 in (4829 cached), 378 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 5049,
+      "input_tokens_details": {
+       "cache_write_tokens": 217,
+       "cached_tokens": 4829
+      },
+      "output_tokens": 378,
+      "output_tokens_details": {
+       "reasoning_tokens": 133
+      },
+      "total_tokens": 5427
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "draft",
+    "at": 26622,
+    "summary": "draft 1: \"The Benchmark\"",
+    "data": {
+     "title": "The Benchmark",
+     "text": "You went over the falls, and the bolted stone remains where Tomas Lind set it: a brass bolt in granite, stamped VELL 1979. His register made it the reference for thirty stakes, to be measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf.",
+     "fragmentIds": [
+      "ch1-benchmark-register",
+      "ch1-hut-stands"
+     ],
+     "factIds": [],
+     "claims": [
+      {
+       "type": "outcome",
+       "value": "complete"
+      },
+      {
+       "type": "count",
+       "what": "waterfalls",
+       "value": 1
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "bolted-stone",
+       "status": "intact"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "survey-hut",
+       "status": "intact"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-benchmark-register"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-hut-stands"
+      }
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 29351,
+    "summary": "round 1: 2624 in (0 cached), 212 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 2624,
+      "input_tokens_details": {
+       "cache_write_tokens": 2621,
+       "cached_tokens": 0
+      },
+      "output_tokens": 212,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 2836
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29359,
+    "summary": "validate_narrative_events ok",
+    "data": {
+     "args": {
+      "claims": [
+       {
+        "type": "outcome",
+        "value": "complete"
+       },
+       {
+        "type": "count",
+        "what": "waterfalls",
+        "value": 1
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "bolted-stone",
+        "status": "intact"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "survey-hut",
+        "status": "intact"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch1-benchmark-register"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch1-hut-stands"
+       }
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":17,\"issues\":[]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29373,
+    "summary": "check_narrative_continuity ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of (a place not yet reached), (a place not yet reached). She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left (a place not yet reached) on the last train, driven by her brother someone not yet named, with …"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29373,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":32.5,\"distanceM\":528,\"topSpeedMs\":24.3,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":12.5,\"growth\":1,\"iceLeftPct\":42,\"waterfallsCrossed\":1,\"collisions\":2,\"treesFelled\":0,\"buildingsDestroyed\":0,\"destroyedTotal\":0,\"storyPoints\":0,\"destroyedByCategory\":{},\"destroyedByKind\":{},\"landmarks\":[{\"id\":\"bolted-stone\",\"name\":\"The bolted stone\",\"status\":\"intact\"},{\"id\":\"gate-stones\",\"name\":\"The Gate\",\"status\":\"intact\"},{\"id\":\"falls-rowan\",\"name\":\"The rowan below the falls\",\"status\":\"intact\"},{\"id\":\"survey-hut\",\"name\":\"The survey hut at Vell Foot\",\"status\":\"in…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29373,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {
+      "ids": [
+       "ch1-benchmark-register",
+       "ch1-hut-stands"
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch1-benchmark-register\",\"chapterId\":\"ch1-beginning\",\"kind\":\"record\",\"title\":\"Benchmark register, Vell Foot\",\"date\":\"1979\",\"author\":\"tomas-lind\",\"body\":\"BM 1. Brass bolt set in a granite boulder on the valley floor below the cirque lip. Reference for stakes 1 to 30 on the Vell Glacier. Distance from bolt to ice front, by tape along the valley floor: 61 m. Bolt stamped VELL 1979. To be re-measured every September. Do not move the boulder (joke). [Pencil, in another hand, much later: Every September, he did.]\"},{\"id\":\"ch1-hut-stands\",\"chapterId\":\"ch1-begin…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29374,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "invariants"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of (a place not yet reached), (a place not yet reached). She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left (a place not yet reached) on the last train, driven by her brother someone not…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 29374,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "characters"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"characters\",\"entries\":[{\"id\":\"unnamed-1\",\"name\":\"not yet named to the player: never give a name\",\"role\":\"The archivist; former records clerk of (a place not yet reached)\",\"born\":2006,\"description\":\"Silver-haired since nineteen (\\\"my grandmother's hair, arriving early\\\"), pale grey eyes with a pearly sheen that photographs badly, and long dark second-hand dresses chosen for their pockets. People expect a tragic heroine; she asks them where they keep their minutes. Writes in pencil, small, in margins. Warm, wry, exact, stubborn; funniest when frightened.\",\"history…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 34943,
+    "summary": "round 2: 4628 in (2621 cached), 375 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 4628,
+      "input_tokens_details": {
+       "cache_write_tokens": 2004,
+       "cached_tokens": 2621
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+       "reasoning_tokens": 349
+      },
+      "total_tokens": 5003
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 34943,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "type": "waterfall",
+      "limit": 5
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":1,\"events\":[{\"t\":26.9,\"type\":\"waterfall\",\"value\":0}]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 39321,
+    "summary": "round 3: 5045 in (4625 cached), 205 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 5045,
+      "input_tokens_details": {
+       "cache_write_tokens": 417,
+       "cached_tokens": 4625
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+       "reasoning_tokens": 141
+      },
+      "total_tokens": 5250
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "review",
+    "at": 39328,
+    "summary": "review 1: revise (1 issues)",
+    "data": {
+     "verdict": "revise",
+     "issues": [
+      "“The bolted stone remains where Tomas Lind set it” implies Lind set the stone; the register says he set a brass bolt in a granite boulder. Revise to say the bolt remains in the boulder."
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "validation",
+    "at": 39328,
+    "summary": "validation 1: passed (23 checks)",
+    "data": {
+     "passed": true,
+     "checked": 23,
+     "issues": []
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 41102,
+    "summary": "round 1: 3135 in (2805 cached), 62 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 3135,
+      "input_tokens_details": {
+       "cache_write_tokens": 327,
+       "cached_tokens": 2805
+      },
+      "output_tokens": 62,
+      "output_tokens_details": {
+       "reasoning_tokens": 14
+      },
+      "total_tokens": 3197
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 41102,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":32.5,\"distanceM\":528,\"topSpeedMs\":24.3,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":12.5,\"growth\":1,\"iceLeftPct\":42,\"waterfallsCrossed\":1,\"collisions\":2,\"treesFelled\":0,\"buildingsDestroyed\":0,\"destroyedTotal\":0,\"storyPoints\":0,\"destroyedByCategory\":{},\"destroyedByKind\":{},\"landmarks\":[{\"id\":\"bolted-stone\",\"name\":\"The bolted stone\",\"status\":\"intact\"},{\"id\":\"gate-stones\",\"name\":\"The Gate\",\"status\":\"intact\"},{\"id\":\"falls-rowan\",\"name\":\"The rowan below the falls\",\"status\":\"intact\"},{\"id\":\"survey-hut\",\"name\":\"The survey hut at Vell Foot\",\"status\":\"in…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "tool",
+    "at": 41102,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch1-hut-stands\",\"chapterId\":\"ch1-beginning\",\"kind\":\"memory\",\"title\":\"Margin note, in pencil\",\"body\":\"The hut still stands at Vell Foot, door shut, kettle on the shelf. Someone has pinned a new note to the door in a hand I do not know: Went up to look at the stakes. Could not find them. Left the tea. Nobody signed it. I have left it where it is. An archive can be a place as well as a box.\"},{\"id\":\"ch1-benchmark-register\",\"chapterId\":\"ch1-beginning\",\"kind\":\"record\",\"title\":\"Benchmark register, Vell Foot\",\"date\":\"1979\",\"author\":\"tomas-lind\",\"body\":\"BM 1. B…"
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "request",
+    "at": 47745,
+    "summary": "round 2: 4129 in (3132 cached), 674 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 4129,
+      "input_tokens_details": {
+       "cache_write_tokens": 994,
+       "cached_tokens": 3132
+      },
+      "output_tokens": 674,
+      "output_tokens_details": {
+       "reasoning_tokens": 436
+      },
+      "total_tokens": 4803
+     }
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "draft",
+    "at": 47746,
+    "summary": "draft 2: \"The Benchmark\"",
+    "data": {
+     "title": "The Benchmark",
+     "text": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf.",
+     "fragmentIds": [
+      "ch1-benchmark-register",
+      "ch1-hut-stands"
+     ],
+     "factIds": [],
+     "claims": [
+      {
+       "type": "outcome",
+       "value": "complete"
+      },
+      {
+       "type": "count",
+       "what": "waterfalls",
+       "value": 1
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "bolted-stone",
+       "status": "intact"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "survey-hut",
+       "status": "intact"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-benchmark-register"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-hut-stands"
+      }
+     ]
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 50587,
+    "summary": "round 1: 2617 in (2356 cached), 211 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 2617,
+      "input_tokens_details": {
+       "cache_write_tokens": 258,
+       "cached_tokens": 2356
+      },
+      "output_tokens": 211,
+      "output_tokens_details": {
+       "reasoning_tokens": 0
+      },
+      "total_tokens": 2828
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50589,
+    "summary": "validate_narrative_events ok",
+    "data": {
+     "args": {
+      "claims": [
+       {
+        "type": "outcome",
+        "value": "complete"
+       },
+       {
+        "type": "count",
+        "what": "waterfalls",
+        "value": 1
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "bolted-stone",
+        "status": "intact"
+       },
+       {
+        "type": "landmark",
+        "landmarkId": "survey-hut",
+        "status": "intact"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch1-benchmark-register"
+       },
+       {
+        "type": "fragment",
+        "fragmentId": "ch1-hut-stands"
+       }
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":17,\"issues\":[]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50596,
+    "summary": "check_narrative_continuity ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"passed\":true,\"checked\":6,\"issues\":[],\"invariants\":[\"The archivist is someone not yet named (born 2006) of (a place not yet reached), (a place not yet reached). She is not named before chapter 8.\",\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\",\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\",\"someone not yet named is alive. She left (a place not yet reached) on the last train, driven by her brother someone not yet named, with …"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50597,
+    "summary": "get_run_summary ok",
+    "data": {
+     "args": {},
+     "output": "{\"ok\":true,\"result\":{\"outcome\":\"complete\",\"seconds\":32.5,\"distanceM\":528,\"topSpeedMs\":24.3,\"startMassT\":30,\"peakMassT\":30,\"endMassT\":12.5,\"growth\":1,\"iceLeftPct\":42,\"waterfallsCrossed\":1,\"collisions\":2,\"treesFelled\":0,\"buildingsDestroyed\":0,\"destroyedTotal\":0,\"storyPoints\":0,\"destroyedByCategory\":{},\"destroyedByKind\":{},\"landmarks\":[{\"id\":\"bolted-stone\",\"name\":\"The bolted stone\",\"status\":\"intact\"},{\"id\":\"gate-stones\",\"name\":\"The Gate\",\"status\":\"intact\"},{\"id\":\"falls-rowan\",\"name\":\"The rowan below the falls\",\"status\":\"intact\"},{\"id\":\"survey-hut\",\"name\":\"The survey hut at Vell Foot\",\"status\":\"in…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50597,
+    "summary": "get_run_events ok",
+    "data": {
+     "args": {
+      "limit": 30
+     },
+     "output": "{\"ok\":true,\"result\":{\"total\":2,\"events\":[{\"t\":26.9,\"type\":\"waterfall\",\"value\":0},{\"t\":31.6,\"type\":\"enteredOcean\"}]}}"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50597,
+    "summary": "get_archive_fragments ok",
+    "data": {
+     "args": {
+      "ids": [
+       "ch1-benchmark-register",
+       "ch1-hut-stands"
+      ]
+     },
+     "output": "{\"ok\":true,\"result\":{\"fragments\":[{\"id\":\"ch1-benchmark-register\",\"chapterId\":\"ch1-beginning\",\"kind\":\"record\",\"title\":\"Benchmark register, Vell Foot\",\"date\":\"1979\",\"author\":\"tomas-lind\",\"body\":\"BM 1. Brass bolt set in a granite boulder on the valley floor below the cirque lip. Reference for stakes 1 to 30 on the Vell Glacier. Distance from bolt to ice front, by tape along the valley floor: 61 m. Bolt stamped VELL 1979. To be re-measured every September. Do not move the boulder (joke). [Pencil, in another hand, much later: Every September, he did.]\"},{\"id\":\"ch1-hut-stands\",\"chapterId\":\"ch1-begin…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "tool",
+    "at": 50597,
+    "summary": "get_bible_entries ok",
+    "data": {
+     "args": {
+      "section": "invariants"
+     },
+     "output": "{\"ok\":true,\"result\":{\"section\":\"invariants\",\"entries\":[{\"text\":\"The archivist is someone not yet named (born 2006) of (a place not yet reached), (a place not yet reached). She is not named before chapter 8.\"},{\"text\":\"The thaw came in August 2039; the decisive day was 12 August. Lind's first warning report was 1987.\"},{\"text\":\"Every building the water reached was empty: the archive never says anyone was inside, hurt or lost, and records every list as accounted for.\"},{\"text\":\"someone not yet named is alive. She left (a place not yet reached) on the last train, driven by her brother someone not…"
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "request",
+    "at": 58215,
+    "summary": "round 2: 4280 in (2614 cached), 436 out",
+    "data": {
+     "status": "completed",
+     "model": "gpt-6-luna-global",
+     "gateway": {
+      "cacheStatus": "REFRESH",
+      "provider": "azure-openai"
+     },
+     "usage": {
+      "input_tokens": 4280,
+      "input_tokens_details": {
+       "cache_write_tokens": 1663,
+       "cached_tokens": 2614
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+       "reasoning_tokens": 418
+      },
+      "total_tokens": 4716
+     }
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "review",
+    "at": 58221,
+    "summary": "review 2: approve (0 issues)",
+    "data": {
+     "verdict": "approve",
+     "issues": []
+    }
+   },
+   {
+    "agent": "historian",
+    "kind": "validation",
+    "at": 58221,
+    "summary": "validation 2: passed (23 checks)",
+    "data": {
+     "passed": true,
+     "checked": 23,
+     "issues": []
+    }
+   },
+   {
+    "agent": "archivist",
+    "kind": "final",
+    "at": 58221,
+    "summary": "corrected after 2 review(s)",
+    "data": {
+     "text": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf."
+    }
+   }
+  ],
+  "toolCalls": [
+   {
+    "agent": "archivist",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_archive_fragments",
+    "args": {},
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_level_context",
+    "args": {},
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_run_events",
+    "args": {
+     "limit": 30
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "characters"
+    },
+    "ok": true,
+    "ms": 2
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "style"
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "validate_narrative_events",
+    "args": {
+     "claims": [
+      {
+       "type": "outcome",
+       "value": "complete"
+      },
+      {
+       "type": "count",
+       "what": "waterfalls",
+       "value": 1
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "bolted-stone",
+       "status": "intact"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "survey-hut",
+       "status": "intact"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-benchmark-register"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-hut-stands"
+      }
+     ]
+    },
+    "ok": true,
+    "ms": 8
+   },
+   {
+    "agent": "historian",
+    "tool": "check_narrative_continuity",
+    "args": {},
+    "ok": true,
+    "ms": 14
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_archive_fragments",
+    "args": {
+     "ids": [
+      "ch1-benchmark-register",
+      "ch1-hut-stands"
+     ]
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "invariants"
+    },
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "characters"
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "type": "waterfall",
+     "limit": 5
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "archivist",
+    "tool": "get_archive_fragments",
+    "args": {},
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "validate_narrative_events",
+    "args": {
+     "claims": [
+      {
+       "type": "outcome",
+       "value": "complete"
+      },
+      {
+       "type": "count",
+       "what": "waterfalls",
+       "value": 1
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "bolted-stone",
+       "status": "intact"
+      },
+      {
+       "type": "landmark",
+       "landmarkId": "survey-hut",
+       "status": "intact"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-benchmark-register"
+      },
+      {
+       "type": "fragment",
+       "fragmentId": "ch1-hut-stands"
+      }
+     ]
+    },
+    "ok": true,
+    "ms": 2
+   },
+   {
+    "agent": "historian",
+    "tool": "check_narrative_continuity",
+    "args": {},
+    "ok": true,
+    "ms": 7
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_summary",
+    "args": {},
+    "ok": true,
+    "ms": 1
+   },
+   {
+    "agent": "historian",
+    "tool": "get_run_events",
+    "args": {
+     "limit": 30
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_archive_fragments",
+    "args": {
+     "ids": [
+      "ch1-benchmark-register",
+      "ch1-hut-stands"
+     ]
+    },
+    "ok": true,
+    "ms": 0
+   },
+   {
+    "agent": "historian",
+    "tool": "get_bible_entries",
+    "args": {
+     "section": "invariants"
+    },
+    "ok": true,
+    "ms": 0
+   }
+  ],
+  "drafts": [
+   {
+    "title": "The Benchmark",
+    "text": "You went over the falls, and the bolted stone remains where Tomas Lind set it: a brass bolt in granite, stamped VELL 1979. His register made it the reference for thirty stakes, to be measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf.",
+    "fragmentIds": [
+     "ch1-benchmark-register",
+     "ch1-hut-stands"
+    ],
+    "factIds": [],
+    "claims": [
+     {
+      "type": "outcome",
+      "value": "complete"
+     },
+     {
+      "type": "count",
+      "what": "waterfalls",
+      "value": 1
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "bolted-stone",
+      "status": "intact"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "survey-hut",
+      "status": "intact"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch1-benchmark-register"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch1-hut-stands"
+     }
+    ]
+   },
+   {
+    "title": "The Benchmark",
+    "text": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf.",
+    "fragmentIds": [
+     "ch1-benchmark-register",
+     "ch1-hut-stands"
+    ],
+    "factIds": [],
+    "claims": [
+     {
+      "type": "outcome",
+      "value": "complete"
+     },
+     {
+      "type": "count",
+      "what": "waterfalls",
+      "value": 1
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "bolted-stone",
+      "status": "intact"
+     },
+     {
+      "type": "landmark",
+      "landmarkId": "survey-hut",
+      "status": "intact"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch1-benchmark-register"
+     },
+     {
+      "type": "fragment",
+      "fragmentId": "ch1-hut-stands"
+     }
+    ]
+   }
+  ],
+  "reviews": [
+   {
+    "verdict": "revise",
+    "issues": [
+     "“The bolted stone remains where Tomas Lind set it” implies Lind set the stone; the register says he set a brass bolt in a granite boulder. Revise to say the bolt remains in the boulder."
+    ],
+    "validationIssues": []
+   },
+   {
+    "verdict": "approve",
+    "issues": [],
+    "validationIssues": []
+   }
+  ],
+  "usage": [
+   {
+    "ts": "2026-10-21T09:16:57.982Z",
+    "runId": "lt-20261021-091631-fb2773",
+    "agent": "archivist",
+    "model": "gpt-6-luna",
+    "inputTokens": 16475,
+    "cachedInputTokens": 11417,
+    "outputTokens": 2133,
+    "reasoningTokens": 1570,
+    "requests": 4,
+    "toolCalls": 6,
+    "durationMs": 26621,
+    "costUsd": 0.00181262,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-21T09:17:10.681Z",
+    "runId": "lt-20261021-091631-fb2773",
+    "agent": "historian",
+    "model": "gpt-6-luna",
+    "inputTokens": 12297,
+    "cachedInputTokens": 7246,
+    "outputTokens": 792,
+    "reasoningTokens": 490,
+    "requests": 3,
+    "toolCalls": 7,
+    "durationMs": 12693,
+    "costUsd": 0.00109961,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-21T09:17:19.106Z",
+    "runId": "lt-20261021-091631-fb2773",
+    "agent": "archivist",
+    "model": "gpt-6-luna",
+    "inputTokens": 7264,
+    "cachedInputTokens": 5937,
+    "outputTokens": 736,
+    "reasoningTokens": 450,
+    "requests": 2,
+    "toolCalls": 2,
+    "durationMs": 8417,
+    "costUsd": 0.0005931,
+    "ok": true
+   },
+   {
+    "ts": "2026-10-21T09:17:29.575Z",
+    "runId": "lt-20261021-091631-fb2773",
+    "agent": "historian",
+    "model": "gpt-6-luna",
+    "inputTokens": 6897,
+    "cachedInputTokens": 4970,
+    "outputTokens": 647,
+    "reasoningTokens": 418,
+    "requests": 2,
+    "toolCalls": 6,
+    "durationMs": 10467,
+    "costUsd": 0.00061393,
+    "ok": true
+   }
+  ],
+  "result": {
+   "ok": true,
+   "review": {
+    "verdict": "corrected",
+    "rounds": 2,
+    "issues": [
+     "“The bolted stone remains where Tomas Lind set it” implies Lind set the stone; the register says he set a brass bolt in a granite boulder. Revise to say the bolt remains in the boulder."
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "checked": 23
+   },
+   "text": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A note pinned to the door says someone went up to look for the stakes, could not find them, and left the tea. Nobody signed it. I have left the note where it was. The river came down the valley by your route; the kettle waits on its shelf."
+  }
+ }
+}

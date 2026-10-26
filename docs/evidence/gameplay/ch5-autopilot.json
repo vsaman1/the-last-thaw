@@ -1,0 +1,398 @@
+{
+ "case": "ch5-autopilot",
+ "plan": {
+  "kind": "autopilot"
+ },
+ "seconds": 7.11,
+ "evidence": {
+  "version": 1,
+  "chapterId": "ch5-denial",
+  "levelId": "glacier-avalanche",
+  "outcome": "complete",
+  "time": 96.6,
+  "distance": 1380,
+  "topSpeed": 22.8,
+  "startMass": 18,
+  "endMass": 90.6,
+  "peakMass": 105.3,
+  "absorbed": 94.8,
+  "iceLeft": 5.032,
+  "waterfallsCrossed": 4,
+  "collisions": 8,
+  "treesFelled": 0,
+  "knockedDown": 4,
+  "buildingsDestroyed": 3,
+  "storyPoints": 1420,
+  "destroyedByCategory": {
+   "home": 2,
+   "farm": 1,
+   "water": 1
+  },
+  "destroyedByKind": {
+   "chalet": 2,
+   "barn": 1,
+   "dam": 1
+  },
+  "landmarks": [
+   {
+    "id": "kessel-dam",
+    "status": "destroyed",
+    "closest": 0.6
+   },
+   {
+    "id": "dairy-chalet",
+    "status": "destroyed",
+    "closest": 1.6
+   },
+   {
+    "id": "kessel-barn",
+    "status": "destroyed",
+    "closest": 1.5
+   },
+   {
+    "id": "kessel-guesthouse",
+    "status": "intact",
+    "closest": 30.8
+   },
+   {
+    "id": "gorge-chalet",
+    "status": "destroyed",
+    "closest": 2.6
+   },
+   {
+    "id": "kessel-lift",
+    "status": "intact",
+    "closest": 96
+   },
+   {
+    "id": "coop-silo",
+    "status": "intact",
+    "closest": 68.4
+   }
+  ],
+  "notable": [
+   {
+    "t": 14,
+    "s": 174.6,
+    "d": -76.5,
+    "type": "absorbed",
+    "value": 2.4
+   },
+   {
+    "t": 18.7,
+    "s": 238.3,
+    "d": -98.8,
+    "type": "absorbed",
+    "value": 3.6
+   },
+   {
+    "t": 22.9,
+    "s": 296.6,
+    "d": -108.4,
+    "type": "absorbed",
+    "value": 4.2
+   },
+   {
+    "t": 26.3,
+    "s": 347.3,
+    "d": -99.4,
+    "type": "absorbed",
+    "value": 13.7
+   },
+   {
+    "t": 35,
+    "s": 460.1,
+    "d": -81.7,
+    "type": "waterfall",
+    "value": 0
+   },
+   {
+    "t": 38.3,
+    "s": 520,
+    "d": -48.7,
+    "type": "absorbed",
+    "value": 12.3
+   },
+   {
+    "t": 41.5,
+    "s": 568.6,
+    "d": -36.5,
+    "type": "absorbed",
+    "value": 16.6
+   },
+   {
+    "t": 57,
+    "s": 782.9,
+    "d": -38,
+    "type": "waterfall",
+    "value": 1
+   },
+   {
+    "t": 57.5,
+    "s": 798.2,
+    "d": -36.8,
+    "type": "absorbed",
+    "value": 33.2
+   },
+   {
+    "t": 60.6,
+    "s": 849.4,
+    "d": -27.4,
+    "type": "absorbed",
+    "value": 8.8
+   },
+   {
+    "t": 65.8,
+    "s": 943.2,
+    "d": -21,
+    "type": "chipped",
+    "value": 0.063
+   },
+   {
+    "t": 65.8,
+    "s": 950,
+    "d": -20,
+    "type": "broke",
+    "kind": "chalet",
+    "category": "home",
+    "landmarkId": "dairy-chalet",
+    "value": 200
+   },
+   {
+    "t": 67.8,
+    "s": 984.6,
+    "d": -15.6,
+    "type": "chipped",
+    "value": 0.052
+   },
+   {
+    "t": 67.8,
+    "s": 990,
+    "d": -23,
+    "type": "broke",
+    "kind": "barn",
+    "category": "farm",
+    "landmarkId": "kessel-barn",
+    "value": 120
+   },
+   {
+    "t": 70.5,
+    "s": 1021.3,
+    "d": -15.4,
+    "type": "chipped",
+    "value": 0.065
+   },
+   {
+    "t": 70.5,
+    "s": 1028,
+    "d": -18,
+    "type": "broke",
+    "kind": "chalet",
+    "category": "home",
+    "landmarkId": "gorge-chalet",
+    "value": 200
+   },
+   {
+    "t": 75.7,
+    "s": 1079.8,
+    "d": 0.1,
+    "type": "waterfall",
+    "value": 2
+   },
+   {
+    "t": 82.1,
+    "s": 1212.8,
+    "d": 0.9,
+    "type": "chipped",
+    "value": 0.417
+   },
+   {
+    "t": 82.1,
+    "s": 1215,
+    "d": 0,
+    "type": "damBreached",
+    "kind": "dam",
+    "category": "water",
+    "landmarkId": "kessel-dam",
+    "value": 900
+   },
+   {
+    "t": 90,
+    "s": 1271.9,
+    "d": 0.9,
+    "type": "waterfall",
+    "value": 3
+   },
+   {
+    "t": 95.3,
+    "s": 1348.3,
+    "d": 1,
+    "type": "enteredOcean"
+   }
+  ],
+  "route": [
+   {
+    "s": 30.1,
+    "d": 0
+   },
+   {
+    "s": 45.8,
+    "d": -3.6
+   },
+   {
+    "s": 69.4,
+    "d": -9.4
+   },
+   {
+    "s": 97.2,
+    "d": -17.2
+   },
+   {
+    "s": 125.1,
+    "d": -34.5
+   },
+   {
+    "s": 153.3,
+    "d": -58
+   },
+   {
+    "s": 185.1,
+    "d": -79.9
+   },
+   {
+    "s": 216.9,
+    "d": -91.2
+   },
+   {
+    "s": 250.3,
+    "d": -100.1
+   },
+   {
+    "s": 288.5,
+    "d": -105.4
+   },
+   {
+    "s": 322.3,
+    "d": -103.6
+   },
+   {
+    "s": 354.5,
+    "d": -98.8
+   },
+   {
+    "s": 382.6,
+    "d": -93.6
+   },
+   {
+    "s": 420.3,
+    "d": -89.3
+   },
+   {
+    "s": 455.4,
+    "d": -83.1
+   },
+   {
+    "s": 495.3,
+    "d": -61.2
+   },
+   {
+    "s": 538.1,
+    "d": -42.7
+   },
+   {
+    "s": 574,
+    "d": -35.4
+   },
+   {
+    "s": 605.9,
+    "d": -29.8
+   },
+   {
+    "s": 640.1,
+    "d": -27.6
+   },
+   {
+    "s": 674.2,
+    "d": -27.8
+   },
+   {
+    "s": 708,
+    "d": -30.5
+   },
+   {
+    "s": 742.6,
+    "d": -34.6
+   },
+   {
+    "s": 780,
+    "d": -37.8
+   },
+   {
+    "s": 827.8,
+    "d": -33.8
+   },
+   {
+    "s": 868.1,
+    "d": -27.3
+   },
+   {
+    "s": 911.6,
+    "d": -22
+   },
+   {
+    "s": 959,
+    "d": -21.7
+   },
+   {
+    "s": 996.1,
+    "d": -21.1
+   },
+   {
+    "s": 1028.8,
+    "d": -14.9
+   },
+   {
+    "s": 1058.7,
+    "d": -3.6
+   },
+   {
+    "s": 1101.1,
+    "d": 0.9
+   },
+   {
+    "s": 1149.2,
+    "d": 1.2
+   },
+   {
+    "s": 1200.1,
+    "d": 1
+   },
+   {
+    "s": 1225.1,
+    "d": 0.6
+   },
+   {
+    "s": 1245.2,
+    "d": 0.4
+   },
+   {
+    "s": 1264.1,
+    "d": 0.8
+   },
+   {
+    "s": 1293.7,
+    "d": 1.1
+   },
+   {
+    "s": 1332.1,
+    "d": 1
+   },
+   {
+    "s": 1364.4,
+    "d": 1
+   }
+  ],
+  "reachedS": 1365.1,
+  "coastS": 1345
+ }
+}

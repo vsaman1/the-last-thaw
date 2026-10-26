@@ -1,0 +1,8 @@
+# s_gesture.mjs, three runs, build with L2 (noise bank, gust troughs and the 48 kHz IR made in idle slices on the menu), port 5199
+warm at the click: {"steps":8,"done":8,"ms":225.39999997615814,"complete":true}
+{"status":"running","rate":48000,"ctorMs":[334.6],"clickLongTasks":[409],"allLongTasksAfterClick":[[15,409]],"inclusiveMs":{"unlock":404,"onCreated":56.4,"AudioGraph":45.4,"attach":7,"onRunning":11.3,"createNoiseBank":3.6,"noiseBank":3.6}}
+warm at the click: {"steps":8,"done":8,"ms":197.7000000178814,"complete":true}
+{"status":"running","rate":48000,"ctorMs":[304.7],"clickLongTasks":[371],"allLongTasksAfterClick":[[25,371]],"inclusiveMs":{"unlock":368.3,"onCreated":49.3,"AudioGraph":40.7,"attach":7.9,"onRunning":12.7,"createNoiseBank":4,"noiseBank":4}}
+warm at the click: {"steps":8,"done":8,"ms":248.10000002384186,"complete":true}
+{"status":"running","rate":48000,"ctorMs":[356.7],"clickLongTasks":[441],"allLongTasksAfterClick":[[12,441]],"inclusiveMs":{"unlock":435.5,"onCreated":62.4,"AudioGraph":50.9,"attach":10,"onRunning":14.9,"createNoiseBank":4.3,"noiseBank":4.3}}
+# an intermediate build (troughs still computed at the click) gave long tasks 441, 294, 380 ms with the constructor at 365, 207.5, 304.6 ms

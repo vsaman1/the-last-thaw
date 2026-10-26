@@ -1,0 +1,6 @@
+# s_hmr.mjs, FIX2_HMR=1, manager.ts with the old block: if (import.meta.hot) import.meta.hot.dispose(() => void audio.dispose());
+before: {"marker":null,"contexts":["running"],"status":"running"}
+after update 1: {"marker":1,"contexts":["running","running"],"status":"running"}
+after update 2: {"marker":2,"contexts":["running","running","running"],"status":"running"}
+after update 3: {"marker":3,"contexts":["running","running","running","running"],"status":"running"}
+5 s later: {"marker":3,"contexts":["running","running","running","running"],"status":"running"}

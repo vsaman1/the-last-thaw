@@ -1,0 +1,6 @@
+# s_hmr.mjs, FIX2_HMR=1, manager.ts accepting its own updates with a page reload (marker null = the page reloaded)
+before: {"marker":null,"contexts":["running"],"status":"running"}
+after update 1: {"marker":null,"contexts":["running"],"status":"running"}
+after update 2: {"marker":null,"contexts":["running"],"status":"running"}
+after update 3: {"marker":null,"contexts":["running"],"status":"running"}
+5 s later: {"marker":null,"contexts":["running"],"status":"running"}

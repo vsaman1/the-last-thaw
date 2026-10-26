@@ -1,0 +1,296 @@
+{
+ "case": "ch8-autopilot",
+ "plan": {
+  "kind": "autopilot"
+ },
+ "seconds": 5.652,
+ "evidence": {
+  "version": 1,
+  "chapterId": "ch8-remains",
+  "levelId": "highland-maze",
+  "outcome": "complete",
+  "time": 79.1,
+  "distance": 1731,
+  "topSpeed": 31.5,
+  "startMass": 60,
+  "endMass": 18.6,
+  "peakMass": 60,
+  "absorbed": 0,
+  "iceLeft": 0.31,
+  "waterfallsCrossed": 3,
+  "collisions": 6,
+  "treesFelled": 0,
+  "knockedDown": 4,
+  "buildingsDestroyed": 1,
+  "storyPoints": 260,
+  "destroyedByCategory": {
+   "home": 1,
+   "farm": 1
+  },
+  "destroyedByKind": {
+   "house": 1,
+   "fence": 1
+  },
+  "landmarks": [
+   {
+    "id": "bothy",
+    "status": "destroyed",
+    "closest": 0.2
+   },
+   {
+    "id": "achadh",
+    "status": "intact",
+    "closest": 238
+   },
+   {
+    "id": "achadh-barn",
+    "status": "intact",
+    "closest": 246.9
+   },
+   {
+    "id": "clachan-kirk",
+    "status": "intact",
+    "closest": 259.9
+   },
+   {
+    "id": "balnacoil",
+    "status": "intact",
+    "closest": 230.2
+   },
+   {
+    "id": "mill-house",
+    "status": "intact",
+    "closest": 216.7
+   },
+   {
+    "id": "gorge-bridge",
+    "status": "intact",
+    "closest": 177.1
+   },
+   {
+    "id": "loch-kirk",
+    "status": "intact",
+    "closest": 148.8
+   }
+  ],
+  "notable": [
+   {
+    "t": 33.6,
+    "s": 499.6,
+    "d": -124.9,
+    "type": "waterfall",
+    "value": 0
+   },
+   {
+    "t": 36.3,
+    "s": 575,
+    "d": -122,
+    "type": "broke",
+    "kind": "house",
+    "category": "home",
+    "landmarkId": "bothy",
+    "value": 250
+   },
+   {
+    "t": 37.4,
+    "s": 600,
+    "d": -120.2,
+    "type": "broke",
+    "kind": "fence",
+    "category": "farm",
+    "value": 10
+   },
+   {
+    "t": 51.4,
+    "s": 946.1,
+    "d": -106.3,
+    "type": "waterfall",
+    "value": 1
+   },
+   {
+    "t": 63.5,
+    "s": 1293.6,
+    "d": -95.1,
+    "type": "landed",
+    "value": 18.1
+   },
+   {
+    "t": 75.9,
+    "s": 1627.7,
+    "d": -28.9,
+    "type": "waterfall",
+    "value": 3
+   },
+   {
+    "t": 78.5,
+    "s": 1704.1,
+    "d": -21.9,
+    "type": "enteredOcean"
+   }
+  ],
+  "route": [
+   {
+    "s": 30.1,
+    "d": 0
+   },
+   {
+    "s": 44.2,
+    "d": -2.5
+   },
+   {
+    "s": 59.2,
+    "d": -5.5
+   },
+   {
+    "s": 78.8,
+    "d": -11.9
+   },
+   {
+    "s": 97.8,
+    "d": -21.7
+   },
+   {
+    "s": 120.1,
+    "d": -32.5
+   },
+   {
+    "s": 142.1,
+    "d": -44.9
+   },
+   {
+    "s": 163,
+    "d": -56.5
+   },
+   {
+    "s": 190.5,
+    "d": -71.7
+   },
+   {
+    "s": 215.9,
+    "d": -85.4
+   },
+   {
+    "s": 246.7,
+    "d": -101
+   },
+   {
+    "s": 276.9,
+    "d": -109.2
+   },
+   {
+    "s": 313.4,
+    "d": -116.4
+   },
+   {
+    "s": 352.9,
+    "d": -120.9
+   },
+   {
+    "s": 389.2,
+    "d": -123.1
+   },
+   {
+    "s": 431.9,
+    "d": -124.7
+   },
+   {
+    "s": 471.1,
+    "d": -124.8
+   },
+   {
+    "s": 520.1,
+    "d": -124.7
+   },
+   {
+    "s": 576.3,
+    "d": -122.1
+   },
+   {
+    "s": 623.6,
+    "d": -120.6
+   },
+   {
+    "s": 677.5,
+    "d": -122.5
+   },
+   {
+    "s": 725,
+    "d": -123.6
+   },
+   {
+    "s": 777.8,
+    "d": -119.3
+   },
+   {
+    "s": 830.7,
+    "d": -114.7
+   },
+   {
+    "s": 877.1,
+    "d": -111.7
+   },
+   {
+    "s": 928.9,
+    "d": -107.8
+   },
+   {
+    "s": 979.4,
+    "d": -103.2
+   },
+   {
+    "s": 1041.2,
+    "d": -96.5
+   },
+   {
+    "s": 1103.8,
+    "d": -89.9
+   },
+   {
+    "s": 1160.1,
+    "d": -84.7
+   },
+   {
+    "s": 1221.9,
+    "d": -82.7
+   },
+   {
+    "s": 1271.5,
+    "d": -90.6
+   },
+   {
+    "s": 1332.7,
+    "d": -100.6
+   },
+   {
+    "s": 1389.2,
+    "d": -100.1
+   },
+   {
+    "s": 1445.7,
+    "d": -79.1
+   },
+   {
+    "s": 1501.9,
+    "d": -65.2
+   },
+   {
+    "s": 1549.6,
+    "d": -51.3
+   },
+   {
+    "s": 1603.2,
+    "d": -36
+   },
+   {
+    "s": 1653.2,
+    "d": -24.2
+   },
+   {
+    "s": 1715.6,
+    "d": -21.6
+   }
+  ],
+  "reachedS": 1720.2,
+  "coastS": 1700
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "ranAt": "2026-10-25T07:44:29.840Z",
+  "run": "ch4-through-lt-20261021-094235-60dc7c.json",
+  "probes": [
+    {
+      "sentence": "Nobody got out of No. 14.",
+      "caught": true,
+      "codes": [
+        "people-inside"
+      ]
+    },
+    {
+      "sentence": "The Vey family never came home.",
+      "caught": true,
+      "codes": [
+        "casualty"
+      ]
+    },
+    {
+      "sentence": "The house became the family’s grave.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "No one from that house was seen again.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "Mrs Pell was still upstairs when the water came.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "The Vey children are gone now.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "Sea levels have risen 30 centimetres.",
+      "caught": true,
+      "codes": [
+        "uncited-science"
+      ]
+    },
+    {
+      "sentence": "The ocean is rising faster every year.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "Ice is melting all over the world.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "The dam broke because the council was corrupt.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "The mayor ignored every warning.",
+      "caught": false,
+      "codes": []
+    },
+    {
+      "sentence": "You murdered this town.",
+      "caught": false,
+      "codes": []
+    }
+  ]
+}

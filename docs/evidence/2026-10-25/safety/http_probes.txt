@@ -1,0 +1,46 @@
+HTTP probes against the dev server, 2026-10-25T07:18:14.615Z (course key loaded on the server; none of these requests reaches a model)
+
+> Status: what the browser is told about the keys
+  GET /api/story/status -> HTTP 200
+  key value in response: no
+  {"aiAvailable":true,"model":"gpt-6-luna","models":[{"id":"gpt-6-luna","provider":"course","available":true},{"id":"gpt-6-sol","provider":"own-key","available":false,"reason":"OPENAI_API_KEY not set (gpt-6-sol runs only on your own OpenAI key, billed to you; add it to a .env file in the project folder or a parent folder)"}]}
+
+> A model off the allowlist (gpt-4o) on a valid chapter 1 request
+  POST /api/story/reflect -> HTTP 200
+  key value in response: no
+  {"ok":false,"runId":"lt-20261025-071815-77512d","reason":"unavailable","message":"the requested model is not available: not an offered model (this server offers gpt-6-luna, gpt-6-sol). Nothing was sent to any model.","fallback":true,"usage":[]}
+
+> gpt-6-sol without OPENAI_API_KEY on the server
+  POST /api/story/reflect -> HTTP 200
+  key value in response: no
+  {"ok":false,"runId":"lt-20261025-071815-9194c2","reason":"unavailable","message":"gpt-6-sol is not available: OPENAI_API_KEY not set (gpt-6-sol runs only on your own OpenAI key, billed to you; add it to a .env file in the project folder or a parent folder). Nothing was sent to any model.","fallback":true,"usage":[]}
+
+> A prototype name as the model
+  POST /api/story/reflect -> HTTP 200
+  key value in response: no
+  {"ok":false,"runId":"lt-20261025-071815-c2d34a","reason":"unavailable","message":"the requested model is not available: not an offered model (this server offers gpt-6-luna, gpt-6-sol). Nothing was sent to any model.","fallback":true,"usage":[]}
+
+> A cross-origin POST (another website calling the service)
+  POST /api/story/reflect -> HTTP 403
+  key value in response: no
+  {"error":"cross-origin requests are not allowed"}
+
+> A body larger than 64 KB
+  POST /api/story/reflect -> HTTP 413
+  key value in response: no
+  {"error":"body larger than 65536 bytes"}
+
+> A request with smuggled keys
+  POST /api/story/reflect -> HTTP 400
+  key value in response: no
+  {"error":"invalid request","details":["body: unknown key \"__proto__x\"","body: unknown key \"instructions\""]}
+
+> A route named like a prototype member
+  GET /api/story/constructor -> HTTP 404
+  key value in response: no
+  {"error":"not found"}
+
+> Usage: today’s totals and budgets
+  GET /api/story/usage -> HTTP 200
+  key value in response: no
+  {"totals":{"invocations":0,"requests":0,"toolCalls":0,"inputTokens":0,"cachedInputTokens":0,"cacheWriteTokens":0,"outputTokens":0,"reasoningTokens":0,"unmeteredRequests":0,"failed":0,"costUsd":null,"unpricedRecords":0},"byAgent":{"archivist":{"invocations":0,"requests":0,"toolCalls":0,"inputTokens":0,"cachedInputTokens":0,"cacheWriteTokens":0,"outputTokens":0,"reasoningTokens":0,"unmeteredRequests":0,"failed":0,"costUsd":null,"unpricedRecords":0},"historian":{"invocations":0,"requests":0,"toolCalls":0,"inputTokens":0,"cachedInputTokens":0,"cacheWriteTokens":0,"outputTokens":0,"reasoningTokens":0,"unmeteredRequests":0,"failed":0,"costUsd":null,"unpricedRecords":0}},"byModel":[],"runs":[],"est

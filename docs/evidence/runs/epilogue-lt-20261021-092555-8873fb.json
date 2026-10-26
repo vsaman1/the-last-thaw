@@ -1,0 +1,979 @@
+{
+ "case": "epilogue",
+ "label": "epilogue after chapter 9, history of chapters 1-8",
+ "date": "2026-10-21T09:26:40.094Z",
+ "model": "gpt-6-luna",
+ "runId": "lt-20261021-092555-8873fb",
+ "mode": "epilogue",
+ "chapterId": "ch9-last-thaw",
+ "gameplay": {
+  "file": "docs/evidence/gameplay/ch9-autopilot.json",
+  "plan": {
+   "kind": "autopilot"
+  }
+ },
+ "history": [
+  {
+   "chapterId": "ch1-beginning",
+   "gameplay": "ch1-autopilot",
+   "reflection": "ai lt-20261021-091631-fb2773"
+  },
+  {
+   "chapterId": "ch2-measurements",
+   "gameplay": "ch2-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch3-warning",
+   "gameplay": "ch3-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch4-people",
+   "gameplay": "ch4-through-church-lane",
+   "reflection": "ai lt-20261021-091747-599c14"
+  },
+  {
+   "chapterId": "ch5-denial",
+   "gameplay": "ch5-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch6-price",
+   "gameplay": "ch6-autopilot",
+   "reflection": "ai lt-20261021-092108-91f79f"
+  },
+  {
+   "chapterId": "ch7-escape",
+   "gameplay": "ch7-autopilot",
+   "reflection": "authored fallback"
+  },
+  {
+   "chapterId": "ch8-remains",
+   "gameplay": "ch8-autopilot",
+   "reflection": "authored fallback"
+  }
+ ],
+ "request": {
+  "evidence": {
+   "version": 1,
+   "chapterId": "ch9-last-thaw",
+   "levelId": "summit-labyrinth",
+   "outcome": "complete",
+   "time": 119.2,
+   "distance": 1867,
+   "topSpeed": 34,
+   "startMass": 22,
+   "endMass": 77.5,
+   "peakMass": 109,
+   "absorbed": 100.5,
+   "iceLeft": 3.522,
+   "waterfallsCrossed": 5,
+   "collisions": 10,
+   "treesFelled": 0,
+   "knockedDown": 5,
+   "buildingsDestroyed": 3,
+   "storyPoints": 1400,
+   "destroyedByCategory": {
+    "water": 1,
+    "home": 1,
+    "community": 1
+   },
+   "destroyedByKind": {
+    "dam": 1,
+    "chalet": 1,
+    "church": 1
+   },
+   "landmarks": [
+    {
+     "id": "upper-dam",
+     "status": "destroyed",
+     "closest": 0.2
+    },
+    {
+     "id": "village-lift",
+     "status": "intact",
+     "closest": 49.6
+    },
+    {
+     "id": "first-chalet",
+     "status": "destroyed",
+     "closest": 0.2
+    },
+    {
+     "id": "lind-chalet",
+     "status": "intact",
+     "closest": 35.4
+    },
+    {
+     "id": "fjord-chapel",
+     "status": "destroyed",
+     "closest": 2.5
+    },
+    {
+     "id": "village-barn",
+     "status": "intact",
+     "closest": 200.3
+    },
+    {
+     "id": "fjord-chalet",
+     "status": "intact",
+     "closest": 44.6
+    }
+   ],
+   "notable": [
+    {
+     "t": 20.4,
+     "s": 251.4,
+     "d": -101.9,
+     "type": "absorbed",
+     "value": 9.8
+    },
+    {
+     "t": 25.6,
+     "s": 315,
+     "d": -111.6,
+     "type": "absorbed",
+     "value": 12.8
+    },
+    {
+     "t": 32.2,
+     "s": 385.7,
+     "d": -119.7,
+     "type": "absorbed",
+     "value": 13.3
+    },
+    {
+     "t": 45.3,
+     "s": 517.9,
+     "d": -112.5,
+     "type": "absorbed",
+     "value": 21.9
+    },
+    {
+     "t": 51.3,
+     "s": 581.9,
+     "d": -86.8,
+     "type": "absorbed",
+     "value": 20.5
+    },
+    {
+     "t": 63.9,
+     "s": 707.2,
+     "d": -103.3,
+     "type": "absorbed",
+     "value": 22.2
+    },
+    {
+     "t": 71.8,
+     "s": 829.5,
+     "d": -90,
+     "type": "chipped",
+     "value": 0.422
+    },
+    {
+     "t": 71.8,
+     "s": 832,
+     "d": -90,
+     "type": "damBreached",
+     "kind": "dam",
+     "category": "water",
+     "landmarkId": "upper-dam",
+     "value": 900
+    },
+    {
+     "t": 77.8,
+     "s": 879.8,
+     "d": -89.7,
+     "type": "waterfall",
+     "value": 0
+    },
+    {
+     "t": 85.2,
+     "s": 1019.3,
+     "d": -79.8,
+     "type": "waterfall",
+     "value": 2
+    },
+    {
+     "t": 90.4,
+     "s": 1154.9,
+     "d": -68.3,
+     "type": "waterfall",
+     "value": 3
+    },
+    {
+     "t": 95.3,
+     "s": 1313.8,
+     "d": -59.7,
+     "type": "waterfall",
+     "value": 4
+    },
+    {
+     "t": 98.8,
+     "s": 1433.4,
+     "d": -59.9,
+     "type": "chipped",
+     "value": 0.06
+    },
+    {
+     "t": 98.8,
+     "s": 1440,
+     "d": -60,
+     "type": "broke",
+     "kind": "chalet",
+     "category": "home",
+     "landmarkId": "first-chalet",
+     "value": 200
+    },
+    {
+     "t": 105.2,
+     "s": 1609.8,
+     "d": -69.1,
+     "type": "chipped",
+     "value": 0.088
+    },
+    {
+     "t": 105.2,
+     "s": 1611.8,
+     "d": -70,
+     "type": "broke",
+     "kind": "church",
+     "category": "community",
+     "landmarkId": "fjord-chapel",
+     "value": 300
+    },
+    {
+     "t": 105.2,
+     "s": 1614,
+     "d": -70.1,
+     "type": "chipped",
+     "value": 0.104
+    },
+    {
+     "t": 105.4,
+     "s": 1620.3,
+     "d": -67.8,
+     "type": "chipped",
+     "value": 0.106
+    },
+    {
+     "t": 115.7,
+     "s": 1771,
+     "d": -33.3,
+     "type": "waterfall",
+     "value": 5
+    },
+    {
+     "t": 118.3,
+     "s": 1831.5,
+     "d": -20.6,
+     "type": "enteredOcean"
+    }
+   ],
+   "route": [
+    {
+     "s": 30.1,
+     "d": 0
+    },
+    {
+     "s": 47,
+     "d": -7.9
+    },
+    {
+     "s": 72.3,
+     "d": -20.6
+    },
+    {
+     "s": 99.1,
+     "d": -34
+    },
+    {
+     "s": 133.3,
+     "d": -53
+    },
+    {
+     "s": 169.5,
+     "d": -76
+    },
+    {
+     "s": 216.1,
+     "d": -95.8
+    },
+    {
+     "s": 261.1,
+     "d": -102.2
+    },
+    {
+     "s": 296.3,
+     "d": -107.1
+    },
+    {
+     "s": 329.9,
+     "d": -112.8
+    },
+    {
+     "s": 360.2,
+     "d": -116.9
+    },
+    {
+     "s": 395.8,
+     "d": -119.6
+    },
+    {
+     "s": 419.7,
+     "d": -121.2
+    },
+    {
+     "s": 449.2,
+     "d": -122.3
+    },
+    {
+     "s": 481.1,
+     "d": -120.1
+    },
+    {
+     "s": 520.2,
+     "d": -109.3
+    },
+    {
+     "s": 548.7,
+     "d": -98.8
+    },
+    {
+     "s": 582.2,
+     "d": -87.8
+    },
+    {
+     "s": 611.1,
+     "d": -98.4
+    },
+    {
+     "s": 642,
+     "d": -109.4
+    },
+    {
+     "s": 670.3,
+     "d": -114.4
+    },
+    {
+     "s": 705.6,
+     "d": -105.5
+    },
+    {
+     "s": 747.8,
+     "d": -93.1
+    },
+    {
+     "s": 795.4,
+     "d": -90.3
+    },
+    {
+     "s": 833.5,
+     "d": -89.7
+    },
+    {
+     "s": 864.6,
+     "d": -89.5
+    },
+    {
+     "s": 904.1,
+     "d": -89.2
+    },
+    {
+     "s": 964.1,
+     "d": -84.5
+    },
+    {
+     "s": 1022.3,
+     "d": -79.5
+    },
+    {
+     "s": 1106.5,
+     "d": -71.8
+    },
+    {
+     "s": 1188.8,
+     "d": -65.5
+    },
+    {
+     "s": 1292.1,
+     "d": -60
+    },
+    {
+     "s": 1390,
+     "d": -59.8
+    },
+    {
+     "s": 1479.6,
+     "d": -60.3
+    },
+    {
+     "s": 1567.8,
+     "d": -63.5
+    },
+    {
+     "s": 1630.2,
+     "d": -66.1
+    },
+    {
+     "s": 1677.6,
+     "d": -55.5
+    },
+    {
+     "s": 1722.2,
+     "d": -44.6
+    },
+    {
+     "s": 1777.6,
+     "d": -31.7
+    },
+    {
+     "s": 1845.7,
+     "d": -18.5
+    }
+   ],
+   "reachedS": 1850.2,
+   "coastS": 1830
+  },
+  "history": [
+   {
+    "chapterId": "ch1-beginning",
+    "outcome": "complete",
+    "storyPoints": 0,
+    "destroyedByCategory": {},
+    "landmarks": [
+     {
+      "id": "bolted-stone",
+      "status": "intact",
+      "closest": 6.3
+     },
+     {
+      "id": "gate-stones",
+      "status": "intact",
+      "closest": 6.6
+     },
+     {
+      "id": "falls-rowan",
+      "status": "intact",
+      "closest": 14.1
+     },
+     {
+      "id": "survey-hut",
+      "status": "intact",
+      "closest": 13.3
+     }
+    ],
+    "fragmentIds": [
+     "ch1-hut-stands",
+     "ch1-benchmark-register",
+     "ch1-clean-run",
+     "ch1-hut-door-note"
+    ],
+    "reflectionExcerpt": "You went over the falls, and the brass bolt remains in the granite boulder, stamped VELL 1979. Tomas Lind’s register made it the reference for thirty stakes, measured every September. At the survey hut, the kettle is still on the shelf. A …"
+   },
+   {
+    "chapterId": "ch2-measurements",
+    "outcome": "complete",
+    "storyPoints": 265,
+    "destroyedByCategory": {
+     "home": 1,
+     "industry": 1
+    },
+    "landmarks": [
+     {
+      "id": "gauging-bridge",
+      "status": "intact",
+      "closest": 0.8
+     },
+     {
+      "id": "long-bridge",
+      "status": "intact",
+      "closest": 0.7
+     },
+     {
+      "id": "lind-cabin",
+      "status": "destroyed",
+      "closest": 3.7
+     },
+     {
+      "id": "trading-post",
+      "status": "intact",
+      "closest": 26.8
+     },
+     {
+      "id": "canyon-tower",
+      "status": "intact",
+      "closest": 13.2
+     },
+     {
+      "id": "canyon-boat",
+      "status": "intact",
+      "closest": 18.1
+     }
+    ],
+    "fragmentIds": [
+     "ch2-cabin-gone",
+     "ch2-gauge-reading",
+     "ch2-notebook-lake",
+     "ch2-young-lind"
+    ],
+    "reflectionExcerpt": "The measurements were never secret. They were in reports with plain titles, filed in the proper places, sent to the people whose job it was to read them. Some of those people did. One wrote \"very good\" in the margin and passed it on. The w…"
+   },
+   {
+    "chapterId": "ch3-warning",
+    "outcome": "complete",
+    "storyPoints": 0,
+    "destroyedByCategory": {},
+    "landmarks": [
+     {
+      "id": "post-bus",
+      "status": "intact",
+      "closest": 33.4
+     },
+     {
+      "id": "lift-pylon",
+      "status": "intact",
+      "closest": 161.9
+     },
+     {
+      "id": "hairpin-chalet",
+      "status": "intact",
+      "closest": 19.2
+     },
+     {
+      "id": "cut-bridge",
+      "status": "intact",
+      "closest": 153.3
+     },
+     {
+      "id": "village-guesthouse",
+      "status": "intact",
+      "closest": 41.7
+     },
+     {
+      "id": "pass-chapel",
+      "status": "intact",
+      "closest": 73.8
+     },
+     {
+      "id": "valley-chalet",
+      "status": "intact",
+      "closest": 169.4
+     }
+    ],
+    "fragmentIds": [
+     "ch3-bridge-inspection",
+     "ch3-chapel-log",
+     "ch3-exercise-notice",
+     "ch3-sorel-letter"
+    ],
+    "reflectionExcerpt": "The Cut bridge was standing when you passed, and I have written that down first. The pass villages had three roads and a plan that admitted two would close, and its whole weight sat on one 1936 span over a forty-metre drop. Every inspectio…"
+   },
+   {
+    "chapterId": "ch4-people",
+    "outcome": "complete",
+    "storyPoints": 2650,
+    "destroyedByCategory": {
+     "home": 7,
+     "water": 1
+    },
+    "landmarks": [
+     {
+      "id": "vey-house",
+      "status": "destroyed",
+      "closest": 0.1
+     },
+     {
+      "id": "pell-house",
+      "status": "destroyed",
+      "closest": 0.5
+     },
+     {
+      "id": "st-brides",
+      "status": "intact",
+      "closest": 22.3
+     },
+     {
+      "id": "gas-holder",
+      "status": "intact",
+      "closest": 146.3
+     },
+     {
+      "id": "level-crossing-train",
+      "status": "intact",
+      "closest": 45.3
+     },
+     {
+      "id": "viaduct",
+      "status": "intact",
+      "closest": 86.2
+     },
+     {
+      "id": "riverside-dam",
+      "status": "destroyed",
+      "closest": 3.4
+     },
+     {
+      "id": "harbour-light",
+      "status": "intact",
+      "closest": 117.3
+     }
+    ],
+    "fragmentIds": [
+     "ch4-vey-house-gone",
+     "ch4-harrow-letter",
+     "ch4-levy-result",
+     "ch4-pells"
+    ],
+    "reflectionExcerpt": "You went through No. 14 Church Lane, then the Pells’ house next door. Later, the Riverside dam breached. I had chalked a circle with a line through it on No. 14: empty. The list was finished, and I was still holding the chalk. Inside were …"
+   },
+   {
+    "chapterId": "ch5-denial",
+    "outcome": "complete",
+    "storyPoints": 1420,
+    "destroyedByCategory": {
+     "home": 2,
+     "farm": 1,
+     "water": 1
+    },
+    "landmarks": [
+     {
+      "id": "kessel-dam",
+      "status": "destroyed",
+      "closest": 0.6
+     },
+     {
+      "id": "dairy-chalet",
+      "status": "destroyed",
+      "closest": 1.6
+     },
+     {
+      "id": "kessel-barn",
+      "status": "destroyed",
+      "closest": 1.5
+     },
+     {
+      "id": "kessel-guesthouse",
+      "status": "intact",
+      "closest": 30.8
+     },
+     {
+      "id": "gorge-chalet",
+      "status": "destroyed",
+      "closest": 2.6
+     },
+     {
+      "id": "kessel-lift",
+      "status": "intact",
+      "closest": 96
+     },
+     {
+      "id": "coop-silo",
+      "status": "intact",
+      "closest": 68.4
+     }
+    ],
+    "fragmentIds": [
+     "ch5-moreno-memo",
+     "ch5-lake-walk",
+     "ch5-board-minutes",
+     "ch5-dairy"
+    ],
+    "reflectionExcerpt": "You hit the Kessel dam with everything you had gathered on the way down, and it went, which is more or less what the 2024 report said would happen if something big enough arrived. I want to be fair to the people who read that report. They …"
+   },
+   {
+    "chapterId": "ch6-price",
+    "outcome": "complete",
+    "storyPoints": 3650,
+    "destroyedByCategory": {
+     "energy": 3,
+     "industry": 2,
+     "extraction": 2
+    },
+    "landmarks": [
+     {
+      "id": "calder-cottages",
+      "status": "intact",
+      "closest": 47.2
+     },
+     {
+      "id": "coop-turbine",
+      "status": "destroyed",
+      "closest": 2.5
+     },
+     {
+      "id": "coal-train",
+      "status": "damaged",
+      "closest": 5
+     },
+     {
+      "id": "north-tower",
+      "status": "destroyed",
+      "closest": 14.1
+     },
+     {
+      "id": "turbine-hall",
+      "status": "intact",
+      "closest": 85.2
+     },
+     {
+      "id": "tank-farm",
+      "status": "intact",
+      "closest": 198.9
+     },
+     {
+      "id": "calder-dam",
+      "status": "intact",
+      "closest": 73.9
+     },
+     {
+      "id": "highway-bridge",
+      "status": "intact",
+      "closest": 31.4
+     }
+    ],
+    "fragmentIds": [
+     "ch6-tank-inspection",
+     "ch6-risk-register",
+     "ch6-coop-courier",
+     "ch6-brother-yard"
+    ],
+    "reflectionExcerpt": "Line 44 has a blank where it should say who bore the risk. The Board accepted it; relocation was deferred, and the bund was done. You broke the co-op turbine on the hill, owned by households who had bought a share for about the price of a …"
+   },
+   {
+    "chapterId": "ch7-escape",
+    "outcome": "complete",
+    "storyPoints": 265,
+    "destroyedByCategory": {
+     "industry": 1,
+     "community": 1
+    },
+    "landmarks": [
+     {
+      "id": "first-cut-bridge",
+      "status": "intact",
+      "closest": 110.5
+     },
+     {
+      "id": "hollins-farm",
+      "status": "intact",
+      "closest": 174.1
+     },
+     {
+      "id": "leap-farm",
+      "status": "intact",
+      "closest": 163.1
+     },
+     {
+      "id": "ranger-tank",
+      "status": "destroyed",
+      "closest": 2
+     },
+     {
+      "id": "ranger-post",
+      "status": "intact",
+      "closest": 36.7
+     },
+     {
+      "id": "rope-bridge",
+      "status": "intact",
+      "closest": 130.5
+     },
+     {
+      "id": "road-end-farm",
+      "status": "intact",
+      "closest": 192.6
+     },
+     {
+      "id": "beach-house",
+      "status": "intact",
+      "closest": 126
+     }
+    ],
+    "fragmentIds": [
+     "ch7-rope-tag",
+     "ch7-ranger-log",
+     "ch7-water-porch",
+     "ch7-line-31"
+    ],
+    "reflectionExcerpt": "The Rope Bridge was still hanging when you passed, which means that somewhere in this archive twelve people are crossing it on foot because the road at the Leap is full. I love that bridge unreasonably. It was never meant to carry an evacu…"
+   },
+   {
+    "chapterId": "ch8-remains",
+    "outcome": "complete",
+    "storyPoints": 260,
+    "destroyedByCategory": {
+     "home": 1,
+     "farm": 1
+    },
+    "landmarks": [
+     {
+      "id": "bothy",
+      "status": "destroyed",
+      "closest": 0.2
+     },
+     {
+      "id": "achadh",
+      "status": "intact",
+      "closest": 238
+     },
+     {
+      "id": "achadh-barn",
+      "status": "intact",
+      "closest": 246.9
+     },
+     {
+      "id": "clachan-kirk",
+      "status": "intact",
+      "closest": 259.9
+     },
+     {
+      "id": "balnacoil",
+      "status": "intact",
+      "closest": 230.2
+     },
+     {
+      "id": "mill-house",
+      "status": "intact",
+      "closest": 216.7
+     },
+     {
+      "id": "gorge-bridge",
+      "status": "intact",
+      "closest": 177.1
+     },
+     {
+      "id": "loch-kirk",
+      "status": "intact",
+      "closest": 148.8
+     }
+    ],
+    "fragmentIds": [
+     "ch8-post-van-log",
+     "ch8-achadh-letter",
+     "ch8-bothy-peaches",
+     "ch8-after-church-lane"
+    ],
+    "reflectionExcerpt": "The Gorge bridge was standing when you came through, and I will admit I cried a little at the desk, which Callum would like recorded. It is the one thing in this archive that somebody asked for, early and loudly, for ten years, and got: a …"
+   }
+  ]
+ },
+ "result": {
+  "ok": false,
+  "reason": "error",
+  "message": "request timed out after 45000 ms"
+ },
+ "totals": {
+  "agentInvocations": 1,
+  "requests": 1,
+  "toolCalls": 0,
+  "inputTokens": 0,
+  "cachedInputTokens": 0,
+  "cacheWriteTokens": 0,
+  "outputTokens": 0,
+  "reasoningTokens": 0,
+  "costUsd": 0,
+  "agentMs": 45017,
+  "wallMs": 45025,
+  "gatewayCacheHits": 0
+ },
+ "trace": {
+  "runId": "lt-20261021-092555-8873fb",
+  "mode": "epilogue",
+  "chapterId": "ch9-last-thaw",
+  "model": "gpt-6-luna",
+  "transport": "portkey",
+  "startedAt": "2026-10-21T09:25:55.071Z",
+  "evidenceSummary": {
+   "outcome": "complete",
+   "storyPoints": 1400,
+   "destroyedByCategory": {
+    "water": 1,
+    "home": 1,
+    "community": 1
+   },
+   "landmarks": [
+    {
+     "id": "upper-dam",
+     "status": "destroyed",
+     "closest": 0.2
+    },
+    {
+     "id": "village-lift",
+     "status": "intact",
+     "closest": 49.6
+    },
+    {
+     "id": "first-chalet",
+     "status": "destroyed",
+     "closest": 0.2
+    },
+    {
+     "id": "lind-chalet",
+     "status": "intact",
+     "closest": 35.4
+    },
+    {
+     "id": "fjord-chapel",
+     "status": "destroyed",
+     "closest": 2.5
+    },
+    {
+     "id": "village-barn",
+     "status": "intact",
+     "closest": 200.3
+    },
+    {
+     "id": "fjord-chalet",
+     "status": "intact",
+     "closest": 44.6
+    }
+   ],
+   "notableEvents": 20
+  },
+  "historyChapters": [
+   "ch1-beginning",
+   "ch2-measurements",
+   "ch3-warning",
+   "ch4-people",
+   "ch5-denial",
+   "ch6-price",
+   "ch7-escape",
+   "ch8-remains"
+  ],
+  "steps": [
+   {
+    "agent": "archivist",
+    "kind": "error",
+    "at": 45018,
+    "summary": "request timed out after 45000 ms"
+   }
+  ],
+  "toolCalls": [],
+  "drafts": [],
+  "reviews": [],
+  "usage": [
+   {
+    "ts": "2026-10-21T09:26:40.089Z",
+    "runId": "lt-20261021-092555-8873fb",
+    "agent": "archivist",
+    "model": "gpt-6-luna",
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0,
+    "reasoningTokens": 0,
+    "requests": 1,
+    "toolCalls": 0,
+    "durationMs": 45017,
+    "costUsd": 0,
+    "ok": false
+   }
+  ],
+  "result": {
+   "ok": false,
+   "reason": "error",
+   "message": "request timed out after 45000 ms"
+  }
+ }
+}

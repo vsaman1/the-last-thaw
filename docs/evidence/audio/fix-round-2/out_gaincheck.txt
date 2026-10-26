@@ -1,0 +1,12 @@
+{"f":"mozart-k545-allegro","lenA":6426610,"lenG":6426610,"want":0,"rmsRatioDb":0,"maxErrVsPeak":0,"peakDbBefore":-2.64,"peakDbAfter":-2.64,"lufsI":-21.45,"lufsMMax":-11.78,"durationSec":133.9}
+{"f":"chopin-waltz-a-minor-b150","lenA":6274454,"lenG":6274454,"want":0,"rmsRatioDb":0,"maxErrVsPeak":0,"peakDbBefore":-3.29,"peakDbAfter":-3.29,"lufsI":-19.8,"lufsMMax":-11.56,"durationSec":130.7}
+{"f":"chopin-nocturne-e-minor-op72-1","lenA":13088252,"lenG":13088252,"want":1.505,"rmsRatioDb":1.5051,"maxErrVsPeak":7.38e-7,"peakDbBefore":-3.14,"peakDbAfter":-1.63,"lufsI":-22.1,"lufsMMax":-12.08,"durationSec":272.7}
+{"f":"beethoven-moonlight-adagio","lenA":16117393,"lenG":16117393,"want":10.536,"rmsRatioDb":10.536,"maxErrVsPeak":7.24e-7,"peakDbBefore":-13.65,"peakDbAfter":-3.11,"lufsI":-21.87,"lufsMMax":-13.71,"durationSec":335.8}
+{"f":"schumann-the-poet-speaks","lenA":7909807,"lenG":7909807,"want":6.021,"rmsRatioDb":6.0206,"maxErrVsPeak":0,"peakDbBefore":-9.05,"peakDbAfter":-3.03,"lufsI":-21.93,"lufsMMax":-11.37,"durationSec":164.8}
+{"f":"schumann-traumerei","lenA":9744230,"lenG":9744230,"want":7.526,"rmsRatioDb":7.5257,"maxErrVsPeak":0.00000187,"peakDbBefore":-12.84,"peakDbAfter":-5.32,"lufsI":-22,"lufsMMax":-13.99,"durationSec":203}
+--- console (3 lines, last 30) ---
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+
+[exited with code 0]
